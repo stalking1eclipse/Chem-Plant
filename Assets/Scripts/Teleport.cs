@@ -9,7 +9,7 @@ public class Teleport : MonoBehaviour
     LayerMask _layerMask = ~(1 << 10);
     Vector3 _position;
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -22,14 +22,16 @@ public class Teleport : MonoBehaviour
                 {
                     if (hit.transform.name + " Destination" == location.name)
                     {
-                        Debug.Log(location.name);
                         _position = location.transform.position;
                         break;
                     }
                 }
+
+                Debug.Log(transform.position + " Old position");
                 transform.position = _position;
+                transform.SetPositionAndRotation(_position, transform.rotation);
+                Debug.Log(transform.position + " New position");
             }
         }
-        
     }
 }
