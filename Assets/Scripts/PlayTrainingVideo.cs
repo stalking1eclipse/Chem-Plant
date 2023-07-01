@@ -7,23 +7,22 @@ public class PlayTrainingVideo : MonoBehaviour
 {
     [SerializeField]
     VideoPlayer videoPlayer;
-    // Start is called before the first frame update
-    void Start()
+
+    public void playVideo()
     {
-        
+        videoPlayer.Play();
     }
 
-    // Update is called once per frame
-
-    private void OnTriggerEnter(Collider other)
+    public void stopVideo()
     {
-        if (other.transform.CompareTag("Player"))
-            videoPlayer.Play();
+        videoPlayer.Stop();
     }
 
-    private void OnTriggerExit(Collider other)
+    public void toggleVideoPlay()
     {
-        if (videoPlayer.isPlaying && other.CompareTag("Player"))
-            videoPlayer.Stop();
+        if (videoPlayer.isPlaying)
+            stopVideo();
+        else
+            playVideo();
     }
 }
