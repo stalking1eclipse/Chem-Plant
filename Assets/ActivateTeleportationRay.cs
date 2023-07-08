@@ -27,12 +27,6 @@ public class ActivateTeleportationRay : MonoBehaviour
     [SerializeField]
     XRRayInteractor leftRay;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {

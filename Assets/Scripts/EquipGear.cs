@@ -1,18 +1,36 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EquipGear : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    IsGearEquipped isGearEquipped;
+    public void equipHardHat()
     {
-        
+        isGearEquipped.hardhat = true;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void equipVest()
     {
-        
+        isGearEquipped.vest = true;
+    }
+
+    public void equipGoggles()
+    {
+        isGearEquipped.goggles = true;
+    }
+
+    public void equipGloves()
+    {
+        isGearEquipped.gloves = true;
+    }
+
+    public void equipBoots()
+    {
+        isGearEquipped.boots = true;
+    }
+
+    public void equipMask()
+    {
+        isGearEquipped.mask = true;
     }
 }
