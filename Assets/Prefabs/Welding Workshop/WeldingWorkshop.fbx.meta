@@ -3,7 +3,167 @@ guid: 25ab595ef708e6845ac91ef682ce5840
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor-Deck Walnut
+    second: {fileID: 2100000, guid: fbbd8752b496e04458573d5b0a92f310, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass - Clear Fast
+    second: {fileID: 2100000, guid: 79f182b9e6e724a4ebc1a5fc809f9719, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass-Clear
+    second: {fileID: 2100000, guid: e71ae600ebea3ef49ae91cdf93b4ca73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass - Green
+    second: {fileID: 2100000, guid: 29f1667351c0fca4fa497c2dbb61d158, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Nickel
+    second: {fileID: 2100000, guid: 61d79e46219927046b802e96788c445f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mtl-Brass
+    second: {fileID: 2100000, guid: 742a5cda4c774d849a7635f32de3937f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mtl-Chrome
+    second: {fileID: 2100000, guid: 83cf6ee746e2ba34fb7c7a26c52b7e3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mtl-Sheet Corrugated
+    second: {fileID: 2100000, guid: 1d9fd896f5634324d9868695598e1a53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mtl-Stainless Steel
+    second: {fileID: 2100000, guid: a7a671acc6982714ca777ef39f0562a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mtl-Zinc
+    second: {fileID: 2100000, guid: 129508d826a3f214fa7ffcdca3c4a565, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint - Golden Beige
+    second: {fileID: 2100000, guid: 696e195915c7fbf4d9554161f00046ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint - Lead Oxide Yellow
+    second: {fileID: 2100000, guid: 006ae04b7834c4148948c2f7166ef2e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint - Sand Beige
+    second: {fileID: 2100000, guid: 09b8659ec0643944ba35645d5a1c781d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint - Vermilion
+    second: {fileID: 2100000, guid: 89608c4992700ab46a113d409a5d92e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint-01
+    second: {fileID: 2100000, guid: 14c8fd2204c02ba46ba5e6db056fa990, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint-03
+    second: {fileID: 2100000, guid: e1cab1b5d5d317a41af3de608ca568ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint-04
+    second: {fileID: 2100000, guid: bba5910cd70cd604587069fc0e8e4756, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint-05
+    second: {fileID: 2100000, guid: 0bffe929148787a46b0ae1967b7b0ec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint-09
+    second: {fileID: 2100000, guid: 923c7d08a854d0a49b9297ba58559753, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint-14
+    second: {fileID: 2100000, guid: 57c121337e270df40b58182799971290, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint-17
+    second: {fileID: 2100000, guid: 4b1f9104531d19e4d8286b80dc42db77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint-19
+    second: {fileID: 2100000, guid: ae641dcf5960fbf4684dcefd3fc1c054, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pavement - Brick Moss
+    second: {fileID: 2100000, guid: 6ab23ca009c74b449a47659af3d81869, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Surf-Concrete Dark
+    second: {fileID: 2100000, guid: 5872b91c47d957e4886cc65910fe6cda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Surf-Fabric
+    second: {fileID: 2100000, guid: 93e8448fd25106c44a11e1f844e3aa84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Surf-Plastic Laminate
+    second: {fileID: 2100000, guid: c703b86c12cbb6e4cb635130acf1654a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Surf-Stucco
+    second: {fileID: 2100000, guid: 5bcd84df391872243a1d58b6ff9a85d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Surf-White
+    second: {fileID: 2100000, guid: b3397f6633e273d4792d0253e78c1b9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wd-Pine Horizontal
+    second: {fileID: 2100000, guid: d57bddc045ae93c4ab5e445752083365, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wd-Pine Vertical
+    second: {fileID: 2100000, guid: 190b3c48e1cf7e648802b98c0591e14e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wd-Walnut Horizontal
+    second: {fileID: 2100000, guid: 28ee00f8205908c40b0848723bbef4ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wd-Walnut Vertical
+    second: {fileID: 2100000, guid: e654cfb90ed27a74e9c9a87f3aa330fe, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -47,7 +207,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

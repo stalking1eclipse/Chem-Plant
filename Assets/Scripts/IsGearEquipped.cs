@@ -1,7 +1,9 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class IsGearEquipped : MonoBehaviour
 {
+    public List<GameObject> barriers;
     public bool hardhat = false, 
                 vest = false, 
                 goggles = false, 
@@ -12,6 +14,7 @@ public class IsGearEquipped : MonoBehaviour
 
     [SerializeField]
     GameObject leftSide, northSide;
+
 
     [SerializeField]
     GameObject  objHardhat, 
@@ -38,8 +41,19 @@ public class IsGearEquipped : MonoBehaviour
             plantAccess = true;
         }
 
-        leftSide.SetActive(!plantAccess);
-        northSide.SetActive(!plantAccess);
+        if (leftSide && northSide)
+        {
+            leftSide.SetActive(!plantAccess);
+            northSide.SetActive(!plantAccess);
+        }        
+
+        if (plantAccess)
+        {
+            foreach (GameObject barrier in barriers)
+            {
+                barrier.transform.rotation = Quaternion.Euler(new Vector3(0, 90, -90));
+            }
+        }
 
         /*objHardhat.SetActive(hardhat);
         objVest.SetActive(vest);
