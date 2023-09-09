@@ -4,33 +4,71 @@ public class EquipGear : MonoBehaviour
 {
     [SerializeField]
     IsGearEquipped isGearEquipped;
-    public void equipHardHat()
+
+    [SerializeField]
+    IsWeldingGearEquipped isWeldingGearEquipped;
+
+    #region Chemical Plant
+    public void equipChemplantHardhat()
     {
-        isGearEquipped.hardhat = true;
+        isGearEquipped.ChemplantHardhat = true;
     }
 
-    public void equipVest()
+    public void equipChemplantVest()
     {
-        isGearEquipped.vest = true;
+        isGearEquipped.ChemplantVest = true;
     }
 
-    public void equipGoggles()
+    public void equipChemplantGoggles()
     {
-        isGearEquipped.goggles = true;
+        isGearEquipped.ChemplantGoggles = true;
     }
 
-    public void equipGloves()
+    public void equipChemplantGloves()
     {
-        isGearEquipped.gloves = true;
+        isGearEquipped.ChemplantGloves = true;
     }
 
-    public void equipBoots()
+    public void equipChemplantBoots()
     {
-        isGearEquipped.boots = true;
+        isGearEquipped.ChemplantBoots = true;
     }
 
-    public void equipMask()
+    public void equipChemplantMask()
     {
-        isGearEquipped.mask = true;
+        isGearEquipped.ChemplantMask = true;
     }
+    #endregion
+
+    #region welding workshop
+    public void equipWeldingWorkshopHelmet()
+    {
+        isWeldingGearEquipped.WeldingWorkshopHelmet = true;
+    }
+
+    public void equipWeldingWorkshopVest()
+    {
+        isWeldingGearEquipped.WeldingWorkshopVest = true;
+    }
+
+    public void equipWeldingWorkshopGoggles()
+    {
+        isWeldingGearEquipped.WeldingWorkshopGoggles = true;
+    }
+
+    public void equipWeldingWorkshopGloves()
+    {
+        isWeldingGearEquipped.WeldingWorkshopGloves = true;
+    }
+
+    public void equipWeldingWorkshopBoots()
+    {
+        isWeldingGearEquipped.WeldingWorkshopBoots = true;
+    }
+
+    public void equipWeldingWorkshopMask()
+    {
+        isWeldingGearEquipped.WeldingWorkshopMask = true;
+    }
+    #endregion
 }
