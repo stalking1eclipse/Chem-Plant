@@ -51,9 +51,9 @@ public class EquipGear : MonoBehaviour
         isWeldingGearEquipped.WeldingWorkshopVest = true;
     }
 
-    public void equipWeldingWorkshopGoggles()
+    public void equipWeldingWorkshopEarProtectiveHeadphones()
     {
-        isWeldingGearEquipped.WeldingWorkshopGoggles = true;
+        isWeldingGearEquipped.WeldingWorkshopEarProtectiveHeadphones = true;
     }
 
     public void equipWeldingWorkshopGloves()
@@ -70,5 +70,16 @@ public class EquipGear : MonoBehaviour
     {
         isWeldingGearEquipped.WeldingWorkshopMask = true;
     }
+
+    public void equipWeldingWorkshopRespirator()
+    {
+        isWeldingGearEquipped.WeldingWorkshopRespirator = true;
+    }
+
+    public void equipWeldingWorkshopFireProofClothes()
+    {
+        isWeldingGearEquipped.WeldingWorkshopFireproofClothes = true;
+    }
+
     #endregion
 }

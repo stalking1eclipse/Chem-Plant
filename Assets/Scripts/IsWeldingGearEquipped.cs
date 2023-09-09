@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,19 +6,21 @@ public class IsWeldingGearEquipped : MonoBehaviour
     //public List<GameObject> barriers;
     public bool WeldingWorkshopHelmet = false,
                 WeldingWorkshopVest = false,
-                WeldingWorkshopGoggles = false,
+                WeldingWorkshopEarProtectiveHeadphones = false,
                 WeldingWorkshopGloves = false,
                 WeldingWorkshopBoots = false,
                 WeldingWorkshopMask = false,
+                WeldingWorkshopRespirator = false,
+                WeldingWorkshopFireproofClothes = false,
                 workshopAccess = false;
 
     [SerializeField]
-    GameObject leftSide, northSide;
+    List<GameObject> BarrierSides;
 
     // Update is called once per frame
     void Update()
     {
-        if (!WeldingWorkshopHelmet || !WeldingWorkshopVest || !WeldingWorkshopGoggles || !WeldingWorkshopGloves || !WeldingWorkshopBoots || !WeldingWorkshopMask)
+        if (!WeldingWorkshopHelmet || !WeldingWorkshopVest || !WeldingWorkshopEarProtectiveHeadphones || !WeldingWorkshopGloves || !WeldingWorkshopBoots || !WeldingWorkshopMask || !WeldingWorkshopRespirator || !WeldingWorkshopFireproofClothes)
         {
             workshopAccess = false;
         }
@@ -28,11 +29,14 @@ public class IsWeldingGearEquipped : MonoBehaviour
             workshopAccess = true;
         }
 
-        if (leftSide && northSide)
-        {
-            leftSide.SetActive(!workshopAccess);
-            northSide.SetActive(!workshopAccess);
+        foreach (GameObject barrierSide in BarrierSides) 
+        { 
+            if (barrierSide)
+            {
+                barrierSide.SetActive(!workshopAccess);
+            }
         }
+        
 
         //if (workshopAccess)
         //{
