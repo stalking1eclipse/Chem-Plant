@@ -1663,6 +1663,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 490d7cb5192254b43a44ff429cb55ea9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barriers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   hardhat: 0
   vest: 0
   goggles: 0
@@ -2581,7 +2585,7 @@ MonoBehaviour:
   m_HapticHoverCancelDuration: 0
   m_LineType: 0
   m_BlendVisualLinePoints: 1
-  m_MaxRaycastDistance: 3
+  m_MaxRaycastDistance: 2
   m_RayOriginTransform: {fileID: 0}
   m_ReferenceFrame: {fileID: 0}
   m_Velocity: 16
@@ -2730,7 +2734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LineWidth: 0.02
   m_OverrideInteractorLineLength: 1
-  m_LineLength: 3
+  m_LineLength: 2
   m_WidthCurve:
     serializedVersion: 2
     m_Curve:
@@ -3687,7 +3691,7 @@ MonoBehaviour:
   m_HapticHoverCancelDuration: 0
   m_LineType: 0
   m_BlendVisualLinePoints: 1
-  m_MaxRaycastDistance: 3
+  m_MaxRaycastDistance: 2
   m_RayOriginTransform: {fileID: 0}
   m_ReferenceFrame: {fileID: 0}
   m_Velocity: 16
@@ -3836,7 +3840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LineWidth: 0.02
   m_OverrideInteractorLineLength: 1
-  m_LineLength: 3
+  m_LineLength: 2
   m_WidthCurve:
     serializedVersion: 2
     m_Curve:
