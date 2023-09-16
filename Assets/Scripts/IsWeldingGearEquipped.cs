@@ -6,11 +6,10 @@ public class IsWeldingGearEquipped : MonoBehaviour
     //public List<GameObject> barriers;
     public bool WeldingWorkshopHelmet = false,
                 WeldingWorkshopVest = false,
-                WeldingWorkshopEarProtectiveHeadphones = false,
                 WeldingWorkshopGloves = false,
                 WeldingWorkshopBoots = false,
-                WeldingWorkshopMask = false,
                 WeldingWorkshopRespirator = false,
+                WeldingWorkshopEarProtectiveHeadphones = false,
                 WeldingWorkshopFireproofClothes = false,
                 workshopAccess = false;
 
@@ -20,7 +19,7 @@ public class IsWeldingGearEquipped : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!WeldingWorkshopHelmet || !WeldingWorkshopVest || !WeldingWorkshopEarProtectiveHeadphones || !WeldingWorkshopGloves || !WeldingWorkshopBoots || !WeldingWorkshopMask || !WeldingWorkshopRespirator || !WeldingWorkshopFireproofClothes)
+        if (!WeldingWorkshopHelmet || !WeldingWorkshopVest || !WeldingWorkshopEarProtectiveHeadphones || !WeldingWorkshopGloves || !WeldingWorkshopBoots || !WeldingWorkshopRespirator || !WeldingWorkshopFireproofClothes)
         {
             workshopAccess = false;
         }

@@ -66,11 +66,6 @@ public class EquipGear : MonoBehaviour
         isWeldingGearEquipped.WeldingWorkshopBoots = true;
     }
 
-    public void equipWeldingWorkshopMask()
-    {
-        isWeldingGearEquipped.WeldingWorkshopMask = true;
-    }
-
     public void equipWeldingWorkshopRespirator()
     {
         isWeldingGearEquipped.WeldingWorkshopRespirator = true;
