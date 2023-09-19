@@ -81305,21 +81305,41 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 4436677900947486204}
+    - target: {fileID: 4265761480047440436, guid: 8bca86008682386449f6afd23b58d96e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: equipChemplantGloves
+      objectReference: {fileID: 0}
     - target: {fileID: 4265761480102625460, guid: 8bca86008682386449f6afd23b58d96e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4436677900947486204}
+    - target: {fileID: 4265761480102625460, guid: 8bca86008682386449f6afd23b58d96e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: equipChemplantMask
+      objectReference: {fileID: 0}
+    - target: {fileID: 4265761480544340822, guid: 8bca86008682386449f6afd23b58d96e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 4436677900947486204}
     - target: {fileID: 4265761480544340822, guid: 8bca86008682386449f6afd23b58d96e,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 4436677900947486204}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: equipChemplantGoggles
+      objectReference: {fileID: 0}
     - target: {fileID: 4265761480604738294, guid: 8bca86008682386449f6afd23b58d96e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 4436677900947486204}
+    - target: {fileID: 4265761480604738294, guid: 8bca86008682386449f6afd23b58d96e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: equipChemplantBoots
+      objectReference: {fileID: 0}
     - target: {fileID: 4265761481378164626, guid: 8bca86008682386449f6afd23b58d96e,
         type: 3}
       propertyPath: m_Pivot.x
@@ -81435,11 +81455,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 4436677900947486204}
+    - target: {fileID: 4265761481616737302, guid: 8bca86008682386449f6afd23b58d96e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: equipChemplantVest
+      objectReference: {fileID: 0}
     - target: {fileID: 4265761481829630896, guid: 8bca86008682386449f6afd23b58d96e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 4436677900947486204}
+    - target: {fileID: 4265761481829630896, guid: 8bca86008682386449f6afd23b58d96e,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: equipChemplantHardhat
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bca86008682386449f6afd23b58d96e, type: 3}
 --- !u!1001 &4436677900947486201
