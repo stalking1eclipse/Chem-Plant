@@ -479,7 +479,7 @@ GameObject:
   - component: {fileID: 184836330}
   - component: {fileID: 184836332}
   - component: {fileID: 184836331}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1164,7 +1164,7 @@ GameObject:
   - component: {fileID: 501301986}
   - component: {fileID: 501301985}
   - component: {fileID: 501301984}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TorchUI Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1268,7 +1268,7 @@ GameObject:
   - component: {fileID: 579182929}
   - component: {fileID: 579182928}
   - component: {fileID: 579182930}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Care and Maintenance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1460,9 +1460,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
-    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
-    m_SelectedColor: {r: 0.8494838, g: 0.9150943, b: 0.91443074, a: 1}
+    m_HighlightedColor: {r: 0, g: 1, b: 0.045936108, a: 1}
+    m_PressedColor: {r: 1, g: 0, b: 0, a: 1}
+    m_SelectedColor: {r: 0, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1481,19 +1481,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 683305877}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1996251205}
-        m_TargetAssemblyTypeName: ModuleUI, Assembly-CSharp
-        m_MethodName: nextPage
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!222 &683305879
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1650,7 +1638,7 @@ GameObject:
   - component: {fileID: 698392785}
   - component: {fileID: 698392784}
   - component: {fileID: 698392786}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Usage and Handling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1783,7 +1771,7 @@ GameObject:
   - component: {fileID: 699918474}
   - component: {fileID: 699918473}
   - component: {fileID: 699918475}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Storage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2494,7 +2482,7 @@ GameObject:
   - component: {fileID: 1046805922}
   - component: {fileID: 1046805924}
   - component: {fileID: 1046805923}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3410,7 +3398,7 @@ GameObject:
   - component: {fileID: 1174001459}
   - component: {fileID: 1174001461}
   - component: {fileID: 1174001460}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4118,7 +4106,7 @@ GameObject:
   - component: {fileID: 1591779379}
   - component: {fileID: 1591779381}
   - component: {fileID: 1591779380}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4507,7 +4495,7 @@ GameObject:
   - component: {fileID: 1996251207}
   - component: {fileID: 1996251206}
   - component: {fileID: 1996251205}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Module One UI Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4549,8 +4537,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35d4eb19b4376ee45b6fc94d40df92bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMeshPro: []
-  textMesh: []
   textMeshProUGUI:
   - {fileID: 1046805923}
   - {fileID: 1591779380}
