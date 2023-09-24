@@ -7,16 +7,18 @@ public class ModuleUI : MonoBehaviour
     [SerializeField]
     List<TextMeshProUGUI> textMeshProUGUI;
 
+    [SerializeField]
+    GameObject UICanvas;
 
     public void nextPage()
     {
         int index = 0;
 
         foreach (TextMeshProUGUI _textMeshProUGUI in textMeshProUGUI)
-        {            
+        {
             if (_textMeshProUGUI.enabled)
             {
-                textMeshProUGUI[index+1].enabled = true;
+                textMeshProUGUI[index + 1].enabled = true;
                 textMeshProUGUI[index].enabled = false;
                 break;
             }
@@ -45,5 +47,10 @@ public class ModuleUI : MonoBehaviour
 
             }
         }
+    }
+
+    public void closeContent()
+    {
+        UICanvas.SetActive(false);
     }
 }
