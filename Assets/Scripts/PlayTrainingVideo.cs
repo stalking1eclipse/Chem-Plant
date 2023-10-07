@@ -6,23 +6,32 @@ using UnityEngine.Video;
 public class PlayTrainingVideo : MonoBehaviour
 {
     [SerializeField]
-    VideoPlayer videoPlayer;
+    List<VideoPlayer> videoPlayer;
 
     public void playVideo()
     {
-        videoPlayer.Play();
+        foreach (VideoPlayer player in videoPlayer)
+        {
+            player.Play();
+        }        
     }
 
     public void stopVideo()
     {
-        videoPlayer.Stop();
+        foreach (VideoPlayer player in videoPlayer)
+        {
+            player.Play();
+        }
     }
 
     public void toggleVideoPlay()
     {
-        if (videoPlayer.isPlaying)
-            stopVideo();
-        else
-            playVideo();
+        foreach (VideoPlayer player in videoPlayer)
+        {
+            if (player.isPlaying)
+                stopVideo();
+            else
+                playVideo();
+        }
     }
 }
