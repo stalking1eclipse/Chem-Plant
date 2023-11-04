@@ -8,6 +8,7 @@ TagManager:
   - Telepad
   - Left Hand
   - Right Hand
+  - Storage Area
   layers:
   - Default
   - TransparentFX
