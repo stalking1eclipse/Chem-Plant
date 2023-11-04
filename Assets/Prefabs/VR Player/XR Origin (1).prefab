@@ -1667,21 +1667,15 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  hardhat: 0
-  vest: 0
-  goggles: 0
-  gloves: 0
-  boots: 0
-  mask: 0
+  ChemplantHardhat: 0
+  ChemplantVest: 0
+  ChemplantGoggles: 0
+  ChemplantGloves: 0
+  ChemplantBoots: 0
+  ChemplantMask: 0
   plantAccess: 0
   leftSide: {fileID: 0}
   northSide: {fileID: 0}
-  objHardhat: {fileID: 2075106556}
-  objVest: {fileID: 439276459}
-  objGoggles: {fileID: 1286654466}
-  objGloves: {fileID: 860917535}
-  objBoots: {fileID: 27682834}
-  objMask: {fileID: 2120538916}
 --- !u!114 &4436677900947486204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1695,6 +1689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGearEquipped: {fileID: 4436677900947486203}
+  isWeldingGearEquipped: {fileID: 0}
 --- !u!1 &4436677900280370498
 GameObject:
   m_ObjectHideFlags: 0
