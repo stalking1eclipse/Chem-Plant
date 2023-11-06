@@ -2936,12 +2936,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: '7. Replace Worn Brushes:
 
-    
 
-    When the bristles on your wire brush
-    become worn, frayed, or bent beyond usefulness, it''s time to replace the brush.
-    Continuing to use a worn brush may result in less effective cleaning or even
-    damage to the workpiece
+
+    When the bristles on your wire brush become
+    worn, frayed, or bent beyond usefulness, it''s time to replace the brush. Continuing
+    to use a worn brush may result in less effective cleaning or even damage to the
+    workpiece
 
 '
   m_isRightToLeft: 0
@@ -7522,12 +7522,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Safety First:
 
-    
 
-    Always wear appropriate personal protective
-    equipment (PPE) when using wire brushes, including safety glasses and gloves.
-    When cleaning or maintaining wire brushes, be cautious to avoid injury from sharp
-    bristles.
+
+    Always wear appropriate personal protective equipment
+    (PPE) when using wire brushes, including safety glasses and gloves. When cleaning
+    or maintaining wire brushes, be cautious to avoid injury from sharp bristles.
 
 '
   m_isRightToLeft: 0
@@ -12143,12 +12142,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: '4. Clean and Lubricate the Handle:
 
-    
 
-    If your wire brush has
-    a wooden or plastic handle, wipe it clean with a damp cloth to remove dirt and
-    grime. Occasionally, you can apply a small amount of mineral oil or a similar
-    product to the handle to prevent it from drying out or cracking.
+
+    If your wire brush has a wooden
+    or plastic handle, wipe it clean with a damp cloth to remove dirt and grime.
+    Occasionally, you can apply a small amount of mineral oil or a similar product
+    to the handle to prevent it from drying out or cracking.
 
 '
   m_isRightToLeft: 0
@@ -16464,11 +16463,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: '5. Store Properly:
 
-    
 
-    Store your wire brushes in a dry, clean
-    area to prevent rust or corrosion on the bristles. Hang them or keep them in
-    a tool chest or storage container to protect them from dust and moisture.
+
+    Store your wire brushes in a dry, clean area
+    to prevent rust or corrosion on the bristles. Hang them or keep them in a tool
+    chest or storage container to protect them from dust and moisture.
 
 '
   m_isRightToLeft: 0
@@ -17136,7 +17135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &759859229
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19096,11 +19095,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: '3. Remove Stuck Debris:
 
-    
 
-    If there is stubborn debris stuck
-    in the bristles, you can use a tool like pliers or a wire brush comb to gently
-    remove it. Be careful not to damage the bristles in the process.
+
+    If there is stubborn debris stuck in the
+    bristles, you can use a tool like pliers or a wire brush comb to gently remove
+    it. Be careful not to damage the bristles in the process.
 
 '
   m_isRightToLeft: 0
@@ -22621,7 +22620,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step -1 : Choose the Right Brush
 
-    
+
 
     Select a wire brush appropriate
     for your specific welding task. Consider factors such as the type of metal being
@@ -29223,11 +29222,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: '9. Clean and Inspect Periodically:
 
-    
 
-    Even when not in use,
-    periodically clean and inspect your wire brushes to ensure they remain in good
-    condition. This is especially important if you store them for extended periods.
+
+    Even when not in use, periodically
+    clean and inspect your wire brushes to ensure they remain in good condition.
+    This is especially important if you store them for extended periods.
 
 '
   m_isRightToLeft: 0
@@ -32193,10 +32192,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step - 5 Start Brushing
 
-    
 
-    Depending on the task and the type
-    of brush, you can use the wire brush as follows:
+
+    Depending on the task and the type of brush,
+    you can use the wire brush as follows:
 
 '
   m_isRightToLeft: 0
@@ -32843,11 +32842,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step - 3 Prepare the Work Area
 
-    
 
-    Clear the work area of any
-    flammable materials, debris, or clutter. Make sure there are no nearby combustibles
-    that could ignite from sparks generated during brushing.
+
+    Clear the work area of any flammable
+    materials, debris, or clutter. Make sure there are no nearby combustibles that
+    could ignite from sparks generated during brushing.
 
 '
   m_isRightToLeft: 0
@@ -34052,12 +34051,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: '1. Clean the Brush After Use:
 
-    
 
-    After using the wire brush,
-    remove any debris, residue, or material buildup from the bristles. You can do
-    this by tapping the brush against a hard surface or using a stiff brush or another
-    wire brush to clean it.
+
+    After using the wire brush, remove
+    any debris, residue, or material buildup from the bristles. You can do this by
+    tapping the brush against a hard surface or using a stiff brush or another wire
+    brush to clean it.
 
 '
   m_isRightToLeft: 0
@@ -38525,11 +38524,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: '6. Protect the Bristles:
 
-    
 
-    To prevent bristle damage, avoid
-    dropping or banging the wire brush against hard surfaces. Store it in a way that
-    minimizes contact with other tools or objects that could cause bristle deformation.
+
+    To prevent bristle damage, avoid dropping
+    or banging the wire brush against hard surfaces. Store it in a way that minimizes
+    contact with other tools or objects that could cause bristle deformation.
 
 '
   m_isRightToLeft: 0
@@ -46322,10 +46321,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: '2. Inspect for Damage:
 
-    
 
-    Regularly inspect the wire brush for
-    any signs of damage, such as loose or missing bristles, bent bristles, or a loose
+
+    Regularly inspect the wire brush for any
+    signs of damage, such as loose or missing bristles, bent bristles, or a loose
     handle. Damaged brushes may not perform effectively and could pose safety risks.
 
 '
@@ -46465,7 +46464,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: '8. Choose the Right Brush for the Task:
 
-    
+
 
     Select the appropriate
     wire brush for the specific task and material you''re working with. Using the
@@ -48162,8 +48161,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Protect your eyes from flying debris, sparks, and dust.
 
-    Welding
-    Gloves: Wear heat-resistant gloves to protect your hands from burns and abrasions.
+    Welding Gloves:
+    Wear heat-resistant gloves to protect your hands from burns and abrasions.
 
 '
   m_isRightToLeft: 0
