@@ -2582,8 +2582,8 @@ MonoBehaviour:
 
     are stored in a dry
 
-    environment
-    to prevent corrosion.'
+    environment to
+    prevent corrosion.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8786,7 +8786,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261202990}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -8946,8 +8946,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'When not in use, store the micrometre in
 
-    its protective case or
-    a clean, dry
+    its protective case or a
+    clean, dry
 
     environment to prevent dust, moisture,
 
@@ -18051,7 +18051,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630325168}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -18071,8 +18071,8 @@ MonoBehaviour:
 
     maintenance instructions provided by the
 
-    manufacturer in the
-    ruler''s user manual.'
+    manufacturer in the ruler''s
+    user manual.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -19787,8 +19787,8 @@ MonoBehaviour:
     measurement.
 
 
-    * Read
-    and record the measurement from
+    * Read and
+    record the measurement from
 
     the main scale and Vernier scale as
 
@@ -26507,8 +26507,8 @@ MonoBehaviour:
 
     the inner diameter of a pipe, use an inside
 
-    micrometre if
-    available. Follow these steps:'
+    micrometre if available.
+    Follow these steps:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -29201,8 +29201,7 @@ MonoBehaviour:
     For measuring internal dimensions, such
     as
 
-    the inner diameter of a pipe or the width of a groove, follow these
-    steps:'
+    the inner diameter of a pipe or the width of a groove, follow these steps:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -35702,10 +35701,10 @@ MonoBehaviour:
   m_text: '* Open the micrometre by gently rotating the thimble counterclockwise
     until the spindle and anvil are almost touching.
 
-    
 
-    * Carefully place
-    the micrometre around the area you want to measure, ensuring it makes firm contact
+
+    * Carefully place the
+    micrometre around the area you want to measure, ensuring it makes firm contact
     without distorting the material.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -38930,8 +38929,8 @@ MonoBehaviour:
 
     you use the correct units (e.g., millimeters or
 
-    inches)
-    based on your selected mode.'
+    inches) based
+    on your selected mode.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -39909,8 +39908,8 @@ MonoBehaviour:
 
     reading from the correct side of the ruler
 
-    (either inches
-    or centimetres).'
+    (either inches or
+    centimetres).'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -40393,18 +40392,17 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Never use excessive force when taking
 
-    measurements, as this can
-    lead to
+    measurements, as this can lead
+    to
 
     inaccurate readings and damage to the
 
     micrometre.
 
-    Be
-    cautious when adjusting or rotating
+    Be cautious
+    when adjusting or rotating
 
-    the thimble; do not apply excessive
-    force.'
+    the thimble; do not apply excessive force.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -41472,8 +41470,8 @@ MonoBehaviour:
     caliper.
 
 
-    * Place
-    the probe''s tip at the bottom of the
+    * Place the
+    probe''s tip at the bottom of the
 
     hole or groove you want to measure.'
   m_isRightToLeft: 0
@@ -42308,8 +42306,8 @@ MonoBehaviour:
 
     * Read and record the measurement from
 
-    the main scale and
-    Vernier scale as
+    the main scale and Vernier
+    scale as
 
     described earlier.'
   m_isRightToLeft: 0
@@ -43886,13 +43884,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'If necessary, use a mild solvent or
 
-    cleaning solution to remove
-    stubborn
+    cleaning solution to remove stubborn
 
-    residue, but be cautious not to damage
+    residue,
+    but be cautious not to damage
 
-    any engraved markings
-    or scales.'
+    any engraved markings or scales.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -45691,6 +45688,7 @@ MonoBehaviour:
   - {fileID: 709222433}
   - {fileID: 1666366066}
   - {fileID: 959649111}
+  - {fileID: 810375617}
   - {fileID: 832203632}
   - {fileID: 1713865602}
   - {fileID: 1134124496}
@@ -48716,8 +48714,8 @@ MonoBehaviour:
 
     dimensions you need to measure. Ensure
 
-    it''s durable and
-    can withstand the heat
+    it''s durable and can
+    withstand the heat
 
     and sparks associated with welding.'
   m_isRightToLeft: 0
@@ -49532,10 +49530,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Avoid dropping or mishandling the
 
-    callipers, as this can damage
-    delicate
+    callipers, as this can damage delicate
 
-    components and affect accuracy.'
+    components
+    and affect accuracy.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -51611,11 +51609,11 @@ MonoBehaviour:
   m_text: '* Gently rotate the thimble clockwise while observing the measurement
     scales on the sleeve and thimble.
 
-    
 
-    * Read and record the measurement
-    as described in previous responses. Combine the whole-number and decimal parts
-    to get the final measurement.'
+
+    * Read and record the measurement as
+    described in previous responses. Combine the whole-number and decimal parts to
+    get the final measurement.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -54490,8 +54488,8 @@ MonoBehaviour:
     seated.
 
 
-    * Read
-    and record the measurement from
+    * Read and
+    record the measurement from
 
     the main scale and Vernier scale as before.'
   m_isRightToLeft: 0
@@ -59447,8 +59445,8 @@ MonoBehaviour:
 
     calibration, consider having the callipers
 
-    professionally
-    serviced or recalibrated.'
+    professionally serviced
+    or recalibrated.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -60513,8 +60511,8 @@ MonoBehaviour:
     Accurately record measurements,
     ensuring you use the correct units (e.g., millimetres or
 
-    inches) based
-    on your selected micrometre.'
+    inches) based on
+    your selected micrometre.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -61723,10 +61721,10 @@ MonoBehaviour:
   m_text: '* Open the inside micrometre to a size slightly larger than the inner
     diameter you want to measure.
 
-    
 
-    * Insert the inside micrometre into
-    the hole or opening, ensuring it is perpendicular to the workpiece.'
+
+    * Insert the inside micrometre into the
+    hole or opening, ensuring it is perpendicular to the workpiece.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
