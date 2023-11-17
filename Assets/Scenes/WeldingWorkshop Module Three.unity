@@ -54220,12 +54220,12 @@ MonoBehaviour:
   - {fileID: 1975758400}
   - {fileID: 838420048}
   - {fileID: 598592949}
+  - {fileID: 718781911}
   - {fileID: 1622770934}
   - {fileID: 121137376}
   - {fileID: 1976365384}
   - {fileID: 1254171349}
   - {fileID: 1659937496}
-  - {fileID: 713757105}
   - {fileID: 713757105}
   - {fileID: 241332026}
   - {fileID: 65986803}
@@ -64006,6 +64006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshProUGUI:
   - {fileID: 1852887697}
+  - {fileID: 144631113}
   UICanvas: {fileID: 2125437840}
 --- !u!114 &2125437843
 MonoBehaviour:

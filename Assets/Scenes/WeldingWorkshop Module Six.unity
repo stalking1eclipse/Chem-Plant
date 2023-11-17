@@ -575,7 +575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2898,6 +2898,7 @@ RectTransform:
   - {fileID: 1131119735}
   - {fileID: 624402583}
   - {fileID: 1401386768}
+  - {fileID: 1179434126}
   m_Father: {fileID: 421396990}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2997,7 +2998,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -5181,7 +5182,7 @@ RectTransform:
   m_GameObject: {fileID: 184836329}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.6552, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 501301983}
@@ -5189,7 +5190,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.57}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &184836331
@@ -10190,11 +10191,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step - 2 Prepare the Work Area:
 
-    
 
-    Clear the work area of any
-    debris or obstructions that might interfere with the alignment process. Ensure
-    that the work surface is clean and level
+
+    Clear the work area of any debris
+    or obstructions that might interfere with the alignment process. Ensure that
+    the work surface is clean and level
 
 '
   m_isRightToLeft: 0
@@ -10681,10 +10682,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Safety Gear:
 
-    
 
-    Begin by wearing appropriate personal protective
-    equipment (PPE), including safety glasses or goggles, as needed.
+
+    Begin by wearing appropriate personal protective equipment
+    (PPE), including safety glasses or goggles, as needed.
 
 '
   m_isRightToLeft: 0
@@ -10713,7 +10714,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8.7
+  m_fontSize: 7.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11404,7 +11405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -12706,7 +12707,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step - 5 Tighten or Adjust the Tool:
 
-    
+
 
     Follow the manufacturer''s
     instructions for tightening or adjusting the plate alignment tool. The goal is
@@ -13265,7 +13266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -14404,7 +14405,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &494446021
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14578,6 +14579,7 @@ RectTransform:
   - {fileID: 698392783}
   - {fileID: 579182927}
   - {fileID: 699918472}
+  - {fileID: 1670035265}
   m_Father: {fileID: 730060466}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14643,7 +14645,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -14779,7 +14781,7 @@ Transform:
   - {fileID: 2064843586}
   - {fileID: 165078014}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &508498883
 GameObject:
@@ -15121,7 +15123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -18572,7 +18574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &627599949
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18828,12 +18830,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step - 6 Read the Measurement:
 
-    
 
-    If you''re using a digital
-    level, read the measurement displayed on the screen. It will show the angle of
-    deviation from level or plumb. Use the level''s built-in features to adjust the
-    workpiece or surface accordingly.
+
+    If you''re using a digital level,
+    read the measurement displayed on the screen. It will show the angle of deviation
+    from level or plumb. Use the level''s built-in features to adjust the workpiece
+    or surface accordingly.
 
 '
   m_isRightToLeft: 0
@@ -20199,10 +20201,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step - 4 Position the Level:
 
-    
 
-    Place the level on the surface
-    or workpiece you want to level. For horizontal levelling (checking for levelness),
+
+    Place the level on the surface or
+    workpiece you want to level. For horizontal levelling (checking for levelness),
     position the level parallel to the ground or the reference surface. For vertical
     levelling (checking for plumb), position the level vertically or perpendicular
     to the ground.
@@ -23107,7 +23109,7 @@ Transform:
   - {fileID: 1817361265}
   - {fileID: 741726429}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &732396316
 GameObject:
@@ -23161,7 +23163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -24075,7 +24077,7 @@ Transform:
   - {fileID: 1128713935}
   - {fileID: 1118572334}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &774955385
 GameObject:
@@ -25041,7 +25043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -31546,13 +31548,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step - 5 Canter the Bubble:
 
-    
 
-    If you''re using a bubble level,
-    observe the bubble in the vial. Adjust the level''s position until the bubble
-    is cantered between the two reference lines or within the marked circle. This
-    indicates that the surface is level (for horizontal levelling) or plumb (for
-    vertical levelling).
+
+    If you''re using a bubble level, observe
+    the bubble in the vial. Adjust the level''s position until the bubble is cantered
+    between the two reference lines or within the marked circle. This indicates that
+    the surface is level (for horizontal levelling) or plumb (for vertical levelling).
 
 '
   m_isRightToLeft: 0
@@ -31713,7 +31714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -31921,12 +31922,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Safety Gear
 
-    
 
-    Before you begin, ensure you are wearing the
-    necessary personal protective equipment (PPE), which typically includes safety
-    glasses or goggles, a face shield, hearing protection (if necessary), a dust
-    mask or respirator, and appropriate clothing that covers your arms and legs
+
+    Before you begin, ensure you are wearing the necessary
+    personal protective equipment (PPE), which typically includes safety glasses
+    or goggles, a face shield, hearing protection (if necessary), a dust mask or
+    respirator, and appropriate clothing that covers your arms and legs
 
 '
   m_isRightToLeft: 0
@@ -31955,7 +31956,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6.45
+  m_fontSize: 6.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -33845,7 +33846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -34277,7 +34278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -37382,7 +37383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1174001459
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37427,7 +37428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -37853,6 +37854,141 @@ RectTransform:
   m_AnchoredPosition: {x: -189.99977, y: -133.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1179434125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1179434126}
+  - component: {fileID: 1179434128}
+  - component: {fileID: 1179434127}
+  m_Layer: 5
+  m_Name: Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1179434126
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179434125}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.006493383, y: 0.022336291, z: 0.022336291}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 109040984}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.617, y: 0.89}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1179434127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179434125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Piper Fitter
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -238.63034, w: -20.793941}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1179434128
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179434125}
+  m_CullTransparentMesh: 1
 --- !u!1 &1179768653
 GameObject:
   m_ObjectHideFlags: 0
@@ -40025,10 +40161,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Store Properly
 
-    
 
-    When not in use, store grinding wheels in
-    a dry, cool, and clean place. Keep them away from direct sunlight, extreme temperatures,
+
+    When not in use, store grinding wheels in a dry,
+    cool, and clean place. Keep them away from direct sunlight, extreme temperatures,
     and
 
     moisture, as these can affect wheel integrity.
@@ -40150,7 +40286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1252702305
 RectTransform:
   m_ObjectHideFlags: 0
@@ -44696,7 +44832,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step - 9 Final Verification:
 
-    
+
 
     After making adjustments, recheck
     the level to ensure that the surface is now level or plumb. Make any additional
@@ -45002,7 +45138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -45525,12 +45661,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step - 7 Check Multiple Points:
 
-    
 
-    For larger surfaces or when
-    levelling over longer distances, check multiple points along the surface to ensure
-    uniform levelness or plumbness. This helps identify any high or low spots that
-    may require adjustment.
+
+    For larger surfaces or when levelling
+    over longer distances, check multiple points along the surface to ensure uniform
+    levelness or plumbness. This helps identify any high or low spots that may require
+    adjustment.
 
 '
   m_isRightToLeft: 0
@@ -49982,10 +50118,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Materials You''ll Need:
 
-    
 
-    Level (either a bubble level or a
-    digital level)
+
+    Level (either a bubble level or a digital
+    level)
 
     Workpiece or surface to be levelled
 
@@ -50016,7 +50152,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10.2
+  m_fontSize: 8.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -54302,6 +54438,141 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1670035264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1670035265}
+  - component: {fileID: 1670035267}
+  - component: {fileID: 1670035266}
+  m_Layer: 5
+  m_Name: Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1670035265
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670035264}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.006493383, y: 0.022336291, z: 0.022336291}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 501301983}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.611, y: 0.94}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1670035266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670035264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Grinding Wheel
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -238.63034, w: -20.793941}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1670035267
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670035264}
+  m_CullTransparentMesh: 1
 --- !u!1 &1675753646
 GameObject:
   m_ObjectHideFlags: 0
@@ -56229,7 +56500,7 @@ Transform:
   - {fileID: 1399623593}
   - {fileID: 2015731335}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1731599801
 GameObject:
@@ -56664,7 +56935,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step 11 - Remove the Slag:
 
-    
+
 
     Once the weld has cooled sufficiently,
     use a slag hammer or chipping hammer to remove the solidified slag from the weld
@@ -56903,10 +57174,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step -9 Inspect and Measure:
 
-    
 
-    Periodically stop grinding to
-    inspect the workpiece and ensure you''re achieving the desired result. Use appropriate
+
+    Periodically stop grinding to inspect
+    the workpiece and ensure you''re achieving the desired result. Use appropriate
     measuring tools to check dimensions and angles if necessary.
 
 '
@@ -58927,7 +59198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -59267,7 +59538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -60702,7 +60973,7 @@ RectTransform:
   m_GameObject: {fileID: 1856563330}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.6145, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 109040984}
@@ -60710,7 +60981,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.56}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1856563332
@@ -61216,7 +61487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -66391,7 +66662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -66470,7 +66741,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2076102310
 RectTransform:
   m_ObjectHideFlags: 0
@@ -66647,12 +66918,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step - 2 Check the Level Itself:
 
-    
 
-    Before using the level,
-    ensure that the level itself is in good condition. Inspect the bubble level for
-    any bubbles trapped in the vial, as this can affect accuracy. If you''re using
-    a digital level, ensure it is calibrated correctly according to the manufacturer''s
+
+    Before using the level, ensure
+    that the level itself is in good condition. Inspect the bubble level for any
+    bubbles trapped in the vial, as this can affect accuracy. If you''re using a
+    digital level, ensure it is calibrated correctly according to the manufacturer''s
     instructions.
 
 '
