@@ -4099,7 +4099,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Safe Flooring:
 
-    
+
 
     If possible, work on a non-combustible, fire-resistant
     floor surface to minimize fire hazards.
@@ -8438,7 +8438,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welding Workshop - Module Two
+  m_text: Welding Workshop - Module 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -19461,13 +19461,13 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step 6:Adjust the Torch Angle
 
-    
+
 
     Position the torch at the appropriate
     angle relative to the workpiece and welding joint. The torch angle may vary depending
     on the welding process and joint configuration.
 
-    
+
 
     Maintain a consistent
     torch angle as you weld to ensure even heat distribution and proper weld penetration.
@@ -23698,12 +23698,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Gas and Hose Maintenance:
 
-    
+
 
     Inspect the gas hoses and connections
     for signs of wear, cracks, or leaks. Replace any damaged hoses immediately.
 
-    
+
 
     Ensure
     that gas cylinder connections and regulators are secure and free from damage
@@ -25336,16 +25336,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step 11; Shutdown and Post-Welding:
 
-    
 
-    After completing the
-    weld, turn off the torch and release the pressure from the hoses.
 
-    
+    After completing the weld,
+    turn off the torch and release the pressure from the hoses.
 
-    Allow
-    the workpiece to cool, and inspect the weld for any defects. Grind or clean the
-    weld as needed for a smooth finish
+
+
+    Allow the
+    workpiece to cool, and inspect the weld for any defects. Grind or clean the weld
+    as needed for a smooth finish
 
 '
   m_isRightToLeft: 0
@@ -28270,10 +28270,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Replace Consumables:
 
-    
 
-    Regularly replace consumable components,
-    such as nozzles, contact tips, electrodes, and diffusers, based on the manufacturer''s
+
+    Regularly replace consumable components, such
+    as nozzles, contact tips, electrodes, and diffusers, based on the manufacturer''s
     guidelines or when they show signs of wear.
 
 '
@@ -31024,15 +31024,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Electrode Holder (for stick welding):
 
-    
 
-    If you use an electrode
-    holder, keep it clean and free from slag or metal buildup.
 
-    
+    If you use an electrode holder,
+    keep it clean and free from slag or metal buildup.
 
-    Check
-    the insulation for cracks or damage, and replace it if necessary.
+
+
+    Check the insulation
+    for cracks or damage, and replace it if necessary.
 
 '
   m_isRightToLeft: 0
@@ -32792,16 +32792,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step 3: Check Gas and Pressure Settings:
 
-    
 
-    Inspect the gas
-    cylinders, regulators, hoses, and connections to ensure they are in good condition
-    and properly set up.
 
-    
+    Inspect the gas cylinders,
+    regulators, hoses, and connections to ensure they are in good condition and properly
+    set up.
 
-    Adjust the gas flow rate and pressure according
-    to the manufacturer''s recommendations for the specific welding process and material.
+
+
+    Adjust the gas flow rate and pressure according to the manufacturer''s
+    recommendations for the specific welding process and material.
 
 '
   m_isRightToLeft: 0
@@ -34641,16 +34641,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step 4: Inspect the Torch:
 
-    
 
-    Thoroughly check the welding torch
-    for any visible damage, leaks, or loose fittings. Repair or replace any damaged
-    components.
 
-    
+    Thoroughly check the welding torch for
+    any visible damage, leaks, or loose fittings. Repair or replace any damaged components.
 
-    Ensure that the torch is clean and free from any debris
-    that could obstruct the gas flow or contaminate the weld.
+
+
+    Ensure
+    that the torch is clean and free from any debris that could obstruct the gas
+    flow or contaminate the weld.
 
 '
   m_isRightToLeft: 0
@@ -43847,15 +43847,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step 2: Secure the Workpiece:
 
-    
 
-    Ensure that the workpiece is
-    properly secured and positioned in your welding setup.
 
-    
+    Ensure that the workpiece is properly
+    secured and positioned in your welding setup.
 
-    Use clamps
-    or fixtures to hold the workpiece in place securely.
+
+
+    Use clamps or fixtures to
+    hold the workpiece in place securely.
 
 '
   m_isRightToLeft: 0
@@ -44982,17 +44982,17 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Visual Inspection:
 
-    
 
-    Before each use, conduct a thorough visual
-    inspection of the welding torch. Check for any visible damage, loose parts, or
-    signs of wear and tear.
 
-    
+    Before each use, conduct a thorough visual inspection
+    of the welding torch. Check for any visible damage, loose parts, or signs of
+    wear and tear.
 
-    Examine the torch handle, neck, and head
-    for cracks, dents, or corrosion. If any damage is detected, repair or replace
-    the damaged parts promptly.
+
+
+    Examine the torch handle, neck, and head for cracks, dents,
+    or corrosion. If any damage is detected, repair or replace the damaged parts
+    promptly.
 
 '
   m_isRightToLeft: 0
@@ -47509,13 +47509,13 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Cleaning:
 
-    
+
 
     Keep the welding torch clean to prevent contamination
     of the weld and ensure proper gas flow. Use a wire brush or specialized cleaning
     tools to remove spatter, slag, and debris from the torch nozzle and diffuser.
 
-    
+
 
     Clean
     the torch handle and cable to remove dirt, grease, or other contaminants that
@@ -48589,21 +48589,20 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step 5: Holding the Torch
 
-    
 
-    Grasp the torch handle firmly with
-    both hands to provide stability and control.
 
-    
+    Grasp the torch handle firmly with both
+    hands to provide stability and control.
 
-    Position your hands
-    comfortably on the torch, with one hand near the torch head and the other on
-    the handle.
 
-    
 
-    Keep your body in a balanced and relaxed posture, with
-    your feet shoulder-width apart.
+    Position your hands comfortably
+    on the torch, with one hand near the torch head and the other on the handle.
+
+
+
+    Keep
+    your body in a balanced and relaxed posture, with your feet shoulder-width apart.
 
 '
   m_isRightToLeft: 0
@@ -49691,6 +49690,141 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473928418}
+  m_CullTransparentMesh: 1
+--- !u!1 &1474617660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1474617661}
+  - component: {fileID: 1474617663}
+  - component: {fileID: 1474617662}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1474617661
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474617660}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2080983751}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1474617662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474617660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Welding Workshop - Module 5
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 18
+  m_fontSizeBase: 18
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1474617663
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474617660}
   m_CullTransparentMesh: 1
 --- !u!1 &1485963411
 GameObject:
@@ -53872,7 +54006,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step 8: Control Torch Movement
 
-    
+
 
     Move the torch along the desired
     cutting path, maintaining a steady and controlled motion. Follow any templates
@@ -54920,7 +55054,7 @@ GameObject:
   - component: {fileID: 1587782356}
   - component: {fileID: 1587782355}
   m_Layer: 5
-  m_Name: Welding Workshop Module Two
+  m_Name: Welding Workshop Module Three
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54944,7 +55078,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -6.96}
+  m_AnchoredPosition: {x: 0, y: -3.9404993}
   m_SizeDelta: {x: 320, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1587782355
@@ -54993,7 +55127,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5119382519898811380}
         m_TargetAssemblyTypeName: SceneGovernance, Assembly-CSharp
-        m_MethodName: loadChemicalPlant
+        m_MethodName: loadWeldingWorkshopModuleThree
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -55177,17 +55311,17 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step 1: Select the Correct Torch and Accessories:
 
-    
 
-    Before
-    starting, Choose the appropriate torch and welding process for your specific
-    application. Different torches are used for different types of welding.
 
-    
+    Before starting,
+    Choose the appropriate torch and welding process for your specific application.
+    Different torches are used for different types of welding.
 
-    Ensure
-    that you have the correct consumables, nozzles, tips, electrodes, and gas flow
-    rates for your welding task.
+
+
+    Ensure that
+    you have the correct consumables, nozzles, tips, electrodes, and gas flow rates
+    for your welding task.
 
 '
   m_isRightToLeft: 0
@@ -57341,12 +57475,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Nozzle and Contact Tip Inspection:
 
-    
 
-    If you''re using a MIG
-    or TIG welding torch, inspect the nozzle and contact tip regularly for wear,
-    burn marks, or damage. Replace worn or damaged components to maintain consistent
-    weld quality.
+
+    If you''re using a MIG or TIG
+    welding torch, inspect the nozzle and contact tip regularly for wear, burn marks,
+    or damage. Replace worn or damaged components to maintain consistent weld quality.
 
 '
   m_isRightToLeft: 0
@@ -59053,7 +59186,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Calibration (if applicable):
 
-    
+
 
     If your welding torch has adjustable
     settings, periodically calibrate or verify the accuracy of these settings to
@@ -60023,16 +60156,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step 9: Maintain a Consistent Travel Speed
 
-    
 
-    Move the torch
-    steadily along the welding joint at a consistent speed to create a uniform weld
-    bead.
 
-    
+    Move the torch steadily
+    along the welding joint at a consistent speed to create a uniform weld bead.
 
-    Practice maintaining a steady hand and movement to avoid excessive
-    heat buildup or weld defects.
+
+
+    Practice
+    maintaining a steady hand and movement to avoid excessive heat buildup or weld
+    defects.
 
 '
   m_isRightToLeft: 0
@@ -60673,16 +60806,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step 10: Monitor and Adjust
 
-    
 
-    Keep a close eye on the welding
-    process as it progresses. Adjust your torch angle and travel speed as necessary
-    to ensure proper fusion and penetration.
 
-    
+    Keep a close eye on the welding process
+    as it progresses. Adjust your torch angle and travel speed as necessary to ensure
+    proper fusion and penetration.
 
-    Stop periodically to inspect
-    the weld and make adjustments for weld quality.
+
+
+    Stop periodically to inspect the weld and
+    make adjustments for weld quality.
 
 '
   m_isRightToLeft: 0
@@ -70048,13 +70181,13 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step7 :Start the Welding Process
 
-    
+
 
     Follow the specific procedures
     for your chosen welding process, such as initiating the arc, establishing the
     correct settings, and setting the appropriate amperage or voltage.
 
-    
+
 
     Maintain
     a stable arc and electrode position as you begin welding
@@ -71460,6 +71593,140 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2080983750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2080983751}
+  - component: {fileID: 2080983754}
+  - component: {fileID: 2080983753}
+  - component: {fileID: 2080983752}
+  m_Layer: 5
+  m_Name: Welding Workshop Module Five
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2080983751
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080983750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.18034892, y: 0.12624425, z: 0.18034892}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1474617661}
+  m_Father: {fileID: 5119382519898811381}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -8.43}
+  m_SizeDelta: {x: 320, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2080983752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080983750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2080983753}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5119382519898811380}
+        m_TargetAssemblyTypeName: SceneGovernance, Assembly-CSharp
+        m_MethodName: loadWeldingWorkshopModuleFive
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2080983753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080983750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2080983754
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080983750}
+  m_CullTransparentMesh: 1
 --- !u!1 &2085166410
 GameObject:
   m_ObjectHideFlags: 0
@@ -71726,13 +71993,13 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Step 8: Start the Welding Process
 
-    
+
 
     Follow the specific procedures
     for your chosen welding process, such as initiating the arc, establishing the
     correct settings, and setting the appropriate amperage or voltage.
 
-    
+
 
     Maintain
     a stable arc and electrode position as you begin welding.
@@ -73712,12 +73979,12 @@ PrefabInstance:
     - target: {fileID: 5119382519293337016, guid: 4f1780e239bcc234f9d64cf2faf7b2fb,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.2105002
+      value: 5.229999
       objectReference: {fileID: 0}
     - target: {fileID: 5119382519348071734, guid: 4f1780e239bcc234f9d64cf2faf7b2fb,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2.367499
+      value: 0.65200174
       objectReference: {fileID: 0}
     - target: {fileID: 5119382519535387016, guid: 4f1780e239bcc234f9d64cf2faf7b2fb,
         type: 3}
@@ -73817,7 +74084,7 @@ PrefabInstance:
     - target: {fileID: 5119382520456344799, guid: 4f1780e239bcc234f9d64cf2faf7b2fb,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -11.53
+      value: -13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f1780e239bcc234f9d64cf2faf7b2fb, type: 3}

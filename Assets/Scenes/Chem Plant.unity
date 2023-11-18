@@ -6391,7 +6391,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29783744958c9f43930a8e9abb5f7c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 242364419}
+  videoPlayer:
+  - {fileID: 0}
 --- !u!114 &173157277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24236,7 +24237,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 135926dee3afe7c4e855f5458bdc96c8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6
+      value: 5.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 135926dee3afe7c4e855f5458bdc96c8,
         type: 3}
@@ -32156,7 +32157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29783744958c9f43930a8e9abb5f7c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 242364419}
+  videoPlayer:
+  - {fileID: 0}
 --- !u!1001 &871314525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41811,7 +41813,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29783744958c9f43930a8e9abb5f7c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 242364419}
+  videoPlayer:
+  - {fileID: 0}
 --- !u!1 &1093454601 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5885839836047536737, guid: e4512618bd47296478b5b0ccc1251e7b,
@@ -65037,7 +65040,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 135926dee3afe7c4e855f5458bdc96c8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.18
+      value: 8.029
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 135926dee3afe7c4e855f5458bdc96c8,
         type: 3}

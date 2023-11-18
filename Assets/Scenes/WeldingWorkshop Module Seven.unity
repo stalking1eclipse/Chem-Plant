@@ -2070,8 +2070,8 @@ MonoBehaviour:
     If the jaws become worn or damaged, replace
     them according to the manufacturer''s recommendations.
 
-    Ensure that any
-    springs or tension mechanisms are functioning correctly. Replace if necessary.'
+    Ensure that any springs
+    or tension mechanisms are functioning correctly. Replace if necessary.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8716,8 +8716,8 @@ MonoBehaviour:
     Handle cutting wheels with care, avoiding drops or
     impacts that could lead to damage.
 
-    Do not bend cutting wheels, as this
-    can compromise their integrity.'
+    Do not bend cutting wheels, as this can
+    compromise their integrity.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15365,11 +15365,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Origin (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4436677900797163369, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_LineLength
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436677900797163369, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436677900797163369, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436677900797163371, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_MaxRaycastDistance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4436677900947486204, guid: 18c3f3934557a9b4f85869ac4214efa9,
         type: 3}
       propertyPath: isWeldingGearEquipped
       value: 
       objectReference: {fileID: 437403630}
+    - target: {fileID: 4436677901289981474, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_LineLength
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436677901289981474, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436677901289981474, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436677901289981476, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_MaxRaycastDistance
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18c3f3934557a9b4f85869ac4214efa9, type: 3}
 --- !u!1 &437403629 stripped
@@ -26703,7 +26743,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cutting Hammer
+  m_text: Chipping Hammer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -32372,7 +32412,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5119382519898811380}
         m_TargetAssemblyTypeName: SceneGovernance, Assembly-CSharp
-        m_MethodName: loadWeldingWorkshop
+        m_MethodName: loadWeldingWorkshopModuleSix
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -35761,7 +35801,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.519, y: 1.68}
+  m_AnchoredPosition: {x: 0.507, y: 1.68}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &989124242
@@ -56303,7 +56343,7 @@ GameObject:
   - component: {fileID: 1469286677}
   - component: {fileID: 1469286676}
   m_Layer: 0
-  m_Name: Cutting Hammer Cube (2)
+  m_Name: Chipping Hammer Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74107,7 +74147,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welding Workshop - Module 1
+  m_text: Welding Workshop - Module 6
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -81061,7 +81101,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.54, y: 1.61}
+  m_AnchoredPosition: {x: 0.51, y: 1.61}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2104264867
