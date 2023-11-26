@@ -10,6 +10,8 @@ TagManager:
   - Right Hand
   - Storage Area
   - Debris
+  - Left Welding Plate
+  - Right Welding Plate
   layers:
   - Default
   - TransparentFX
