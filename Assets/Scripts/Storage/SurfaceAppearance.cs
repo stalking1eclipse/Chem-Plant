@@ -30,9 +30,9 @@ public class SurfaceAppearance : MonoBehaviour
             if (collider != null)
             {
                 if (collider.CompareTag("Debris"))
-                {
-                    Debug.Log("Debris exists");
-                }
+                    isSurfaceClean = false;
+                else
+                    isSurfaceClean = true;
             }
         }
     }
@@ -40,15 +40,6 @@ public class SurfaceAppearance : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireCube(transform.position, new Vector3(transform.localScale.x, transform.localScale.y, transform.localScale.z));
-    }
-
-
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.gameObject.CompareTag("Debris"))
-            isSurfaceClean = false;
-        else
-            isSurfaceClean = true;
     }
 
     void SetMaterial()

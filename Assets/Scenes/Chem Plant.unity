@@ -81557,11 +81557,31 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1370601189}
+    - target: {fileID: 4436677900797163369, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.atime0
+      value: 386
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436677900797163369, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436677900797163369, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4436677900797163371, guid: 18c3f3934557a9b4f85869ac4214efa9,
         type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1370601189}
+    - target: {fileID: 4436677900797163371, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_MaxRaycastDistance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4436677900947486203, guid: 18c3f3934557a9b4f85869ac4214efa9,
         type: 3}
       propertyPath: leftSide
@@ -81592,11 +81612,31 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1370601189}
+    - target: {fileID: 4436677901289981474, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.atime0
+      value: 386
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436677901289981474, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436677901289981474, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4436677901289981476, guid: 18c3f3934557a9b4f85869ac4214efa9,
         type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1370601189}
+    - target: {fileID: 4436677901289981476, guid: 18c3f3934557a9b4f85869ac4214efa9,
+        type: 3}
+      propertyPath: m_MaxRaycastDistance
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18c3f3934557a9b4f85869ac4214efa9, type: 3}
 --- !u!114 &4436677900947486204 stripped

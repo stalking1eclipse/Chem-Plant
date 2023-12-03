@@ -26,7 +26,7 @@ public class StorageManagement : MonoBehaviour
 
             if (hasSurfaceAppearance )
             {
-
+                Debug.Log("Entered");
             }
         }
     }
