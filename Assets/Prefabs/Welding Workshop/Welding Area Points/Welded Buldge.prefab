@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 2336135595995035446}
   - component: {fileID: 544770334239032316}
   - component: {fileID: 5979362873141792021}
+  - component: {fileID: 4708836871170099711}
+  - component: {fileID: 9205071999545107096}
   m_Layer: 0
   m_Name: Welded Buldge
-  m_TagString: Untagged
+  m_TagString: Welded Buldge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,14 +28,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058028256641327657}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: -0.7069834, y: 0, z: 0, w: 0.7072302}
   m_LocalPosition: {x: 3.3451, y: 1.328, z: 23.2667}
   m_LocalScale: {x: 55.222286, y: 55.222286, z: 55.222286}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
 --- !u!33 &2336135595995035446
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -92,8 +94,37 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058028256641327657}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.00009921861
-  m_Center: {x: -1.8189894e-11, y: 1.818989e-11, z: 0.000015791606}
+  m_Radius: 0.000060970804
+  m_Center: {x: 0.0000016190378, y: 1.6864976e-11, z: 0.000015791606}
+--- !u!54 &4708836871170099711
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058028256641327657}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &9205071999545107096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058028256641327657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f036bcce29bf4448839442045e2a16a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeBeforeSelfDestruct: 60

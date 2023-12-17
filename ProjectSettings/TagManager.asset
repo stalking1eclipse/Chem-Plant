@@ -12,6 +12,7 @@ TagManager:
   - Debris
   - Left Welding Plate
   - Right Welding Plate
+  - Welded Buldge
   layers:
   - Default
   - TransparentFX
