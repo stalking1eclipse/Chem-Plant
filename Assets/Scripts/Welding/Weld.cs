@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Weld : MonoBehaviour
 {
@@ -7,15 +8,50 @@ public class Weld : MonoBehaviour
     RaycastHit hit;
 
     [SerializeField]
+    ParticleSystem BlowTorch;
+
+    [SerializeField]
     GameObject weldBuldge;
+
+    [SerializeField]
+    InputActionProperty rightActivate;
+
+    [SerializeField]
+    float flameLength = 10f;
+
+    bool IsTorchGrasped;
     // Update is called once per frame
     void Update()
     {
-        if (Physics.Raycast(transform.position, -transform.forward, out hit, 15f, layer_mask))
+        if (rightActivate.action.ReadValue<float>() > 0.1f && IsTorchGrasped)
         {
-            Instantiate(weldBuldge, hit.point, Quaternion.LookRotation(hit.normal));
+            if (!BlowTorch.gameObject.activeSelf)
+            {
+                BlowTorch.gameObject.SetActive(true);
+            }
+
+            if (Physics.Raycast(transform.position, -transform.forward, out hit, flameLength, layer_mask))
+            {
+                Instantiate(weldBuldge, hit.point, Quaternion.LookRotation(hit.normal));
+            }
+
+            BlowTorch.Play();
         }
-        
+        else
+        {
+            BlowTorch.Stop();
+        }
+
         Debug.DrawRay(transform.position, -transform.forward, Color.green);        
+    }
+
+    public void GraspTorch()
+    {
+        IsTorchGrasped = true;
+    }
+
+    public void ReleaseTorch()
+    {
+        IsTorchGrasped = false;
     }
 }

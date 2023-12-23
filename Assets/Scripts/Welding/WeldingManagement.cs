@@ -9,6 +9,8 @@ public class WeldingManagement : MonoBehaviour
     private GameObject Connector;
     [SerializeField]
     List<GameObject> WeldPoints;
+    [SerializeField]
+    private GameObject WeldedPlates;
         
     private bool IsConnectorEnabled = false, FullyWelded = false;
 
@@ -17,12 +19,13 @@ public class WeldingManagement : MonoBehaviour
     {
         MonitorConnectorState();
 
-        Debug.Log("Fully Welded: " + FullyWelded);
+        //Debug.Log("Fully Welded: " + FullyWelded);
 
+        WeldedPlates.SetActive(FullyWelded);
         if (FullyWelded)
         {
-            LeftPlate.transform.parent = gameObject.transform;
-            RightPlate.transform.parent = gameObject.transform;
+            destroyTempWeldBuldges();
+            Connector.SetActive(false);
         }
     }
 
@@ -46,37 +49,32 @@ public class WeldingManagement : MonoBehaviour
         }
     }
 
-
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.tag == LeftPlate.tag)
-    //    {
-    //        other.gameObject.transform.parent = LeftPlate.transform;
-    //    }
-        
-    //    if (other.tag == RightPlate.tag)
-    //    {
-    //        other.gameObject.transform.parent = RightPlate.transform;
-    //    }
-    //}
-
+    public bool IsFullyWelded()
+    {
+        return FullyWelded;
+    }
 
     private void MonitorConnectorState()
     {
-        if (!IsConnectorEnabled)
+                 
+        if (LeftPlate.getSpaceState() && RightPlate.getSpaceState())
         {
-            if (LeftPlate != null && RightPlate != null)
-            {
-                if (LeftPlate.getSpaceState() && RightPlate.getSpaceState())
-                {
-                    IsConnectorEnabled = true;
-                }
-                else
-                {
-                    IsConnectorEnabled = false;
-                }
-            }
+            IsConnectorEnabled = true;
+        }
+        else
+        {
+            IsConnectorEnabled = false;
         }
         Connector.SetActive(IsConnectorEnabled);
+    }
+
+    private void destroyTempWeldBuldges()
+    {
+        GameObject[] WeldedBuldges = GameObject.FindGameObjectsWithTag("Welded Buldge");
+
+        foreach(GameObject WeldedBuldge in WeldedBuldges)
+        {
+            Destroy(WeldedBuldge);
+        }
     }
 }

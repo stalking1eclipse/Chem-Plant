@@ -3,6 +3,8 @@ using UnityEngine;
 public class SetPlateInPlace : MonoBehaviour
 {
     private bool IsSpaceOccupied { set; get; }
+    [SerializeField]
+    private WeldingManagement weldingManagement;
 
     private void Start()
     {
@@ -15,9 +17,24 @@ public class SetPlateInPlace : MonoBehaviour
         {
             other.transform.rotation = transform.rotation;
             other.transform.position = transform.position;
+
+            gameObject.GetComponent<MeshRenderer>().enabled = false;
             IsSpaceOccupied = true;
+
+            if (weldingManagement.IsFullyWelded())
+            {
+                Destroy(other.gameObject);
+            }
         }
-        Debug.Log(other.name);
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other != null && other.transform.tag == transform.tag)
+        {
+            gameObject.GetComponent<MeshRenderer>().enabled = true;
+            IsSpaceOccupied = false;
+        }
     }
 
     public bool getSpaceState()
