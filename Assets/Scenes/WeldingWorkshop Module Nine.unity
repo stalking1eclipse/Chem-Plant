@@ -25758,6 +25758,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: TorchFlame
       objectReference: {fileID: 0}
+    - target: {fileID: 1043393645879808203, guid: 87449ab9490c3804ab09e308a164386d,
+        type: 3}
+      propertyPath: CollisionModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043393645879808203, guid: 87449ab9490c3804ab09e308a164386d,
+        type: 3}
+      propertyPath: SizeModule.separateAxes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043393645879808203, guid: 87449ab9490c3804ab09e308a164386d,
+        type: 3}
+      propertyPath: ExternalForcesModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9170554086708279805, guid: 87449ab9490c3804ab09e308a164386d,
         type: 3}
       propertyPath: m_RootOrder
