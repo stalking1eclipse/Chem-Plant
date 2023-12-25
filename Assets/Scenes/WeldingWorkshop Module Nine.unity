@@ -410,6 +410,230 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35376487}
   m_CullTransparentMesh: 1
+--- !u!1001 &38541855
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 444113972}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01699996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.055000067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.3010006
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Name
+      value: Pipe_To_Weld Primary
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_TagString
+      value: Primary Welding Pipe
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f01ba25ea3f3bf54eb6c2d9892dbf957, type: 3}
+--- !u!1 &38541856 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+    type: 3}
+  m_PrefabInstance: {fileID: 38541855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &38541857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38541856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 419104659}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4
+  m_SelectMode: 0
+  m_CustomReticle: {fileID: 0}
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AttachTransform: {fileID: 0}
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 5
+  m_TightenPosition: 0.5
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 5
+  m_TightenRotation: 0.5
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_AttachPointCompatibilityMode: 0
+--- !u!65 &38541858
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38541856}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0011998364, y: 0.001021996, z: 0.001433218}
+  m_Center: {x: 0.000000009685754, y: -0.000016709193, z: -4.6731414e-20}
+--- !u!54 &38541859
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38541856}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &40079725 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7ef5765b4a5785d46821296b9b23736d,
@@ -2147,8 +2371,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: IAC0102 Health, quality, safety and environmental protection practices
-    are adhered to.
+  m_text: 'Health, quality, safety, and environmental protection practices are adhered
+    to (IAC0102):
+
+    Assessment of adherence to practices ensuring the well-being
+    of individuals, maintaining quality, and safeguarding the environment.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2175,7 +2402,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14.6
+  m_fontSize: 8.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2778,147 +3005,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!1 &235758823
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 235758824}
-  - component: {fileID: 235758826}
-  - component: {fileID: 235758825}
-  m_Layer: 5
-  m_Name: Text (12)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &235758824
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235758823}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.000011342138}
-  m_LocalScale: {x: 5.6073046, y: 4.3194456, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 636282207}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &235758825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235758823}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: '<b>5. Visual Inspection (AK0105):</b>
-
-
-    Procedures for visually inspecting
-    the welded joints.
-
-    Identification of quality indicators.'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 8.7
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 1
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &235758826
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235758823}
-  m_CullTransparentMesh: 1
 --- !u!64 &239416755
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3083,6 +3169,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 184836330, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6573764
+      objectReference: {fileID: 0}
+    - target: {fileID: 184836330, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.67
+      objectReference: {fileID: 0}
     - target: {fileID: 281426668, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -3109,13 +3203,14 @@ PrefabInstance:
       objectReference: {fileID: 281079162}
     - target: {fileID: 709222433, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_text
-      value: '<b>2. Welding Process:</b>
+      value: '<b>2. Joint Configuration (5G):</b>
 
-        Select the appropriate welding
-        process.
 
-        Execute the V butt plate weld with the pipe in the fixed
-        horizontal position, following the welding procedure.'
+        Set up the pipe in the
+        fixed vertical position (5G).
+
+        Align the pipe to create a V butt
+        joint.'
       objectReference: {fileID: 0}
     - target: {fileID: 709222433, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_Enabled
@@ -3123,11 +3218,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 709222433, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_fontSize
-      value: 8.7
+      value: 9.2
       objectReference: {fileID: 0}
     - target: {fileID: 730060462, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_Name
-      value: 2G Horizontal Position Cube
+      value: Pipe in the Fixed Vertical Position (5G)Pipe in the Fixed Vertical Position
+        (5G) Cube
       objectReference: {fileID: 0}
     - target: {fileID: 730060466, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3135,7 +3231,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 959649109, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 959649111, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_text
+      value: '<b>4. Quality Control:</b>
+
+
+        Perform visual inspections during
+        and after welding.
+
+        Ensure the weld meets specified quality standards
+        for the vertical position (5G).'
+      objectReference: {fileID: 0}
+    - target: {fileID: 959649111, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 959649111, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_fontSize
+      value: 8.65
       objectReference: {fileID: 0}
     - target: {fileID: 1112783187, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_InteractionManager
@@ -3143,8 +3258,11 @@ PrefabInstance:
       objectReference: {fileID: 419104659}
     - target: {fileID: 1348837016, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_text
-      value: "<b>Task PA0102:</b>\n Produce a V Butt Plate Weld with the Pipe in
-        the Fixed Horizontal Position (2G)"
+      value: '<b>Task PA0102:</b>
+
+
+        Produce a V Butt Pipe Weld with the Pipe
+        in the Fixed Vertical Position (5G)'
       objectReference: {fileID: 0}
     - target: {fileID: 1348837016, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_Enabled
@@ -3152,17 +3270,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1348837016, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_fontSize
-      value: 10.9
+      value: 11.65
       objectReference: {fileID: 0}
     - target: {fileID: 1408172987, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_text
       value: '<b>1. Material Preparation:</b>
 
-        Prepare the plates and the
-        pipe for welding, ensuring cleanliness.
+        Prepare the pipe and ensure
+        it is clean and properly aligned.
 
-        Align the plates to create
-        a V butt joint with the pipe in the fixed horizontal position (2G).'
+        Verify the material specifications
+        and prepare the edges for a V butt joint.'
       objectReference: {fileID: 0}
     - target: {fileID: 1408172987, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_Enabled
@@ -3182,17 +3300,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1529568609, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: textMeshProUGUI.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1666366066, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_text
-      value: '<b>3. Quality Control:</b>
+      value: '<b>3. Welding Process:</b>
 
-        Conduct visual inspections during
-        and after welding.
+        Choose the appropriate welding
+        process for vertical pipe welding.
 
-        Verify that the weld meets quality standards
-        for the horizontal position'
+        Execute the V butt pipe weld,
+        following the welding procedure and maintaining proper heat input.'
       objectReference: {fileID: 0}
     - target: {fileID: 1666366066, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_Enabled
@@ -3210,13 +3328,17 @@ PrefabInstance:
       propertyPath: m_enableAutoSizing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2105226250, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.56
+      objectReference: {fileID: 0}
     - target: {fileID: 2105226251, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_text
-      value: 2G Horizontal Position
+      value: Pipe in the Fixed Vertical Position (5G)
       objectReference: {fileID: 0}
     - target: {fileID: 2105226251, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_fontSize
-      value: 30.35
+      value: 22.05
       objectReference: {fileID: 0}
     - target: {fileID: 2105226251, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_margin.z
@@ -3230,7 +3352,31 @@ PrefabInstance:
       propertyPath: m_enableAutoSizing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2105226251, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600504640583298530, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1600504640584707002, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600504640943673082, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600504641494995496, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600504642101664094, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3238,7 +3384,7 @@ PrefabInstance:
     - target: {fileID: 1943104966640649741, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_Name
-      value: Welding Area 2G
+      value: Welding Area 5G
       objectReference: {fileID: 0}
     - target: {fileID: 1943104966640649743, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
@@ -4171,13 +4317,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<b>2. Fit-Up and Tack Welding (AK0102):</b>
+  m_text: '<b>AK0105 Visual Inspection Procedures and Quality Indicators:</b>
 
 
-    Techniques and practices
-    related to fitting up materials.
+    Develop
+    the ability to visually inspect welds for defects and quality.
 
-    Tack welding methods and best practices.'
+    Learn to
+    identify visual indicators of sound welds and potential issues.
+
+    Understand
+    the importance of meeting quality standards in GTAW.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4204,7 +4354,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8.7
+  m_fontSize: 6.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4757,6 +4907,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 184836330, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6768751
+      objectReference: {fileID: 0}
+    - target: {fileID: 184836330, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 281426668, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -4783,13 +4941,13 @@ PrefabInstance:
       objectReference: {fileID: 408696909}
     - target: {fileID: 709222433, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_text
-      value: '<b>2. Welding Process:</b>
+      value: '<b>2. Joint Configuration (6G):</b>
 
-        Choose the appropriate welding
-        process.
+        Set up the pipe in the
+        inclined 45-degree fixed position (6G).
 
-        Execute the V butt plate weld with the pipe in the fixed
-        vertical position, following the welding procedure.'
+        Align the pipe to create
+        a V butt joint.'
       objectReference: {fileID: 0}
     - target: {fileID: 709222433, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_Enabled
@@ -4797,11 +4955,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 709222433, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_fontSize
-      value: 8.7
+      value: 10.9
       objectReference: {fileID: 0}
     - target: {fileID: 730060462, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_Name
-      value: 3G Fixed Vertical Position Cube
+      value: Pipe Weld in the Inclined 45-Degree Fixed Position (6G) Cube
       objectReference: {fileID: 0}
     - target: {fileID: 730060466, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4809,7 +4967,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 959649109, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 959649111, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_text
+      value: '<b>4. Quality Control:</b>
+
+
+        Perform visual inspections during
+        and after welding.
+
+        Ensure the weld meets specified quality standards
+        for the inclined position (6G).'
+      objectReference: {fileID: 0}
+    - target: {fileID: 959649111, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 959649111, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_fontSize
+      value: 8.65
       objectReference: {fileID: 0}
     - target: {fileID: 1112783187, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_InteractionManager
@@ -4819,8 +4996,9 @@ PrefabInstance:
       propertyPath: m_text
       value: '<b>Task PA0103:</b>
 
-        Produce a V Butt Plate Weld with the Pipe
-        in the Fixed Vertical Position (3G).'
+
+        Produce a V Butt Pipe Weld in the Inclined
+        45-Degree Fixed Position (6G)'
       objectReference: {fileID: 0}
     - target: {fileID: 1348837016, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_Enabled
@@ -4828,17 +5006,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1348837016, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_fontSize
-      value: 11.45
+      value: 11.5
       objectReference: {fileID: 0}
     - target: {fileID: 1408172987, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_text
       value: '<b>1. Material Preparation:</b>
 
-        Prepare the plates and the
-        pipe for welding, ensuring cleanliness.
+        Prepare the pipe and ensure
+        it is clean and properly aligned.
 
-        Align the plates to create
-        a V butt joint with the pipe in the fixed vertical position (3G).'
+        Verify the material specifications
+        and prepare the edges for a V butt joint.'
       objectReference: {fileID: 0}
     - target: {fileID: 1408172987, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_Enabled
@@ -4862,13 +5040,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1666366066, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_text
-      value: '<b>3. Quality Control:</b>
+      value: '<b>3. Welding Process:</b>
 
-        Perform visual inspections during
-        and after welding.
+        Choose the appropriate welding
+        process for inclined pipe welding.
 
-        Verify that the weld meets quality standards
-        for the vertical position.'
+        Execute the V butt pipe weld,
+        following the welding procedure and maintaining proper heat input.'
       objectReference: {fileID: 0}
     - target: {fileID: 1666366066, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_Enabled
@@ -4878,19 +5056,43 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 8.7
       objectReference: {fileID: 0}
+    - target: {fileID: 2105226250, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.56
+      objectReference: {fileID: 0}
     - target: {fileID: 2105226251, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_text
-      value: 3G Fixed Vertical Position
+      value: Pipe Weld in the Inclined 45-Degree Fixed Position (6G)
       objectReference: {fileID: 0}
     - target: {fileID: 2105226251, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_fontSize
-      value: 26.1
+      value: 22.05
       objectReference: {fileID: 0}
     - target: {fileID: 2105226251, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_enableAutoSizing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1600504640583298530, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1600504640584707002, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600504640943673082, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600504641494995496, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600504642101664094, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4898,7 +5100,7 @@ PrefabInstance:
     - target: {fileID: 1943104966640649741, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_Name
-      value: Welding Area 3G
+      value: Welding Area 6G
       objectReference: {fileID: 0}
     - target: {fileID: 1943104966640649743, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
@@ -5652,6 +5854,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ef5765b4a5785d46821296b9b23736d, type: 3}
+--- !u!4 &444113972 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1943104966640649743, guid: 7f052b55091b68740911fbcbb5b69beb,
+    type: 3}
+  m_PrefabInstance: {fileID: 281079161}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &449044762
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7706,7 +7914,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &636282207
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7731,9 +7939,6 @@ RectTransform:
   - {fileID: 354358830}
   - {fileID: 1224068344}
   - {fileID: 1344753813}
-  - {fileID: 235758824}
-  - {fileID: 1274890996}
-  - {fileID: 1570206085}
   m_Father: {fileID: 1402594501}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8275,7 +8480,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7d1c5303cb4a44d4b89470f6b7879a06,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.799462
+      value: 6.15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d1c5303cb4a44d4b89470f6b7879a06,
         type: 3}
@@ -8285,12 +8490,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7d1c5303cb4a44d4b89470f6b7879a06,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.1018505
+      value: -3.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d1c5303cb4a44d4b89470f6b7879a06,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.53529054
+      value: 0.28672218
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d1c5303cb4a44d4b89470f6b7879a06,
         type: 3}
@@ -8300,7 +8505,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7d1c5303cb4a44d4b89470f6b7879a06,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.844668
+      value: 0.9580138
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d1c5303cb4a44d4b89470f6b7879a06,
         type: 3}
@@ -8315,7 +8520,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7d1c5303cb4a44d4b89470f6b7879a06,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 244.72699
+      value: 146.676
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d1c5303cb4a44d4b89470f6b7879a06,
         type: 3}
@@ -9093,6 +9298,12 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!4 &793098275 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1943104966640649743, guid: 7f052b55091b68740911fbcbb5b69beb,
+    type: 3}
+  m_PrefabInstance: {fileID: 408696908}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &802689637 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7ef5765b4a5785d46821296b9b23736d,
@@ -9482,6 +9693,341 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863669550}
   m_CullTransparentMesh: 1
+--- !u!1001 &864592171
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 793098275}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01699996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.055000067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.094
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Name
+      value: Pipe_To_Weld Primary
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_TagString
+      value: Primary Welding Pipe
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f01ba25ea3f3bf54eb6c2d9892dbf957, type: 3}
+--- !u!1 &864592172 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+    type: 3}
+  m_PrefabInstance: {fileID: 864592171}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &864592173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864592172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 419104659}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4
+  m_SelectMode: 0
+  m_CustomReticle: {fileID: 0}
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AttachTransform: {fileID: 0}
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 5
+  m_TightenPosition: 0.5
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 5
+  m_TightenRotation: 0.5
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_AttachPointCompatibilityMode: 0
+--- !u!65 &864592174
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864592172}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0011998364, y: 0.001021996, z: 0.001433218}
+  m_Center: {x: 0.000000009685754, y: -0.000016709193, z: -4.6731414e-20}
+--- !u!54 &864592175
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864592172}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1001 &868434789
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1943104966622852835}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.035000086
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.07140005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.29920006
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 38fed7074a341d24c932cfc5a0d56c09, type: 2}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Name
+      value: Pipe Placement Secondary
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_TagString
+      value: Secondary Welding Pipe
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f01ba25ea3f3bf54eb6c2d9892dbf957, type: 3}
+--- !u!1 &868434790 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+    type: 3}
+  m_PrefabInstance: {fileID: 868434789}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &868434791
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868434790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0019999999, y: 0.0019999999, z: 0.0019999999}
+  m_Center: {x: -2.910383e-10, y: 0.000000029802322, z: 0}
+--- !u!114 &868434792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868434790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d85255d90cd1834fb8d2157ec2d31de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weldingManagement: {fileID: 1943104966622852834}
 --- !u!1 &868613912
 GameObject:
   m_ObjectHideFlags: 0
@@ -10515,7 +11061,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f499281871b89bb49b8f284aa9e3ac4c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.43
+      value: 7.5782676
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f499281871b89bb49b8f284aa9e3ac4c,
         type: 3}
@@ -10525,12 +11071,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f499281871b89bb49b8f284aa9e3ac4c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.89
+      value: -4.4647446
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f499281871b89bb49b8f284aa9e3ac4c,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.955438
+      value: 0.8493736
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f499281871b89bb49b8f284aa9e3ac4c,
         type: 3}
@@ -10540,7 +11086,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f499281871b89bb49b8f284aa9e3ac4c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.2951918
+      value: -0.5277922
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f499281871b89bb49b8f284aa9e3ac4c,
         type: 3}
@@ -10555,7 +11101,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f499281871b89bb49b8f284aa9e3ac4c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 34.338
+      value: -63.713
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f499281871b89bb49b8f284aa9e3ac4c,
         type: 3}
@@ -10784,6 +11330,117 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &985847518
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 793098275}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.062999964
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1613
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.384
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92387956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.38268343
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 38fed7074a341d24c932cfc5a0d56c09, type: 2}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Name
+      value: Pipe Placement Primary
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_TagString
+      value: Primary Welding Pipe
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f01ba25ea3f3bf54eb6c2d9892dbf957, type: 3}
+--- !u!1 &985847519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+    type: 3}
+  m_PrefabInstance: {fileID: 985847518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &985847520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985847519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d85255d90cd1834fb8d2157ec2d31de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weldingManagement: {fileID: 1943104966622852834}
+--- !u!65 &985847521
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985847519}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0019999999, y: 0.0019999999, z: 0.0019999999}
+  m_Center: {x: -2.910383e-10, y: 0.000000029802322, z: 0}
 --- !u!1 &996486776
 GameObject:
   m_ObjectHideFlags: 0
@@ -11159,6 +11816,117 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7910324202870440658, guid: 877816af3eb5b6e4baf6af284b87a3ac, type: 3}
+--- !u!1001 &1015583658
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 444113972}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.062999964
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1249063
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2679348
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 38fed7074a341d24c932cfc5a0d56c09, type: 2}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Name
+      value: Pipe Placement Secondary
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_TagString
+      value: Secondary Welding Pipe
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f01ba25ea3f3bf54eb6c2d9892dbf957, type: 3}
+--- !u!1 &1015583659 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+    type: 3}
+  m_PrefabInstance: {fileID: 1015583658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1015583660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015583659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d85255d90cd1834fb8d2157ec2d31de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weldingManagement: {fileID: 1943104966622852834}
+--- !u!65 &1015583661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015583659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0019999999, y: 0.0019999999, z: 0.0019999999}
+  m_Center: {x: -2.910383e-10, y: 0.000000029802322, z: 0}
 --- !u!1 &1036998412
 GameObject:
   m_ObjectHideFlags: 0
@@ -13029,6 +13797,117 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142505939}
   m_CullTransparentMesh: 1
+--- !u!1001 &1143584548
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1943104966622852835}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.035000086
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.17690003
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.29920006
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 38fed7074a341d24c932cfc5a0d56c09, type: 2}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Name
+      value: Pipe Placement Primary
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_TagString
+      value: Primary Welding Pipe
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f01ba25ea3f3bf54eb6c2d9892dbf957, type: 3}
+--- !u!1 &1143584549 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+    type: 3}
+  m_PrefabInstance: {fileID: 1143584548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1143584550
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143584549}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0019999999, y: 0.0019999999, z: 0.0019999999}
+  m_Center: {x: -2.910383e-10, y: 0.000000029802322, z: 0}
+--- !u!114 &1143584551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143584549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d85255d90cd1834fb8d2157ec2d31de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weldingManagement: {fileID: 1943104966622852834}
 --- !u!1001 &1168836517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14326,11 +15205,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<b>3. Welding Techniques (AK0103):</b>
+  m_text: '<b>AK0106 Practices Related to Quality, Health, Safety, and Protection
+    of the Environment when using Gas Tungsten Arc Welding:</b>
 
 
-    Application of Gas Tungsten
-    Arc Welding and Shielded Metal Arc Welding techniques in combination.'
+    Gain knowledge
+    and skills in adhering to quality standards during GTAW.
+
+    Understand and
+    apply safety protocols for health and environmental protection.
+
+    Develop
+    practices that ensure a safe and environmentally responsible GTAW work environment.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14357,7 +15243,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8.7
+  m_fontSize: 5.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -14737,8 +15623,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ' IAC0104 Welding defects are recognized through visual inspection, the
-    causes and prevention hereof is explained, and defects are rectified.'
+  m_text: '<b>AK0101 Material Preparation for Gas Tungsten Arc Welding:</b>
+
+
+    Understand
+    the importance of proper material preparation in GTAW.
+
+    Acquire skills in
+    selecting, handling, and preparing materials for welding.
+
+    Ensure materials
+    meet specified standards and requirements for GTAW processes.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14765,7 +15660,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10.9
+  m_fontSize: 6.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -15391,8 +16286,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: IAC0103 Welding equipment setup and settings/parameters are correct and
-    can be explained for different applications.
+  m_text: 'Welding equipment setup and settings/parameters are correct and can be
+    explained for different applications (IAC0103):
+
+    Evaluation of the participant''s
+    ability to set up welding equipment correctly and explain settings/parameters
+    for various applications.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15419,7 +16318,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11.25
+  m_fontSize: 7.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -15468,150 +16367,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265737048}
-  m_CullTransparentMesh: 1
---- !u!1 &1274890995
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1274890996}
-  - component: {fileID: 1274890998}
-  - component: {fileID: 1274890997}
-  m_Layer: 5
-  m_Name: Text (13)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1274890996
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1274890995}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.000011342138}
-  m_LocalScale: {x: 5.6073046, y: 4.3194456, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 636282207}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1274890997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1274890995}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: '<b>6. Quality, Health, Safety, and Environmental Practices (AK0106):</b>
-
-    Adherence
-    to quality standards during welding.
-
-    Implementation of practices ensuring
-    health, safety, and environmental protection.
-
-    Specific considerations when
-    using the GTAW and SMAW processes in combination.'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 6.2
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 1
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1274890998
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1274890995}
   m_CullTransparentMesh: 1
 --- !u!1 &1282231997
 GameObject:
@@ -15783,6 +16538,341 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1001 &1308218077
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 444113972}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.10779977
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.055000067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.301
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Name
+      value: Pipe_To_Weld Secondary
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_TagString
+      value: Secondary Welding Pipe
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f01ba25ea3f3bf54eb6c2d9892dbf957, type: 3}
+--- !u!1 &1308218078 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+    type: 3}
+  m_PrefabInstance: {fileID: 1308218077}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1308218079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308218078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 419104659}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4
+  m_SelectMode: 0
+  m_CustomReticle: {fileID: 0}
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AttachTransform: {fileID: 0}
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 5
+  m_TightenPosition: 0.5
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 5
+  m_TightenRotation: 0.5
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_AttachPointCompatibilityMode: 0
+--- !u!65 &1308218080
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308218078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0011998364, y: 0.001021996, z: 0.001433218}
+  m_Center: {x: 0.000000009685754, y: -0.000016709193, z: -4.6731414e-20}
+--- !u!54 &1308218081
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308218078}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1001 &1316634285
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 444113972}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.062999964
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1249063
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.16246033
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 38fed7074a341d24c932cfc5a0d56c09, type: 2}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Name
+      value: Pipe Placement Primary
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_TagString
+      value: Primary Welding Pipe
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f01ba25ea3f3bf54eb6c2d9892dbf957, type: 3}
+--- !u!1 &1316634286 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+    type: 3}
+  m_PrefabInstance: {fileID: 1316634285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1316634287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316634286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d85255d90cd1834fb8d2157ec2d31de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weldingManagement: {fileID: 1943104966622852834}
+--- !u!65 &1316634288
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316634286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0019999999, y: 0.0019999999, z: 0.0019999999}
+  m_Center: {x: -2.910383e-10, y: 0.000000029802322, z: 0}
 --- !u!1 &1328128418
 GameObject:
   m_ObjectHideFlags: 0
@@ -15949,7 +17039,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4a2fb1360661972438fd962608e5ed66,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.487404
+      value: 6.107981
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a2fb1360661972438fd962608e5ed66,
         type: 3}
@@ -15959,12 +17049,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4a2fb1360661972438fd962608e5ed66,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.383042
+      value: -4.730688
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a2fb1360661972438fd962608e5ed66,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.42376313
+      value: 0.96173096
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a2fb1360661972438fd962608e5ed66,
         type: 3}
@@ -15974,7 +17064,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4a2fb1360661972438fd962608e5ed66,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9057731
+      value: 0.27399567
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a2fb1360661972438fd962608e5ed66,
         type: 3}
@@ -15989,7 +17079,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4a2fb1360661972438fd962608e5ed66,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 129.855
+      value: 31.804
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a2fb1360661972438fd962608e5ed66,
         type: 3}
@@ -16066,14 +17156,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<b>4. Work Piece Cleaning and Dressing (AK0104):</b>
+  m_text: '<b>Outcome focus</b>
 
 
-    Procedures
-    for preparing the workpiece before welding.
-
-    Dressing practices to ensure
-    proper weld quality.'
+    These learning outcomes collectively form a
+    comprehensive set of skills and knowledge areas necessary for individuals engaging
+    in Gas Tungsten Arc Welding. They cover aspects from material preparation to
+    safety and environmental considerations, reflecting a holistic approach to welding
+    competency.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16100,7 +17190,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8.1
+  m_fontSize: 6.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -16924,7 +18014,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1402594501
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16974,9 +18064,6 @@ MonoBehaviour:
   - {fileID: 354358831}
   - {fileID: 1224068345}
   - {fileID: 1344753814}
-  - {fileID: 235758825}
-  - {fileID: 1274890997}
-  - {fileID: 1570206086}
   UICanvas: {fileID: 1402594500}
 --- !u!114 &1402594503
 MonoBehaviour:
@@ -17093,6 +18180,230 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1001 &1424652775
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1943104966622852835}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.044999838
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.055000067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.21699905
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Name
+      value: Pipe_To_Weld Primary
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_TagString
+      value: Primary Welding Pipe
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f01ba25ea3f3bf54eb6c2d9892dbf957, type: 3}
+--- !u!1 &1424652776 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+    type: 3}
+  m_PrefabInstance: {fileID: 1424652775}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1424652777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424652776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 419104659}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4
+  m_SelectMode: 0
+  m_CustomReticle: {fileID: 0}
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AttachTransform: {fileID: 0}
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 5
+  m_TightenPosition: 0.5
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 5
+  m_TightenRotation: 0.5
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_AttachPointCompatibilityMode: 0
+--- !u!54 &1424652778
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424652776}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1424652779
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424652776}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0011998364, y: 0.001021996, z: 0.001433218}
+  m_Center: {x: 0.000000009685754, y: -0.000016709193, z: -4.6731414e-20}
 --- !u!1 &1428973195
 GameObject:
   m_ObjectHideFlags: 0
@@ -17292,12 +18603,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<b>Welding Process:</b>
+  m_text: '<b>AK0103 Welding Techniques using Gas Tungsten Arc Welding:</b>
 
-    Multi pass plate butt weld.
 
-    Combination
-    of Gas Tungsten Arc Welding (GTAW) and Shielded Metal Arc Welding (SMAW)'
+    Master
+    the fundamental and advanced techniques of Gas Tungsten Arc Welding.
+
+    Understand
+    how to control the GTAW process parameters for different materials and joint
+    configurations.
+
+    Develop skills in producing high-quality welds using GTAW.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -17324,7 +18640,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 9
+  m_fontSize: 6.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -17838,8 +19154,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <b>After completing this topic, you the learner will be able to demonstrate
-    an understanding of:</b>
+  m_text: '<b>AK0102 Fit-Up and Tack Welding Techniques and Practices:</b>
+
+    Develop
+    proficiency in aligning and fitting up materials for welding.
+
+    Learn techniques
+    for achieving precise fit-up in GTAW.
+
+    Acquire skills in tack welding to
+    temporarily secure components before final welding.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -17866,7 +19190,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11.6
+  m_fontSize: 6.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -18802,152 +20126,230 @@ RectTransform:
   m_AnchoredPosition: {x: -189.99977, y: -133.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1570206084
+--- !u!1001 &1557645824
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1943104966622852835}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0798
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.055000067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.21699905
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Name
+      value: Pipe_To_Weld Secondary
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_TagString
+      value: Secondary Welding Pipe
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f01ba25ea3f3bf54eb6c2d9892dbf957, type: 3}
+--- !u!1 &1557645825 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+    type: 3}
+  m_PrefabInstance: {fileID: 1557645824}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1570206085}
-  - component: {fileID: 1570206087}
-  - component: {fileID: 1570206086}
-  m_Layer: 5
-  m_Name: Text (14)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1570206085
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570206084}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.000011342138}
-  m_LocalScale: {x: 5.6073046, y: 4.3194456, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 636282207}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1570206086
+--- !u!114 &1557645826
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570206084}
-  m_Enabled: 0
+  m_GameObject: {fileID: 1557645825}
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
+  m_InteractionManager: {fileID: 419104659}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4
+  m_SelectMode: 0
+  m_CustomReticle: {fileID: 0}
+  m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<b>Overall Focus:</b>
-
-    The project involves the production of a multi-pass
-    plate butt weld.
-
-    The welding processes used are Gas Tungsten Arc Welding
-    (GTAW) and Shielded Metal Arc Welding (SMAW).
-
-    Applied knowledge encompasses
-    material preparation, fit-up, welding techniques, workpiece cleaning, visual
-    inspection, and considerations for quality, health, safety, and environmental
-    protection.'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AttachTransform: {fileID: 0}
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 5
+  m_TightenPosition: 0.5
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 5
+  m_TightenRotation: 0.5
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 6.2
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 1
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1570206087
-CanvasRenderer:
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_AttachPointCompatibilityMode: 0
+--- !u!54 &1557645827
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570206084}
-  m_CullTransparentMesh: 1
+  m_GameObject: {fileID: 1557645825}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1557645828
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557645825}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0011998364, y: 0.001021996, z: 0.001433218}
+  m_Center: {x: 0.000000009685754, y: -0.000016709193, z: -4.6731414e-20}
 --- !u!1 &1599086609 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3338094112240061718, guid: 877816af3eb5b6e4baf6af284b87a3ac,
@@ -19920,6 +21322,117 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705268434}
   m_CullTransparentMesh: 1
+--- !u!1001 &1708817684
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 793098275}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.062999964
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.08698583
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.45885086
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92387956
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.38268343
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 38fed7074a341d24c932cfc5a0d56c09, type: 2}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Name
+      value: Pipe Placement Secondary
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_TagString
+      value: Secondary Welding Pipe
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f01ba25ea3f3bf54eb6c2d9892dbf957, type: 3}
+--- !u!1 &1708817685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+    type: 3}
+  m_PrefabInstance: {fileID: 1708817684}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1708817686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708817685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d85255d90cd1834fb8d2157ec2d31de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weldingManagement: {fileID: 1943104966622852834}
+--- !u!65 &1708817687
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708817685}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0019999999, y: 0.0019999999, z: 0.0019999999}
+  m_Center: {x: -2.910383e-10, y: 0.000000029802322, z: 0}
 --- !u!1 &1716903635
 GameObject:
   m_ObjectHideFlags: 0
@@ -20580,13 +22093,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<b>Applied Knowledge:
+  m_text: '<b>AK0104 Work Piece Cleaning and Dressing Practices:</b>
 
 
-    1. Material Preparation (AK0101):</b>
+    Learn
+    effective methods for cleaning and preparing workpieces prior to welding.
 
-    Understanding
-    the materials for both GTAW and SMAW processes.'
+    Understand
+    the importance of removing contaminants for successful GTAW.
+
+    Acquire skills
+    in workpiece dressing to ensure proper joint integrity.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -20613,7 +22130,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8.7
+  m_fontSize: 6.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -21272,11 +22789,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<b>Criteria by which you will be assessed:</b>
+  m_text: '<b>ASSESSMENT CRITERIA:</b>
 
-    IAC0101 The minimum
-    requirements of current accepted international standards are met e.g. ASME IX
-    and ISO9606 standards'
+    The minimum requirements of current accepted
+    international standards are met (e.g., ASME IX and ISO9606 standards) (IAC0101):
+
+    Evaluation
+    based on meeting the standards set by international organizations for welding
+    processes.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -21303,7 +22823,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10.1
+  m_fontSize: 7.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -22583,6 +24103,230 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1965110376
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 793098275}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.10779977
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.055000067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.09399986
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_Name
+      value: Pipe_To_Weld Secondary
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+        type: 3}
+      propertyPath: m_TagString
+      value: Secondary Welding Pipe
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f01ba25ea3f3bf54eb6c2d9892dbf957, type: 3}
+--- !u!1 &1965110377 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f01ba25ea3f3bf54eb6c2d9892dbf957,
+    type: 3}
+  m_PrefabInstance: {fileID: 1965110376}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1965110378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965110377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 419104659}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4
+  m_SelectMode: 0
+  m_CustomReticle: {fileID: 0}
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AttachTransform: {fileID: 0}
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 5
+  m_TightenPosition: 0.5
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 5
+  m_TightenRotation: 0.5
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_AttachPointCompatibilityMode: 0
+--- !u!65 &1965110379
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965110377}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0011998364, y: 0.001021996, z: 0.001433218}
+  m_Center: {x: 0.000000009685754, y: -0.000016709193, z: -4.6731414e-20}
+--- !u!54 &1965110380
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965110377}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!64 &2002160946
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22721,11 +24465,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The purpose of this Module 8, (17 credits) \u2013 Plate Combination Welding:
-    The focus of the learning in this module is on providing the learner an opportunity
-    to develop plate butt welding skills to the minimum requirements of internationally
-    accepted welding standards (ASME IX and ISO9606) in a controlled learning environment
-    using the Gas Tungsten Arc and Shielded Metal Arc Welding processes combination."
+  m_text: '<b>Criteria by which you will be assessed:</b>
+
+    The purpose of the
+    module AM-09 Is to Produce a multi-pass pipe butt weld using the Gas Tungsten
+    Arc Welding process," is to provide comprehensive training and education to individuals
+    in the field of welding, specifically focusing on the Gas Tungsten Arc Welding
+    (GTAW) process. The module aims to achieve several key objectives:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -22752,7 +24498,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6.2
+  m_fontSize: 6.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -23328,7 +25074,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 184836330, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.72445
+      value: 1.0114677
+      objectReference: {fileID: 0}
+    - target: {fileID: 184836330, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6573764
+      objectReference: {fileID: 0}
+    - target: {fileID: 184836330, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 281426668, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_InteractionManager
@@ -23360,12 +25114,13 @@ PrefabInstance:
       objectReference: {fileID: 5775971635277191434}
     - target: {fileID: 709222433, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_text
-      value: '<b>2. Joint Configuration (1G):</b>
+      value: '<b>2. Joint Configuration (2G):</b>
 
-        Set up the plates in a
-        flat position (1G).
+        Set up the pipe in the
+        fixed horizontal position (2G).
 
-        Align the plates to create a V butt joint.'
+        Align the pipe to create a V butt
+        joint.'
       objectReference: {fileID: 0}
     - target: {fileID: 709222433, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_Enabled
@@ -23373,7 +25128,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 709222433, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_fontSize
-      value: 11.5
+      value: 10.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 730060462, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_Name
+      value: Pipe in the Fixed Horizontal Position (2G) Cube
       objectReference: {fileID: 0}
     - target: {fileID: 730060466, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23387,7 +25146,7 @@ PrefabInstance:
         and after welding to check for defects.
 
         Ensure the weld meets specified
-        quality standards for the flat position.'
+        quality standards for the horizontal position (2G).'
       objectReference: {fileID: 0}
     - target: {fileID: 959649111, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_Enabled
@@ -23407,10 +25166,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1348837016, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_text
-      value: '<b>Task PA0101: </b>
-
-        Produce a V Butt Plate Weld in the Flat
-        Position (1G)'
+      value: "<b>Task PA0101:</b>\n Produce a V Butt Pipe Weld with the Pipe in the
+        Fixed Horizontal Position (2G)"
       objectReference: {fileID: 0}
     - target: {fileID: 1348837016, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_Enabled
@@ -23418,7 +25175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1348837016, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_fontSize
-      value: 14.6
+      value: 10.9
       objectReference: {fileID: 0}
     - target: {fileID: 1348837016, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -23428,8 +25185,8 @@ PrefabInstance:
       propertyPath: m_text
       value: '<b>1. Material Preparation:</b>
 
-        Gather the plates and ensure
-        they are clean and free of contaminants.
+        Gather the pipe and ensure
+        it is clean and free of contaminants.
 
         Verify the material specifications
         and prepare the edges for a V butt joint.'
@@ -23459,11 +25216,11 @@ PrefabInstance:
       value: '<b>3. Welding Process:</b>
 
         Choose the appropriate welding
-        process (e.g., Gas Tungsten Arc Welding or Shielded Metal Arc Welding).
+        process for pipe welding (e.g., Gas Tungsten Arc Welding or Shielded Metal
+        Arc Welding).
 
-        Execute
-        the V butt plate weld, following the welding procedure and maintaining proper
-        heat input.'
+        Execute the V butt pipe weld, following the welding
+        procedure and maintaining proper heat input.'
       objectReference: {fileID: 0}
     - target: {fileID: 1666366066, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_Enabled
@@ -23471,24 +25228,60 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1666366066, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_fontSize
-      value: 8.25
+      value: 7.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2105226250, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 2105226251, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_text
+      value: Pipe in the Fixed Horizontal Position (2G)
       objectReference: {fileID: 0}
     - target: {fileID: 2105226251, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_fontSize
-      value: 30
+      value: 22.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2105226251, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2105226251, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_enableAutoSizing
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2105226251, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2105226251, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 2
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600504640583298530, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600504640943673082, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600504641494995496, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600504642101664094, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1943104966640649741, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_Name
-      value: Welding Area 1G
+      value: Welding Area 2G
       objectReference: {fileID: 0}
     - target: {fileID: 1943104966640649743, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
@@ -23577,6 +25370,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
+--- !u!114 &1943104966622852834 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1943104966622852833}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b91e171c49bc8b24084564c9bc0086dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1943104966622852835 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1943104966640649743, guid: 7f052b55091b68740911fbcbb5b69beb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1943104966622852833}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5119382519898811378
 PrefabInstance:
   m_ObjectHideFlags: 0

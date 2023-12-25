@@ -8,31 +8,31 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Playground.unity
     guid: 707acc8dffb72b144bb1ffbe1c965f3d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/HomeScene.unity
     guid: 37bf92c8191993a4da28e7b066b39075
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Chem Plant.unity
     guid: c74bf247a2e7aaa4e8fb7b7da2384da0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/WeldingWorkshop One.unity
     guid: 9f39bc2ac4565ab408061057021486f2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/WeldingWorkshop Module Two.unity
     guid: 55497858c1e2a3048a1038ebb0d5a2bb
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/WeldingWorkshop Module Three.unity
     guid: 5d2fcf4d6b22b034284b96dbf5b12c0b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/WeldingWorkshop Module Four.unity
     guid: 9a8fa4b9fd4db2543bea99863d3896be
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/WeldingWorkshop Module Five.unity
     guid: adbc8a7de570e7d4491e8807e541bb3f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/WeldingWorkshop Module Six.unity
     guid: acd15bfd757d58a48a85bf9c1b0af530
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/WeldingWorkshop Module Seven.unity
     guid: 6ea72ff1ae2448743bdf75ee39f22dc5
   - enabled: 1
