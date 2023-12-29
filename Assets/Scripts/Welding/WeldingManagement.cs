@@ -4,13 +4,13 @@ using UnityEngine;
 public class WeldingManagement : MonoBehaviour
 {
     [SerializeField]
-    private SetPlateInPlace LeftPlate, RightPlate;
+    private SetPlateInPlace LeftComponent, RightComponent;
     [SerializeField]
     private GameObject Connector;
     [SerializeField]
     List<GameObject> WeldPoints;
     [SerializeField]
-    private GameObject WeldedPlates;
+    private GameObject WeldedComponent;
         
     private bool IsConnectorEnabled = false, FullyWelded = false;
 
@@ -21,7 +21,7 @@ public class WeldingManagement : MonoBehaviour
 
         //Debug.Log("Fully Welded: " + FullyWelded);
 
-        WeldedPlates.SetActive(FullyWelded);
+        WeldedComponent.SetActive(FullyWelded);
         if (FullyWelded)
         {
             destroyTempWeldBuldges();
@@ -57,7 +57,7 @@ public class WeldingManagement : MonoBehaviour
     private void MonitorConnectorState()
     {
                  
-        if (LeftPlate.getSpaceState() && RightPlate.getSpaceState())
+        if (LeftComponent.getSpaceState() && RightComponent.getSpaceState())
         {
             IsConnectorEnabled = true;
         }
