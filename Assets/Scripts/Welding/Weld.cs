@@ -32,10 +32,14 @@ public class Weld : MonoBehaviour
 
             if (Physics.Raycast(transform.position, -transform.forward, out hit, flameLength, layer_mask))
             {
+                if (BlowTorch.CompareTag("Sparks Particle"))
+                    BlowTorch.Play();
+
                 Instantiate(weldBuldge, hit.point, Quaternion.LookRotation(hit.normal));
             }
-
-            BlowTorch.Play();
+            
+            if (BlowTorch.CompareTag("Flame Particle"))
+                BlowTorch.Play();
         }
         else
         {

@@ -58,6 +58,11 @@ public class SceneGovernance : MonoBehaviour
         SceneManager.LoadScene(10);
     }
 
+    public void loadWeldingWorkshopModuleTen()
+    {
+        SceneManager.LoadScene(11);
+    }
+
     public void quitSimulation()
     {
         Application.Quit();
