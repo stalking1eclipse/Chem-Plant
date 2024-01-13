@@ -23,7 +23,7 @@ public class Weld : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (rightActivate.action.ReadValue<float>() > 0.1f && IsTorchGrasped)
+        if ((rightActivate.action.ReadValue<float>() > 0.1f && IsTorchGrasped) || transform.name == "Test Torch")
         {
             if (!BlowTorch.gameObject.activeSelf)
             {
