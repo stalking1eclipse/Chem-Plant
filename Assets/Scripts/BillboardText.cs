@@ -7,7 +7,7 @@ public class BillboardText : MonoBehaviour
     void Update()
     {
         rotationLook = transform.position - Camera.main.transform.position;
-        rotationLook.y = 0;
+        rotationLook.y = 0; 
         transform.rotation = Quaternion.LookRotation(rotationLook);
 
     }
