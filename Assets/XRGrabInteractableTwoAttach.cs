@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
-
+using System;
 public class XRGrabInteractableTwoAttach : XRGrabInteractable
 {
     [SerializeField]
@@ -10,9 +10,8 @@ public class XRGrabInteractableTwoAttach : XRGrabInteractable
     // Start is called before the first frame update
     protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
-        //attachTransform.position = args.interactorObject.transform.position;
-        //attachTransform.rotation = args.interactorObject.transform.rotation;
         base.OnSelectEntered(args);
+
         if (args.interactorObject.transform.CompareTag("Left Hand"))
         {
             if (LeftAttchPointTransform)
@@ -21,7 +20,7 @@ public class XRGrabInteractableTwoAttach : XRGrabInteractable
             }
             //else
             {
-        
+
             }
 
         }
