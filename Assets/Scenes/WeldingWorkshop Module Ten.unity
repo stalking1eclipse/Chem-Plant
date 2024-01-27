@@ -1044,6 +1044,71 @@ RectTransform:
   m_AnchoredPosition: {x: -189.99977, y: -133.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &58544337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 58544339}
+  - component: {fileID: 58544338}
+  m_Layer: 0
+  m_Name: Flame Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &58544338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58544337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64784c7c8d074224184aa48dee6fd518, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer_mask:
+    serializedVersion: 2
+    m_Bits: 2048
+  BlowTorch: {fileID: 1410513298}
+  weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
+    type: 3}
+  rightActivate:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Activate
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 8af4ad1d-9116-41af-a199-840115549616
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  flameLength: 1
+--- !u!4 &58544339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58544337}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0023169995, y: 0.000051002426, z: 0.00064800016}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1410513299}
+  m_Father: {fileID: 1908233060}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &64605276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1624,6 +1689,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &133132504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 133132505}
+  m_Layer: 0
+  m_Name: Right Attachment Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &133132505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133132504}
+  m_LocalRotation: {x: -0.40710628, y: 0.32233167, z: 0.6285421, w: -0.57905227}
+  m_LocalPosition: {x: -0.000143, y: 0.000237, z: 0.000206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233683660}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -716.2, y: 297.5, z: -97}
 --- !u!198 &141805664 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 1043393645879808203, guid: 87449ab9490c3804ab09e308a164386d,
@@ -2763,6 +2859,257 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!1001 &233683658
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.1103
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.44
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30.68
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_Name
+      value: FabConvert.com_welding+rod (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 323918ce8ba3c8949adf8b2b25452e53, type: 3}
+--- !u!1 &233683659 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 323918ce8ba3c8949adf8b2b25452e53,
+    type: 3}
+  m_PrefabInstance: {fileID: 233683658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &233683660 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+    type: 3}
+  m_PrefabInstance: {fileID: 233683658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &233683661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233683659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2f79ef654674cb409072485848fa8d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 419104659}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4
+  m_SelectMode: 0
+  m_CustomReticle: {fileID: 0}
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 640369236}
+        m_TargetAssemblyTypeName: Weld, Assembly-CSharp
+        m_MethodName: GraspTorch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 640369236}
+        m_TargetAssemblyTypeName: Weld, Assembly-CSharp
+        m_MethodName: ReleaseTorch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AttachTransform: {fileID: 0}
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 5
+  m_TightenPosition: 0.5
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 5
+  m_TightenRotation: 0.5
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_AttachPointCompatibilityMode: 0
+  LeftAttchPointTransform: {fileID: 1739895046}
+  RightAttchPointTransform: {fileID: 133132505}
+--- !u!65 &233683662
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233683659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00029451132, y: 0.00043176473, z: 0.0018477633}
+  m_Center: {x: 0.0000058400583, y: 0.00010340233, z: -0.00012965947}
+--- !u!54 &233683663
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233683659}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!64 &239416755
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3786,7 +4133,7 @@ MonoBehaviour:
     areas and fits comfortably."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4384,6 +4731,92 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324445878}
   m_CullTransparentMesh: 1
+--- !u!1001 &334276868
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 640369237}
+    m_Modifications:
+    - target: {fileID: 5155807742421670449, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_Name
+      value: Sparks
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670449, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d8daecfaa361e5d45b06be782a8b3ce4, type: 3}
+--- !u!198 &334276869 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5155807742421670451, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+    type: 3}
+  m_PrefabInstance: {fileID: 334276868}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &334276870 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+    type: 3}
+  m_PrefabInstance: {fileID: 334276868}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &334350566
 GameObject:
   m_ObjectHideFlags: 0
@@ -6724,7 +7157,7 @@ MonoBehaviour:
   m_text: 'All students must be in full PPE gear before entering the environment. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6863,7 +7296,7 @@ MonoBehaviour:
     ready for future use.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7675,7 +8108,7 @@ MonoBehaviour:
     protect your feet from sparks, heavy objects, and hot materials."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8409,6 +8842,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636282206}
   m_CullTransparentMesh: 1
+--- !u!1 &640369235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 640369237}
+  - component: {fileID: 640369236}
+  m_Layer: 0
+  m_Name: Flame Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &640369236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640369235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64784c7c8d074224184aa48dee6fd518, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer_mask:
+    serializedVersion: 2
+    m_Bits: 2048
+  BlowTorch: {fileID: 334276869}
+  weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
+    type: 3}
+  rightActivate:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Activate
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 8af4ad1d-9116-41af-a199-840115549616
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  flameLength: 1
+--- !u!4 &640369237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640369235}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0023169995, y: 0.000051002426, z: 0.00064800016}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 334276870}
+  m_Father: {fileID: 233683660}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &643114412
 GameObject:
   m_ObjectHideFlags: 0
@@ -8961,6 +9459,7 @@ MonoBehaviour:
   - {fileID: 643114413}
   - {fileID: 50029585}
   UICanvas: {fileID: 716866895}
+  InstructionParentUICanvas: {fileID: 0}
 --- !u!114 &716866898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9083,7 +9582,7 @@ MonoBehaviour:
     welding jacket, and appropriate footwear.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9514,7 +10013,7 @@ MonoBehaviour:
     starting the welding process."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9985,7 +10484,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &849085249
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10034,6 +10533,7 @@ MonoBehaviour:
   - {fileID: 487086936}
   - {fileID: 1075032514}
   UICanvas: {fileID: 849085248}
+  InstructionParentUICanvas: {fileID: 1399623592}
 --- !u!114 &849085251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12360,6 +12860,7 @@ MonoBehaviour:
   - {fileID: 1204246972}
   - {fileID: 7471369}
   UICanvas: {fileID: 1012079416}
+  InstructionParentUICanvas: {fileID: 0}
 --- !u!114 &1012079419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13318,6 +13819,37 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0019999999, y: 0.0019999999, z: 0.0019999999}
   m_Center: {x: -2.910383e-10, y: 0.000000029802322, z: 0}
+--- !u!1 &1033253815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1033253816}
+  m_Layer: 0
+  m_Name: Right Attachment Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1033253816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033253815}
+  m_LocalRotation: {x: -0.40710628, y: 0.32233167, z: 0.6285421, w: -0.57905227}
+  m_LocalPosition: {x: -0.000143, y: 0.000237, z: 0.000206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1908233060}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -716.2, y: 297.5, z: -97}
 --- !u!1 &1036998412
 GameObject:
   m_ObjectHideFlags: 0
@@ -13360,7 +13892,7 @@ MonoBehaviour:
     the necessary PPE for your specific welding task.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14174,7 +14706,7 @@ MonoBehaviour:
     them. Only after wearing the gear can you proceed to the rest of the environment.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14382,6 +14914,37 @@ RectTransform:
   m_AnchoredPosition: {x: -106, y: -133.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1090776429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1090776430}
+  m_Layer: 0
+  m_Name: Left Attachment Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1090776430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090776429}
+  m_LocalRotation: {x: -0.35810044, y: 0.45550567, z: 0.47375175, w: -0.66320276}
+  m_LocalPosition: {x: -0.000124, y: -0.000251, z: 0.000161}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1908233060}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -717.513, y: -430.8, z: -72.847}
 --- !u!1 &1100779273
 GameObject:
   m_ObjectHideFlags: 0
@@ -19526,7 +20089,7 @@ MonoBehaviour:
     fit.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19869,7 +20432,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1399623593
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20089,6 +20652,7 @@ MonoBehaviour:
   - {fileID: 1224068345}
   - {fileID: 1344753814}
   UICanvas: {fileID: 1402594500}
+  InstructionParentUICanvas: {fileID: 0}
 --- !u!114 &1402594503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20169,6 +20733,92 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!1001 &1410513297
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 58544339}
+    m_Modifications:
+    - target: {fileID: 5155807742421670449, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_Name
+      value: Sparks
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670449, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d8daecfaa361e5d45b06be782a8b3ce4, type: 3}
+--- !u!198 &1410513298 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5155807742421670451, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1410513297}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1410513299 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1410513297}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1424652775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24113,6 +24763,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739840203}
   m_CullTransparentMesh: 1
+--- !u!1 &1739895045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1739895046}
+  m_Layer: 0
+  m_Name: Left Attachment Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1739895046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739895045}
+  m_LocalRotation: {x: -0.35810044, y: 0.45550567, z: 0.47375175, w: -0.66320276}
+  m_LocalPosition: {x: -0.000124, y: -0.000251, z: 0.000161}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 233683660}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -717.513, y: -430.8, z: -72.847}
 --- !u!1 &1742519381
 GameObject:
   m_ObjectHideFlags: 0
@@ -24561,6 +25242,7 @@ MonoBehaviour:
   - {fileID: 1950108037}
   - {fileID: 588287055}
   UICanvas: {fileID: 1836743103}
+  InstructionParentUICanvas: {fileID: 0}
 --- !u!114 &1836743106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24969,6 +25651,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   UICanvas: {fileID: 1869022869}
+  InstructionParentUICanvas: {fileID: 0}
 --- !u!114 &1869022872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25503,7 +26186,7 @@ MonoBehaviour:
     sparks, and molten metal. Ensure the gloves fit snugly but allow for movement."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -25597,6 +26280,257 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1908233058
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.1103
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.44
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.83
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 323918ce8ba3c8949adf8b2b25452e53,
+        type: 3}
+      propertyPath: m_Name
+      value: FabConvert.com_welding+rod (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 323918ce8ba3c8949adf8b2b25452e53, type: 3}
+--- !u!1 &1908233059 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 323918ce8ba3c8949adf8b2b25452e53,
+    type: 3}
+  m_PrefabInstance: {fileID: 1908233058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1908233060 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 323918ce8ba3c8949adf8b2b25452e53,
+    type: 3}
+  m_PrefabInstance: {fileID: 1908233058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1908233061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908233059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2f79ef654674cb409072485848fa8d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 419104659}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4
+  m_SelectMode: 0
+  m_CustomReticle: {fileID: 0}
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 58544338}
+        m_TargetAssemblyTypeName: Weld, Assembly-CSharp
+        m_MethodName: GraspTorch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 58544338}
+        m_TargetAssemblyTypeName: Weld, Assembly-CSharp
+        m_MethodName: ReleaseTorch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AttachTransform: {fileID: 0}
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 5
+  m_TightenPosition: 0.5
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 5
+  m_TightenRotation: 0.5
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_AttachPointCompatibilityMode: 0
+  LeftAttchPointTransform: {fileID: 1090776430}
+  RightAttchPointTransform: {fileID: 1033253816}
+--- !u!65 &1908233062
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908233059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00029451132, y: 0.00043176473, z: 0.0018477633}
+  m_Center: {x: 0.0000058400583, y: 0.00010340233, z: -0.00012965947}
+--- !u!54 &1908233063
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908233059}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1908380549
 GameObject:
   m_ObjectHideFlags: 0
@@ -25930,6 +26864,7 @@ MonoBehaviour:
   - {fileID: 1244940981}
   - {fileID: 626767278}
   UICanvas: {fileID: 1944490647}
+  InstructionParentUICanvas: {fileID: 0}
 --- !u!114 &1944490650
 MonoBehaviour:
   m_ObjectHideFlags: 0

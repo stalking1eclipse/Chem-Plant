@@ -10,12 +10,16 @@ public class InstructionUIManager : MonoBehaviour
 
     [SerializeField]
     GameObject StorageUICanvas;
+
     // Start is called before the first frame update
 
     public void activateUsageCanvas()
     {
         if (!UsageAndHandlingUICanvas.activeSelf)
+        {
             UsageAndHandlingUICanvas.SetActive(true);
+            gameObject.SetActive(false);
+        }
 
         if (StorageUICanvas.activeSelf && CareUICanvas.activeSelf)
         {
@@ -27,7 +31,11 @@ public class InstructionUIManager : MonoBehaviour
     public void activateCareCanvas()
     {
         if (!CareUICanvas.activeSelf)
+        {
             CareUICanvas.SetActive(true);
+            gameObject.SetActive(false);
+        }
+            
 
         if(StorageUICanvas.activeSelf && UsageAndHandlingUICanvas.activeSelf)
         {
@@ -39,7 +47,11 @@ public class InstructionUIManager : MonoBehaviour
     public void activateStorageCanvas()
     {
         if (!StorageUICanvas.activeSelf)
+        {
             StorageUICanvas.SetActive(true);
+            gameObject.SetActive(false);
+        }
+            
 
         if (CareUICanvas.activeSelf && UsageAndHandlingUICanvas.activeSelf)
         {

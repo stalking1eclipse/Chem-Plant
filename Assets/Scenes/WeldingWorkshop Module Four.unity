@@ -8362,7 +8362,7 @@ MonoBehaviour:
     Thank you.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14892,7 +14892,7 @@ PrefabInstance:
     - target: {fileID: 4436677900230096393, guid: 18c3f3934557a9b4f85869ac4214efa9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.33
+      value: 0.163
       objectReference: {fileID: 0}
     - target: {fileID: 4436677900230096393, guid: 18c3f3934557a9b4f85869ac4214efa9,
         type: 3}
@@ -14902,7 +14902,7 @@ PrefabInstance:
     - target: {fileID: 4436677900230096393, guid: 18c3f3934557a9b4f85869ac4214efa9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.394
+      value: -0.147
       objectReference: {fileID: 0}
     - target: {fileID: 4436677900230096393, guid: 18c3f3934557a9b4f85869ac4214efa9,
         type: 3}
@@ -46950,7 +46950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1402594501
 RectTransform:
   m_ObjectHideFlags: 0
