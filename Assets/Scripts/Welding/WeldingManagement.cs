@@ -11,13 +11,23 @@ public class WeldingManagement : MonoBehaviour
     List<GameObject> WeldPoints;
     [SerializeField]
     private GameObject WeldedComponent;
+    [SerializeField]
+    private GameObject RotationInputs;
         
-    private bool IsConnectorEnabled = false, FullyWelded = false;
+    public bool IsConnectorEnabled = false, FullyWelded = false;
 
     // Update is called once per frame
     void Update()
     {
         MonitorConnectorState();
+
+        if (IsConnectorEnabled)
+        {
+            if (RotationInputs != null && !RotationInputs.activeSelf)
+            {
+                RotationInputs.SetActive(true);
+            }
+        }
 
         //Debug.Log("Fully Welded: " + FullyWelded);
 
