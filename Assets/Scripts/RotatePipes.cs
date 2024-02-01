@@ -1,29 +1,32 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class RotatePipes : MonoBehaviour
 {
-    [SerializeField] private WeldingManagement WeldingManagement;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] 
+    private WeldingManagement WeldingManagement; 
+    
+    [SerializeField]
+    InputActionProperty rightActivate;
+
+    [SerializeField]
+    private Vector3 rotationVector;
 
     // Update is called once per frame
     void Update()
     {
-        
+        PositiveRotation();
     }
 
     public void PositiveRotation()
     {
-        if (WeldingManagement.IsConnectorEnabled)
-            gameObject.transform.Rotate(transform.rotation.x, transform.rotation.y, transform.rotation.z + 45f);
+        //if (WeldingManagement.IsConnectorEnabled && rightActivate.action.ReadValue<float>() > 0.1f)
+            gameObject.transform.Rotate(rotationVector * Time.deltaTime);
     }
 
     public void NegativeRotation()
     {
-        if (WeldingManagement.IsConnectorEnabled)
-            gameObject.transform.Rotate(transform.rotation.x, transform.rotation.y, transform.rotation.z - 45f);
+        if (WeldingManagement.IsConnectorEnabled && rightActivate.action.ReadValue<float>() > 0.1f)
+            gameObject.transform.Rotate(-rotationVector * Time.deltaTime);
     }
 }

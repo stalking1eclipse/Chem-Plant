@@ -7866,6 +7866,9 @@ MonoBehaviour:
   - {fileID: 1943104967342566171}
   - {fileID: 1943104966768529510}
   WeldedComponent: {fileID: 0}
+  RotationInputs: {fileID: 0}
+  IsConnectorEnabled: 0
+  FullyWelded: 0
 --- !u!1 &1943104966768529510
 GameObject:
   m_ObjectHideFlags: 0
@@ -9297,7 +9300,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d8ed77d09a9e24640a9e3b7b581b7b51,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 34.374996
+      value: 34.37499
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d8ed77d09a9e24640a9e3b7b581b7b51,
         type: 3}
