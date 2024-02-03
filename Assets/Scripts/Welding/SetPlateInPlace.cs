@@ -26,6 +26,10 @@ public class SetPlateInPlace : MonoBehaviour
                 Destroy(other.gameObject);
             }
         }
+        else
+        {
+            Debug.Log("Incorrect object placement");
+        }
     }
 
     private void OnTriggerExit(Collider other)

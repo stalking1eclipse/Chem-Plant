@@ -20,7 +20,7 @@ public class RotatePipes : MonoBehaviour
 
     public void PositiveRotation()
     {
-        //if (WeldingManagement.IsConnectorEnabled && rightActivate.action.ReadValue<float>() > 0.1f)
+        if (WeldingManagement.IsConnectorEnabled && rightActivate.action.ReadValue<float>() > 0.1f)
             gameObject.transform.Rotate(rotationVector * Time.deltaTime);
     }
 
