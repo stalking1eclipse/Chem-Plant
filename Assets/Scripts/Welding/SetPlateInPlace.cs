@@ -5,6 +5,12 @@ public class SetPlateInPlace : MonoBehaviour
     private bool IsSpaceOccupied { set; get; }
     [SerializeField]
     private WeldingManagement weldingManagement;
+    [SerializeField]
+    private Transform head;
+    [SerializeField]
+    private float spawnDistance = 2;
+    [SerializeField]
+    private GameObject menu;
 
     private void Start()
     {
@@ -29,6 +35,16 @@ public class SetPlateInPlace : MonoBehaviour
         else
         {
             Debug.Log("Incorrect object placement");
+
+            if (!menu.activeSelf)
+            {
+                menu.SetActive(true);
+            }
+
+            menu.transform.position = head.position + new Vector3(head.forward.x, 0f, head.forward.z).normalized * spawnDistance;
+
+            menu.transform.LookAt(new Vector3(head.position.x, head.position.y, head.position.z));
+            menu.transform.forward *= -1;
         }
     }
 
