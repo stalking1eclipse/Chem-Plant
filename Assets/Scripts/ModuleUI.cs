@@ -8,7 +8,7 @@ public class ModuleUI : MonoBehaviour
     List<TextMeshProUGUI> textMeshProUGUI;
 
     [SerializeField]
-    GameObject UICanvas;
+    GameObject UICanvas, InstructionParentUICanvas;
 
     public void nextPage()
     {
@@ -52,5 +52,8 @@ public class ModuleUI : MonoBehaviour
     public void closeContent()
     {
         UICanvas.SetActive(false);
+        
+        if (!InstructionParentUICanvas.activeSelf)
+            InstructionParentUICanvas.SetActive(true);
     }
 }

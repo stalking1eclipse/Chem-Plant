@@ -816,6 +816,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Legend Menu",
+                    "type": "Button",
+                    "id": "c31e4b1b-33cc-45e4-8ea8-05b598907fb1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -994,6 +1003,17 @@
                     "action": "Translate Anchor",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "1bbbd216-fde0-4c0b-a745-08655a4be90b",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Legend Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
