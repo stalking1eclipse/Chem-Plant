@@ -71471,8 +71471,34 @@ PrefabInstance:
       objectReference: {fileID: 1431828758}
     - target: {fileID: 5119382519535387016, guid: 4f1780e239bcc234f9d64cf2faf7b2fb,
         type: 3}
+      propertyPath: Legend
+      value: 
+      objectReference: {fileID: 2022160046}
+    - target: {fileID: 5119382519535387016, guid: 4f1780e239bcc234f9d64cf2faf7b2fb,
+        type: 3}
       propertyPath: spawnDistance
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119382519535387016, guid: 4f1780e239bcc234f9d64cf2faf7b2fb,
+        type: 3}
+      propertyPath: showLegendButton.m_Reference
+      value: 
+      objectReference: {fileID: 2927788760654432196, guid: c348712bda248c246b8c49b3db54643f,
+        type: 3}
+    - target: {fileID: 5119382519535387016, guid: 4f1780e239bcc234f9d64cf2faf7b2fb,
+        type: 3}
+      propertyPath: showLegendButton.m_Action.m_Id
+      value: 80a44b78-de80-4087-b63a-6483eede56e5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119382519535387016, guid: 4f1780e239bcc234f9d64cf2faf7b2fb,
+        type: 3}
+      propertyPath: showLegendButton.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119382519535387016, guid: 4f1780e239bcc234f9d64cf2faf7b2fb,
+        type: 3}
+      propertyPath: showLegendButton.m_Action.m_Name
+      value: Show Legend Button
       objectReference: {fileID: 0}
     - target: {fileID: 5119382519535387018, guid: 4f1780e239bcc234f9d64cf2faf7b2fb,
         type: 3}
