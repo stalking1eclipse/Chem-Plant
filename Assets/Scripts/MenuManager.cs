@@ -4,8 +4,9 @@ public class MenuManager : MonoBehaviour
 {
     public Transform head;
     public float spawnDistance = 2;
-    public GameObject menu;
+    public GameObject menu, Legend;
     public InputActionProperty showButton;
+    public InputActionProperty showLegendButton;
 
     // Update is called once per frame
     void Update()
