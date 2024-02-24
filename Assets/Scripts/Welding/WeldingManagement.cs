@@ -28,7 +28,6 @@ public class WeldingManagement : MonoBehaviour
             }
         }
 
-        WeldedComponent.SetActive(FullyWelded);
         if (FullyWelded)
         {
             destroyTempWeldBuldges();
@@ -38,22 +37,28 @@ public class WeldingManagement : MonoBehaviour
 
     void FixedUpdate()
     {
+        int index = WeldPoints.ToArray().Length;
+        int i = 0;
+
         foreach(GameObject weldPoint in WeldPoints)
         {
             if (weldPoint != null && !FullyWelded)
             {
-                WeldPoint _weldpoint = weldPoint.GetComponent<WeldPoint>();
-                if (!_weldpoint.getPointState())
+                if (!weldPoint.GetComponent<WeldPoint>().getPointState())
                 {
                     FullyWelded = false;
                     break;
                 }
                 else
                 {
-                    FullyWelded = true;
+                    i++;
                 }
-            }
+            }            
         }
+
+        if (i == index)
+            FullyWelded=true;
+            WeldedComponent.SetActive(FullyWelded);
     }
 
     public bool IsFullyWelded()
