@@ -52,7 +52,7 @@ public class SceneGovernance : MonoBehaviour
     {
         SceneManager.LoadScene(9);
     }
-    
+
     public void loadWeldingWorkshopModuleNine()
     {
         SceneManager.LoadScene(10);
@@ -62,7 +62,7 @@ public class SceneGovernance : MonoBehaviour
     {
         SceneManager.LoadScene(11);
     }
-    
+
     public void loadWeldingWorkshopAssessmentScene()
     {
         SceneManager.LoadScene(12);

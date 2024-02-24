@@ -7,26 +7,58 @@ public class RotatePipes : MonoBehaviour
     private WeldingManagement WeldingManagement; 
     
     [SerializeField]
-    InputActionProperty rightActivate;
+    InputActionProperty rightActivate, leftActivate;
 
     [SerializeField]
     private Vector3 rotationVector;
 
+    bool rotatePositively = false
+        , rotateNegatively = false;
+
     // Update is called once per frame
     void Update()
     {
-        //PositiveRotation();
+        if (rotatePositively)
+        {
+            if (rotateNegatively)
+                rotateNegatively = !rotateNegatively;
+            
+            PositiveRotation();
+        }
+        else if (rotateNegatively)
+        {
+            if (rotatePositively)
+                rotatePositively = !rotatePositively;
+
+            NegativeRotation();
+        }        
     }
 
-    public void PositiveRotation()
-    {
-        if (WeldingManagement.IsConnectorEnabled && rightActivate.action.ReadValue<float>() > 0.1f)
-            gameObject.transform.Rotate(rotationVector * Time.deltaTime);
+    private void PositiveRotation()
+    { 
+        Debug.Log("Positive Rotation");
+        gameObject.transform.Rotate(rotationVector * Time.deltaTime);
     }
 
-    public void NegativeRotation()
+    private void NegativeRotation()
     {
-        if (WeldingManagement.IsConnectorEnabled && rightActivate.action.ReadValue<float>() > 0.1f)
-            gameObject.transform.Rotate(-rotationVector * Time.deltaTime);
+        Debug.Log("Negative Rotation");
+        gameObject.transform.Rotate(-rotationVector * Time.deltaTime);
+    }
+
+    public void RotatePositive()
+    {
+        rotatePositively = true;
+    }
+
+    public void RotateNegative()
+    {
+        rotateNegatively = true;
+    }
+
+    public void PauseRotation()
+    {
+        rotatePositively = false;
+        rotateNegatively = false;
     }
 }

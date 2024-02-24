@@ -14,12 +14,16 @@ public class Weld : MonoBehaviour
     GameObject weldBuldge;
 
     [SerializeField]
+    WeldingManagement weldingManagement;
+
+    [SerializeField]
     InputActionProperty rightActivate;
 
     [SerializeField]
     float flameLength = 10f;
 
     bool IsTorchGrasped;
+
     // Update is called once per frame
     void Update()
     {
@@ -35,7 +39,8 @@ public class Weld : MonoBehaviour
                 if (BlowTorch.CompareTag("Sparks Particle"))
                     BlowTorch.Play();
 
-                Instantiate(weldBuldge, hit.point, Quaternion.LookRotation(hit.normal));
+                GameObject buldgeObject = Instantiate(weldBuldge, hit.point, Quaternion.LookRotation(hit.normal));
+                buldgeObject.transform.parent = weldingManagement.Connector.transform;
             }
             
             if (BlowTorch.CompareTag("Flame Particle"))

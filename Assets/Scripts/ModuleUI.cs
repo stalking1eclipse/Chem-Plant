@@ -53,7 +53,7 @@ public class ModuleUI : MonoBehaviour
     {
         UICanvas.SetActive(false);
         
-        if (!InstructionParentUICanvas.activeSelf)
+        if (InstructionParentUICanvas && !InstructionParentUICanvas.activeSelf)
             InstructionParentUICanvas.SetActive(true);
     }
 }
