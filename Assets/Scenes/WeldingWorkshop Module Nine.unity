@@ -5824,6 +5824,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 141805664}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
+  weldingManagement: {fileID: 0}
   rightActivate:
     m_UseReference: 0
     m_Action:
@@ -7378,6 +7379,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 1135181666}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
+  weldingManagement: {fileID: 0}
   rightActivate:
     m_UseReference: 1
     m_Action:
@@ -7427,6 +7429,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 1135181666}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
+  weldingManagement: {fileID: 0}
   rightActivate:
     m_UseReference: 1
     m_Action:
@@ -12323,6 +12326,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 1135181666}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
+  weldingManagement: {fileID: 0}
   rightActivate:
     m_UseReference: 1
     m_Action:
@@ -14030,6 +14034,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 1135181666}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
+  weldingManagement: {fileID: 0}
   rightActivate:
     m_UseReference: 1
     m_Action:
@@ -20870,6 +20875,18 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+  leftActivate:
+    m_UseReference: 0
+    m_Action:
+      m_Name: 
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   rotationVector: {x: 0, y: 0, z: 45}
 --- !u!1 &1282231997
 GameObject:
@@ -23597,6 +23614,18 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+  leftActivate:
+    m_UseReference: 0
+    m_Action:
+      m_Name: 
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   rotationVector: {x: 0, y: 45, z: 0}
 --- !u!1 &1464672441
 GameObject:
@@ -27121,6 +27150,18 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+  leftActivate:
+    m_UseReference: 0
+    m_Action:
+      m_Name: 
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   rotationVector: {x: 0, y: 0, z: 45}
 --- !u!1 &1762542929
 GameObject:
@@ -30940,6 +30981,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!64 &1995896581
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168836519}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1042801323994665371, guid: 877816af3eb5b6e4baf6af284b87a3ac, type: 3}
 --- !u!64 &2002160946
 MeshCollider:
   m_ObjectHideFlags: 0

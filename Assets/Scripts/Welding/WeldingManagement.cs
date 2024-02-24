@@ -81,7 +81,8 @@ public class WeldingManagement : MonoBehaviour
 
         foreach(GameObject WeldedBuldge in WeldedBuldges)
         {
-            Destroy(WeldedBuldge);
+            if (WeldedBuldge.transform.parent == Connector)
+                Destroy(WeldedBuldge);
         }
     }
 }
