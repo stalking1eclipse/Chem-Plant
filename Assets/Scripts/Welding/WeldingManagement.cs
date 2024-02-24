@@ -5,8 +5,7 @@ public class WeldingManagement : MonoBehaviour
 {
     [SerializeField]
     private SetPlateInPlace LeftComponent, RightComponent;
-    [SerializeField]
-    private GameObject Connector;
+    public GameObject Connector;
     [SerializeField]
     List<GameObject> WeldPoints;
     [SerializeField]
@@ -29,8 +28,6 @@ public class WeldingManagement : MonoBehaviour
             }
         }
 
-        //Debug.Log("Fully Welded: " + FullyWelded);
-
         WeldedComponent.SetActive(FullyWelded);
         if (FullyWelded)
         {
@@ -43,7 +40,7 @@ public class WeldingManagement : MonoBehaviour
     {
         foreach(GameObject weldPoint in WeldPoints)
         {
-            if (weldPoint != null)
+            if (weldPoint != null && !FullyWelded)
             {
                 WeldPoint _welpoint = weldPoint.GetComponent<WeldPoint>();
                 if (!_welpoint.getPointState())

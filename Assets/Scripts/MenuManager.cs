@@ -13,12 +13,20 @@ public class MenuManager : MonoBehaviour
     {
         if (showButton.action.WasPressedThisFrame())
         {
+            if (Legend.activeSelf)
+            {
+                Legend.SetActive(!Legend.activeSelf);
+            }
             menu.SetActive(!menu.activeSelf);
         }
 
         if (showLegendButton.action.WasPressedThisFrame() )
         {
-            Legend.SetActive(!menu.activeSelf);
+            if (menu.activeSelf)
+            {
+                menu.SetActive(!menu.activeSelf);
+            }
+            Legend.SetActive(!Legend.activeSelf);
         }
 
         menu.transform.position = head.position + new Vector3(head.forward.x, 0f, head.forward.z).normalized * spawnDistance;
