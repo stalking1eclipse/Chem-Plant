@@ -42,8 +42,8 @@ public class WeldingManagement : MonoBehaviour
         {
             if (weldPoint != null && !FullyWelded)
             {
-                WeldPoint _welpoint = weldPoint.GetComponent<WeldPoint>();
-                if (!_welpoint.getPointState())
+                WeldPoint _weldpoint = weldPoint.GetComponent<WeldPoint>();
+                if (!_weldpoint.getPointState())
                 {
                     FullyWelded = false;
                     break;

@@ -3644,6 +3644,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1943104966640649740, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1943104966640649741, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_Name
@@ -3994,7 +3999,8 @@ PrefabInstance:
       propertyPath: WeldedComponent
       value: 
       objectReference: {fileID: 281079165}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1943104966640649740, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
 --- !u!114 &281079162 stripped
 MonoBehaviour:
@@ -5878,7 +5884,8 @@ PrefabInstance:
       propertyPath: WeldedComponent
       value: 
       objectReference: {fileID: 408696912}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1943104966640649740, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
 --- !u!114 &408696909 stripped
 MonoBehaviour:
@@ -28452,6 +28459,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1943104966768529512, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1943104966768529513, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4559992
+      objectReference: {fileID: 0}
     - target: {fileID: 1943104966773728272, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: head
@@ -28477,6 +28494,16 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1943104967342566170, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 1943104967342566173, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1943104967374106490, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: head
@@ -28487,6 +28514,16 @@ PrefabInstance:
       propertyPath: menu
       value: 
       objectReference: {fileID: 2108065005}
+    - target: {fileID: 1943104968070152760, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.45800078
+      objectReference: {fileID: 0}
+    - target: {fileID: 1943104968070152763, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2125121579229615168, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28557,7 +28594,8 @@ PrefabInstance:
       propertyPath: WeldedComponent
       value: 
       objectReference: {fileID: 1943104966622852834}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1943104966640649740, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7f052b55091b68740911fbcbb5b69beb, type: 3}
 --- !u!1 &1943104966622852834 stripped
 GameObject:
