@@ -4952,24 +4952,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
-      propertyPath: WeldPoints.Array.data[0]
-      value: 
-      objectReference: {fileID: 1023724040}
-    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
-        type: 3}
-      propertyPath: WeldPoints.Array.data[1]
-      value: 
-      objectReference: {fileID: 1023724039}
-    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
-        type: 3}
-      propertyPath: WeldPoints.Array.data[2]
-      value: 
-      objectReference: {fileID: 1023724038}
-    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
-        type: 3}
       propertyPath: WeldPoints.Array.data[3]
       value: 
-      objectReference: {fileID: 1023724037}
+      objectReference: {fileID: 1044497906}
     - target: {fileID: 8753035348718736389, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -7703,24 +7688,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
-      propertyPath: WeldPoints.Array.data[0]
-      value: 
-      objectReference: {fileID: 863487113}
-    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
-        type: 3}
-      propertyPath: WeldPoints.Array.data[1]
-      value: 
-      objectReference: {fileID: 863487112}
-    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
-        type: 3}
-      propertyPath: WeldPoints.Array.data[2]
-      value: 
-      objectReference: {fileID: 863487111}
-    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
-        type: 3}
       propertyPath: WeldPoints.Array.data[3]
       value: 
-      objectReference: {fileID: 863487110}
+      objectReference: {fileID: 767925026}
     - target: {fileID: 8753035348718736389, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -13746,30 +13716,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &863487110 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8036143233479497535, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 408696908}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &863487111 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 83331053263180456, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 408696908}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &863487112 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5709813135275875894, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 408696908}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &863487113 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3825657556694204706, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 408696908}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &863669550
 GameObject:
   m_ObjectHideFlags: 0
@@ -17550,7 +17496,7 @@ PrefabInstance:
     - target: {fileID: 4786381182638189613, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4888885618982806906, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
@@ -17615,7 +17561,7 @@ PrefabInstance:
     - target: {fileID: 6443622077167357432, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
@@ -17649,24 +17595,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
-      propertyPath: WeldPoints.Array.data[0]
-      value: 
-      objectReference: {fileID: 1173505353}
-    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
-        type: 3}
-      propertyPath: WeldPoints.Array.data[1]
-      value: 
-      objectReference: {fileID: 1173505352}
-    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
-        type: 3}
-      propertyPath: WeldPoints.Array.data[2]
-      value: 
-      objectReference: {fileID: 1173505351}
-    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
-        type: 3}
       propertyPath: WeldPoints.Array.data[3]
       value: 
-      objectReference: {fileID: 1173505350}
+      objectReference: {fileID: 1724249025}
     - target: {fileID: 7769040605376980228, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_Center.x
@@ -17875,30 +17806,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0019999999, y: 0.0019999999, z: 0.0019999999}
   m_Center: {x: -2.910383e-10, y: 0.000000029802322, z: 0}
---- !u!1 &1023724037 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8036143233479497535, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 281079161}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1023724038 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 83331053263180456, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 281079161}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1023724039 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5709813135275875894, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 281079161}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1023724040 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3825657556694204706, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 281079161}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1033253815
 GameObject:
   m_ObjectHideFlags: 0
@@ -22043,30 +21950,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3960633121319817637, guid: 877816af3eb5b6e4baf6af284b87a3ac, type: 3}
---- !u!1 &1173505350 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8036143233479497535, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1014086978}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1173505351 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 83331053263180456, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1014086978}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1173505352 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5709813135275875894, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1014086978}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1173505353 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3825657556694204706, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1014086978}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1180236470
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31633,7 +31516,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726694493}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.02, y: 1.41, z: -24.33}
+  m_LocalPosition: {x: 4.02, y: 1.0300001, z: -24.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -32579,30 +32462,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824488475}
   m_CullTransparentMesh: 1
---- !u!1 &1832181696 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8036143233479497535, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1943104966622852833}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1832181697 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 83331053263180456, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1943104966622852833}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1832181698 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5709813135275875894, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1943104966622852833}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1832181699 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3825657556694204706, guid: 7f052b55091b68740911fbcbb5b69beb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1943104966622852833}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1836743103
 GameObject:
   m_ObjectHideFlags: 0
@@ -37494,24 +37353,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
-      propertyPath: WeldPoints.Array.data[0]
-      value: 
-      objectReference: {fileID: 1832181699}
-    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
-        type: 3}
-      propertyPath: WeldPoints.Array.data[1]
-      value: 
-      objectReference: {fileID: 1832181698}
-    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
-        type: 3}
-      propertyPath: WeldPoints.Array.data[2]
-      value: 
-      objectReference: {fileID: 1832181697}
-    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
-        type: 3}
       propertyPath: WeldPoints.Array.data[3]
       value: 
-      objectReference: {fileID: 1832181696}
+      objectReference: {fileID: 244460191}
     - target: {fileID: 7769040605376980228, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_Radius
@@ -37873,7 +37717,7 @@ PrefabInstance:
     - target: {fileID: 5775971635632576668, guid: 2073356f48de46c4b89c126e54f79d66,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.57
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 5775971635632576668, guid: 2073356f48de46c4b89c126e54f79d66,
         type: 3}

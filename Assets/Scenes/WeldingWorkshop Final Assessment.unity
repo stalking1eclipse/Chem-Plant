@@ -1207,6 +1207,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 1410513298}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
+  weldingManagement: {fileID: 0}
   rightActivate:
     m_UseReference: 1
     m_Action:
@@ -6436,6 +6437,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 141805664}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
+  weldingManagement: {fileID: 0}
   rightActivate:
     m_UseReference: 0
     m_Action:
@@ -8178,6 +8180,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 2032852354}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
+  weldingManagement: {fileID: 0}
   rightActivate:
     m_UseReference: 1
     m_Action:
@@ -10994,6 +10997,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 334276869}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
+  weldingManagement: {fileID: 0}
   rightActivate:
     m_UseReference: 1
     m_Action:
@@ -14799,6 +14803,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 1135181666}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
+  weldingManagement: {fileID: 0}
   rightActivate:
     m_UseReference: 1
     m_Action:
@@ -18019,6 +18024,18 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+  leftActivate:
+    m_UseReference: 0
+    m_Action:
+      m_Name: 
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   rotationVector: {x: 0, y: 0, z: 45}
 --- !u!64 &1059740248
 MeshCollider:
@@ -19063,6 +19080,18 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+  leftActivate:
+    m_UseReference: 0
+    m_Action:
+      m_Name: 
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   rotationVector: {x: 0, y: 45, z: 0}
 --- !u!1 &1118572333
 GameObject:
@@ -21345,6 +21374,18 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+  leftActivate:
+    m_UseReference: 0
+    m_Action:
+      m_Name: 
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   rotationVector: {x: 0, y: 0, z: 45}
 --- !u!1 &1196678132
 GameObject:
@@ -29374,6 +29415,18 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+  leftActivate:
+    m_UseReference: 0
+    m_Action:
+      m_Name: 
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   rotationVector: {x: 0, y: 0, z: 45}
 --- !u!1 &1689459583
 GameObject:
@@ -30705,7 +30758,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726694493}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.02, y: 1.41, z: -24.33}
+  m_LocalPosition: {x: 4.02, y: 1.0200001, z: -24.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31417,6 +31470,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 1488185047}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
+  weldingManagement: {fileID: 0}
   rightActivate:
     m_UseReference: 1
     m_Action:
@@ -36905,7 +36959,7 @@ PrefabInstance:
     - target: {fileID: 5775971635632576668, guid: 2073356f48de46c4b89c126e54f79d66,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.57
+      value: 2.18
       objectReference: {fileID: 0}
     - target: {fileID: 5775971635632576668, guid: 2073356f48de46c4b89c126e54f79d66,
         type: 3}
