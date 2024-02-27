@@ -5203,7 +5203,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!64 &306431851
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5999,7 +5999,7 @@ MonoBehaviour:
     type: 3}
   weldingManagement: {fileID: 1943104966622852834}
   rightActivate:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Right Activate
       m_Type: 0
@@ -6009,8 +6009,9 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 0}
-  flameLength: 5
+    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  flameLength: 2
 --- !u!65 &379262752
 BoxCollider:
   m_ObjectHideFlags: 0

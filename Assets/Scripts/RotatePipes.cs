@@ -18,7 +18,7 @@ public class RotatePipes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //PositiveRotation();
+        PositiveRotation();
         if (rotatePositively)
         {
             if (rotateNegatively)

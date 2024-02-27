@@ -26,15 +26,16 @@ public class SetPlateInPlace : MonoBehaviour
 
             gameObject.GetComponent<MeshRenderer>().enabled = false;
             IsSpaceOccupied = true;
+                        
+            if (menu.activeSelf && IsSpaceOccupied)
+            {
+                menu.SetActive(!menu.activeSelf);
+            }
 
             if (weldingManagement.IsFullyWelded())
             {
                 Destroy(other.gameObject);
-            }
-
-            if (menu.activeSelf && IsSpaceOccupied)
-            {
-                menu.SetActive(!menu.activeSelf);
+                Destroy(gameObject);
             }
         }
         else if (other != null && other.transform.tag != transform.tag && !IsSpaceOccupied)
