@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScoreTracker : MonoBehaviour
+public class QuestionState : MonoBehaviour
 {
-    public int TotalScore = 0;
-    public int QuestionsAnswered = 0;
+
+    public bool OptionSelected = false;
     // Start is called before the first frame update
     void Start()
     {

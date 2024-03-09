@@ -6,44 +6,38 @@ using UnityEngine.UI;
 public class AssessmentQnAs : MonoBehaviour
 {
     [SerializeField]
-    bool IsQuestion = false;
-
-    [SerializeField]
     List<GameObject> textMeshProUGUI;
-
     [SerializeField]
-    GameObject UICanvas, InstructionParentUICanvas;
+    GameObject UICanvas, InstructionParentUICanvas, CloseButton;
 
     [SerializeField]
     ScoreTracker scoreTracker;
+    QuestionState questionState;
 
-    bool OptionSelected = false;
+    private void Start()
+    {
+        questionState = GetComponentInChildren<QuestionState>();
+    }
+
+    private void Update()
+    {
+        Debug.Log(questionState.name + " is active: " + questionState.transform.gameObject.activeSelf);
+
+        if (scoreTracker.QuestionsAnswered >= 20)
+            if (!CloseButton.activeSelf)
+                CloseButton.SetActive(true);
+    }
 
     public void NextPage()
     {
         int index = 0;
 
-
-        if (OptionSelected)
+        if (!questionState.transform.gameObject.activeSelf)
         {
-            foreach (GameObject _textMeshProUGUI in textMeshProUGUI)
-            {
-                if (_textMeshProUGUI.activeSelf)
-                {
-                    textMeshProUGUI[index + 1].SetActive(true);
-                    textMeshProUGUI[index].SetActive(false);
-                    break;
-                }
-                index++;
-            } 
+            questionState = GetComponentInChildren<QuestionState>();
         }
-    }
 
-    public void PrevPage()
-    {
-        int index = 0;
-
-        if (OptionSelected)
+        if (questionState.OptionSelected && questionState.transform.gameObject.activeSelf)
         {
             foreach (GameObject _textMeshProUGUI in textMeshProUGUI)
             {
@@ -51,7 +45,7 @@ public class AssessmentQnAs : MonoBehaviour
                 {
                     if (_textMeshProUGUI.activeSelf)
                     {
-                        textMeshProUGUI[index - 1].SetActive(true);
+                        textMeshProUGUI[index + 1].SetActive(true);
                         textMeshProUGUI[index].SetActive(false);
                         break;
                     }
@@ -60,8 +54,31 @@ public class AssessmentQnAs : MonoBehaviour
                 catch
                 {
 
-                }
+                }                
             } 
+        }
+    }
+
+    public void PrevPage()
+    {
+        int index = 0;
+
+        foreach (GameObject _textMeshProUGUI in textMeshProUGUI)
+        {
+            try
+            {
+                if (_textMeshProUGUI.activeSelf)
+                {
+                    textMeshProUGUI[index - 1].SetActive(true);
+                    textMeshProUGUI[index].SetActive(false);
+                    break;
+                }
+                index++;
+            }
+            catch
+            {
+
+            }
         }
     }
 
@@ -75,12 +92,32 @@ public class AssessmentQnAs : MonoBehaviour
 
     public void IncorrectAnswer()
     {
-        OptionSelected = true;
+        if (!questionState.transform.gameObject.activeSelf)
+        {
+            questionState = GetComponentInChildren<QuestionState>();
+        }
+
+        if (!questionState.OptionSelected && questionState.transform.gameObject.activeSelf)
+        {
+            scoreTracker.QuestionsAnswered += 1;
+        }
+
+        questionState.OptionSelected = true;
     }
 
     public void CorrectAnswer()
     {
-        scoreTracker.totalScore += 1;
-        OptionSelected = true;
+        if (!questionState.transform.gameObject.activeSelf)
+        {
+            questionState = GetComponentInChildren<QuestionState>();
+        }
+
+        if (!questionState.OptionSelected && questionState.transform.gameObject.activeSelf)
+        {
+            scoreTracker.QuestionsAnswered += 1;
+        }
+
+        scoreTracker.TotalScore += 1;
+        questionState.OptionSelected = true;
     }
 }
