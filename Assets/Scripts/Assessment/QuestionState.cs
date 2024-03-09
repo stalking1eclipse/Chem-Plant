@@ -6,6 +6,7 @@ public class QuestionState : MonoBehaviour
 {
 
     public bool OptionSelected = false;
+    public bool IsAnswerCorrect;
     // Start is called before the first frame update
     void Start()
     {

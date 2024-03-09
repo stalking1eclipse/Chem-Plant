@@ -103,6 +103,7 @@ public class AssessmentQnAs : MonoBehaviour
         }
 
         questionState.OptionSelected = true;
+        questionState.IsAnswerCorrect = false;
     }
 
     public void CorrectAnswer()
@@ -112,12 +113,13 @@ public class AssessmentQnAs : MonoBehaviour
             questionState = GetComponentInChildren<QuestionState>();
         }
 
-        if (!questionState.OptionSelected && questionState.transform.gameObject.activeSelf)
+        if ((!questionState.OptionSelected || !questionState.IsAnswerCorrect) && questionState.transform.gameObject.activeSelf)
         {
             scoreTracker.QuestionsAnswered += 1;
         }
 
         scoreTracker.TotalScore += 1;
         questionState.OptionSelected = true;
+        questionState.IsAnswerCorrect = true;
     }
 }
