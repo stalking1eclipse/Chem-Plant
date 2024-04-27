@@ -7762,7 +7762,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 1135181666}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
-  weldingManagement: {fileID: 673250096}
+  weldingManagement: {fileID: 793098276}
   rightActivate:
     m_UseReference: 1
     m_Action:
@@ -13333,7 +13333,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 1135181666}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
-  weldingManagement: {fileID: 793098276}
+  weldingManagement: {fileID: 673250096}
   rightActivate:
     m_UseReference: 1
     m_Action:
@@ -13429,7 +13429,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 323918ce8ba3c8949adf8b2b25452e53,
         type: 3}
       propertyPath: m_Name
-      value: FabConvert.com_welding+rod
+      value: Welding Torch 2G
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 323918ce8ba3c8949adf8b2b25452e53, type: 3}
@@ -28930,7 +28930,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 323918ce8ba3c8949adf8b2b25452e53,
         type: 3}
       propertyPath: m_Name
-      value: FabConvert.com_welding+rod (1)
+      value: Welding Torch 6G
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 323918ce8ba3c8949adf8b2b25452e53, type: 3}
@@ -33299,7 +33299,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 323918ce8ba3c8949adf8b2b25452e53,
         type: 3}
       propertyPath: m_Name
-      value: FabConvert.com_welding+rod (2)
+      value: Welding Torch 5G
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 323918ce8ba3c8949adf8b2b25452e53, type: 3}
@@ -34764,7 +34764,7 @@ PrefabInstance:
     - target: {fileID: 5155807742421670449, guid: d8daecfaa361e5d45b06be782a8b3ce4,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5155807742421670450, guid: d8daecfaa361e5d45b06be782a8b3ce4,
         type: 3}
