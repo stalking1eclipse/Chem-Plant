@@ -40,8 +40,21 @@ public class Weld : MonoBehaviour
                     BlowTorch.Play();
 
                 GameObject buldgeObject = Instantiate(weldBuldge, hit.point, Quaternion.LookRotation(hit.normal));
-                buldgeObject.transform.parent = weldingManagement.Connector.transform;
+                if (hit.transform.TryGetComponent(out WeldPoint weldPoint)) 
+                {
+                    if (weldPoint.getPointState())
+                        Destroy(buldgeObject);
+                }
+
+                if (weldingManagement.Connector.activeSelf)
+                    buldgeObject.transform.parent = weldingManagement.Connector.transform;
+                else if (weldingManagement.TackConnector.activeSelf)
+                    buldgeObject.transform.parent = weldingManagement.TackConnector.transform;
+
+                buldgeObject.GetComponent<Renderer>().material.color = Color.Lerp(Color.red, Color.black, 1);
             }
+
+
             
             if (BlowTorch.CompareTag("Flame Particle"))
                 BlowTorch.Play();

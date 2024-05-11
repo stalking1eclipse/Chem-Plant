@@ -1,19 +1,22 @@
 using System.Collections.Generic;
+using System.Net;
 using UnityEngine;
 
 public class WeldingManagement : MonoBehaviour
 {
     [SerializeField]
     private SetPlateInPlace LeftComponent, RightComponent, TackComponent;
-    public GameObject Connector;
+    public GameObject Connector, TackConnector;
     [SerializeField]
     List<GameObject> WeldPoints, TackPoints;
     [SerializeField]
-    private GameObject WeldedComponent;
+    List<GameObject> TackedObjects;
+    [SerializeField]
+    private GameObject WeldedComponent, TackedComponent;
     [SerializeField]
     private GameObject RotationInputs;
         
-    public bool IsConnectorEnabled = false, FullyWelded = false;
+    public bool IsConnectorEnabled = false, FullyWelded = false, FullyTacked;
 
     // Update is called once per frame
     void Update()
@@ -38,7 +41,8 @@ public class WeldingManagement : MonoBehaviour
     void FixedUpdate()
     {
         int index = WeldPoints.ToArray().Length;
-        int i = 0;
+        int tackIndex = TackPoints.ToArray().Length;
+        int i = 0, ti = 0;
 
         foreach(GameObject weldPoint in WeldPoints)
         {
@@ -56,9 +60,48 @@ public class WeldingManagement : MonoBehaviour
             }            
         }
 
+        foreach(GameObject tackPoint in TackPoints)
+        {
+            if (tackPoint != null && !FullyTacked)
+            {
+                if (!tackPoint.GetComponent<WeldPoint>().getPointState())
+                {
+                    FullyTacked = false;
+                    break;
+                }
+                else
+                {
+                    ti++;
+                }
+            }
+        }
+
         if (i == index)
-            FullyWelded=true;
-            WeldedComponent.SetActive(FullyWelded);
+            FullyWelded = true;
+
+        if (ti == tackIndex)
+        {
+            FullyTacked = true;
+            if (TackedComponent.GetComponent<MeshRenderer>().enabled)
+                TackedComponent.GetComponent<MeshRenderer>().enabled = false;
+            if (TackedComponent.TryGetComponent(out Rigidbody rb))
+            {
+                if (rb != null)
+                { 
+                    if (!rb.isKinematic)
+                        rb.isKinematic = true;
+                    if (!rb.useGravity)
+                        rb.useGravity = true;
+                }
+            }
+            foreach(GameObject tackedObject in TackedObjects)
+            {
+                tackedObject.transform.parent = TackedComponent.transform;
+            }
+        }
+
+        WeldedComponent?.SetActive(FullyWelded);
+        TackedComponent?.SetActive(FullyTacked);
     }
 
     public bool IsFullyWelded()
