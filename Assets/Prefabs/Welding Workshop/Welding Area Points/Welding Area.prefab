@@ -8472,6 +8472,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weldingManagement: {fileID: 6814198582843026300}
+  head: {fileID: 0}
+  spawnDistance: 2
+  menu: {fileID: 0}
 --- !u!4 &2125121580385502180 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ef5765b4a5785d46821296b9b23736d,
@@ -8589,6 +8592,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weldingManagement: {fileID: 6814198582843026300}
+  head: {fileID: 0}
+  spawnDistance: 2
+  menu: {fileID: 0}
 --- !u!4 &2125121579776739474 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7ef5765b4a5785d46821296b9b23736d,

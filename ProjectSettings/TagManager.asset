@@ -17,6 +17,7 @@ TagManager:
   - Secondary Welding Pipe
   - Flame Particle
   - Sparks Particle
+  - Tacking Plate
   layers:
   - Default
   - TransparentFX

@@ -125,6 +125,44 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &6288383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7385975578088844443, guid: 877816af3eb5b6e4baf6af284b87a3ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 1168836517}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6288384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6858520571337406023, guid: 877816af3eb5b6e4baf6af284b87a3ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 1168836517}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6288385
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6288383}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0075339903, y: 0.0152544165, z: 0.007422436}
+  m_Center: {x: 0.000000037020072, y: 0.000019137278, z: -0.00059560186}
+--- !u!65 &6288386
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6288384}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0075339903, y: 0.0152544165, z: 0.007422436}
+  m_Center: {x: 0.000000059371814, y: 0.000019107476, z: -0.0005956009}
 --- !u!64 &6961869
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12555,6 +12593,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730927631}
   m_CullTransparentMesh: 1
+--- !u!65 &753169949
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168836521}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0075339903, y: 0.0152544165, z: 0.007422436}
+  m_Center: {x: 0.0000000034924597, y: 0.000019137278, z: -0.00059560186}
 --- !u!1 &767925026
 GameObject:
   m_ObjectHideFlags: 0
@@ -20083,6 +20134,12 @@ GameObject:
 --- !u!4 &1168836520 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 877816af3eb5b6e4baf6af284b87a3ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 1168836517}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1168836521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3097526891178780937, guid: 877816af3eb5b6e4baf6af284b87a3ac,
     type: 3}
   m_PrefabInstance: {fileID: 1168836517}
   m_PrefabAsset: {fileID: 0}

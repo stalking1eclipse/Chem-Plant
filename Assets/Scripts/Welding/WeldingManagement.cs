@@ -4,10 +4,10 @@ using UnityEngine;
 public class WeldingManagement : MonoBehaviour
 {
     [SerializeField]
-    private SetPlateInPlace LeftComponent, RightComponent;
+    private SetPlateInPlace LeftComponent, RightComponent, TackComponent;
     public GameObject Connector;
     [SerializeField]
-    List<GameObject> WeldPoints;
+    List<GameObject> WeldPoints, TackPoints;
     [SerializeField]
     private GameObject WeldedComponent;
     [SerializeField]
