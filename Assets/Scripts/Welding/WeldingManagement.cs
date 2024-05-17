@@ -88,10 +88,11 @@ public class WeldingManagement : MonoBehaviour
             {
                 if (rb != null)
                 { 
-                    if (!rb.isKinematic)
-                        rb.isKinematic = true;
-                    if (!rb.useGravity)
-                        rb.useGravity = true;
+                    //if (!rb.isKinematic)
+                    //    rb.isKinematic = true;
+                    
+                    //if (!rb.useGravity)
+                    //    rb.useGravity = true;
                 }
             }
             foreach(GameObject tackedObject in TackedObjects)

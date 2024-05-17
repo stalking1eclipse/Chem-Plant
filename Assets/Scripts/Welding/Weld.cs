@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -51,7 +52,7 @@ public class Weld : MonoBehaviour
                 else if (weldingManagement.TackConnector.activeSelf)
                     buldgeObject.transform.parent = weldingManagement.TackConnector.transform;
 
-                buldgeObject.GetComponent<Renderer>().material.color = Color.Lerp(Color.red, Color.black, 1);
+                //buldgeObject.GetComponent<Renderer>().material.color = Color.Lerp(Color.red, Color.black, 1);
             }
 
 
@@ -76,4 +77,5 @@ public class Weld : MonoBehaviour
     {
         IsTorchGrasped = false;
     }
+
 }

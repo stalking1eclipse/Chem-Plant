@@ -15,7 +15,7 @@ public class SelfDestruct : MonoBehaviour
             while (gameObject.GetComponent<Renderer>().material.color != EndColor ) 
             {
                 tick += Time.deltaTime * 5f;
-                gameObject.GetComponent<Renderer>().material.color = Color.Lerp(StartColor, EndColor, tick);
+                //gameObject.GetComponent<Renderer>().material.color = Color.Lerp(StartColor, EndColor, tick);
             }
             Destroy(gameObject, TimeBeforeSelfDestruct);
         }
