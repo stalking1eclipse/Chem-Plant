@@ -45,7 +45,7 @@ public class SetPlateInPlace : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-        else if (other != null && other.transform.tag != transform.tag && !IsSpaceOccupied)
+        else if (other != null && !transform.CompareTag(other.transform.tag) && !IsSpaceOccupied)
         {
             Debug.Log("Incorrect object placement");
 

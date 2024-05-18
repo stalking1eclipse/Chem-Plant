@@ -19,6 +19,7 @@ TagManager:
   - Sparks Particle
   - Tacking Plate
   - Tack Point
+  - Weld Point
   layers:
   - Default
   - TransparentFX

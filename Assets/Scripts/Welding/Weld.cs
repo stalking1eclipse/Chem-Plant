@@ -43,15 +43,17 @@ public class Weld : MonoBehaviour
 
                 if (weldingManagement.Connector.activeSelf)
                 {
-                    GameObject buldgeObject = Instantiate(weldBuldge, hit.point, Quaternion.LookRotation(hit.normal));
+                    if (!weldingManagement.IsFullyWelded())
+                    {
+                        hit.transform.TryGetComponent(out MeshRenderer renderer);
+                        WeldPoint weldPoint = hit.transform.GetComponent<WeldPoint>();
 
-                    //buldgeObject.transform.parent = weldingManagement.Connector.transform;
+                        weldPoint.UpdateWeldPointOccupation(true);
 
-                    //if (hit.transform.TryGetComponent(out WeldPoint weldPoint)) 
-                    //{
-                    //    if (weldPoint.getPointState())
-                    //        Destroy(buldgeObject);
-                    //}
+                        if (renderer != null)
+                            if (!renderer.enabled)
+                                renderer.enabled = true;
+                    }
                 }
                  else if (weldingManagement.TackConnector.activeSelf)
                 {
@@ -60,18 +62,14 @@ public class Weld : MonoBehaviour
                         hit.transform.TryGetComponent(out MeshRenderer renderer);
                         WeldPoint weldPoint = hit.transform.GetComponent<WeldPoint>();
 
-                        weldPoint.updateTackPointOccupation(true);
+                        weldPoint.UpdateTackPointOccupation(true);
 
                         if (renderer != null)
                             if (!renderer.enabled)
                                 renderer.enabled = true;
                     }                    
                 }
-                /**/
-                //buldgeObject.GetComponent<Renderer>().material.color = Color.Lerp(Color.red, Color.black, 1);
             }
-
-
 
             if (BlowTorch.CompareTag("Flame Particle"))
                 BlowTorch.Play();

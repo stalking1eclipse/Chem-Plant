@@ -68,7 +68,7 @@ public class WeldingManagement : MonoBehaviour
         {
             if (weldPoint != null && !FullyWelded)
             {
-                if (!weldPoint.GetComponent<WeldPoint>().getPointState())
+                if (!weldPoint.GetComponent<WeldPoint>().GetPointState())
                 {
                     FullyWelded = false;
                     break;
@@ -84,7 +84,7 @@ public class WeldingManagement : MonoBehaviour
         {
             if (tackPoint != null && !FullyTacked)
             {
-                if (!tackPoint.GetComponent<WeldPoint>().getTackPointState())
+                if (!tackPoint.GetComponent<WeldPoint>().GetTackPointState())
                 {
                     FullyTacked = false;
                     break;
@@ -110,13 +110,13 @@ public class WeldingManagement : MonoBehaviour
                 {
                     if (rb != null)
                     {
-                        if (!rb.isKinematic)
-                            rb.isKinematic = true;
-                        else
-                            rb.isKinematic = false;
+                        //if (!rb.isKinematic)
+                        //    rb.isKinematic = true;
+                        //else
+                        //    rb.isKinematic = false;
 
-                        if (!rb.useGravity)
-                            rb.useGravity = true;
+                        //if (!rb.useGravity)
+                        //    rb.useGravity = true;
                     }
                 }
                 foreach (GameObject tackedObject in TackedObjects)
@@ -124,7 +124,7 @@ public class WeldingManagement : MonoBehaviour
                     tackedObject.transform.parent = TackedComponent.transform;
                     tackedObject.gameObject.GetComponent<Collider>().enabled = false;
                 }
-                TackConnector.transform.parent = TackedComponent.transform;
+                Destroy(TackConnector.gameObject, .5f);
             }           
         }
 
