@@ -5,7 +5,7 @@ using UnityEngine;
 public class WeldingManagement : MonoBehaviour
 {
     [SerializeField]
-    private SetPlateInPlace LeftComponent, RightComponent, TackComponent;
+    private SetPlateInPlace MainWeldingPlacementArea, LeftComponent, RightComponent, TackComponentLeft, TackComponentRight;
     public GameObject Connector, TackConnector;
     [SerializeField]
     List<GameObject> WeldPoints, TackPoints;
@@ -16,7 +16,7 @@ public class WeldingManagement : MonoBehaviour
     [SerializeField]
     private GameObject RotationInputs;
         
-    public bool IsConnectorEnabled = false, FullyWelded = false, FullyTacked;
+    private bool IsConnectorEnabled = false, FullyWelded = false, FullyTacked = false;
 
     // Update is called once per frame
     void Update()
@@ -87,22 +87,28 @@ public class WeldingManagement : MonoBehaviour
             if (TackedComponent.TryGetComponent(out Rigidbody rb))
             {
                 if (rb != null)
-                { 
-                    //if (!rb.isKinematic)
-                    //    rb.isKinematic = true;
-                    
-                    //if (!rb.useGravity)
-                    //    rb.useGravity = true;
+                {
+                    if (!rb.isKinematic)
+                        rb.isKinematic = true;
+                    else
+                        rb.isKinematic = false;
+
+                    if (!rb.useGravity)
+                        rb.useGravity = true;
                 }
             }
             foreach(GameObject tackedObject in TackedObjects)
             {
                 tackedObject.transform.parent = TackedComponent.transform;
+                tackedObject.gameObject.GetComponent<Collider>().enabled = false;
             }
         }
 
-        WeldedComponent?.SetActive(FullyWelded);
-        TackedComponent?.SetActive(FullyTacked);
+        if (WeldedComponent != null)
+            WeldedComponent.SetActive(FullyWelded);
+
+        if (TackedComponent != null)
+            TackedComponent.SetActive(FullyTacked);
     }
 
     public bool IsFullyWelded()
@@ -110,16 +116,32 @@ public class WeldingManagement : MonoBehaviour
         return FullyWelded;
     }
 
+    public bool IsFullyTacked()
+    {
+        return FullyTacked;
+    }
+
     private void MonitorConnectorState()
     {
+
                  
-        if (LeftComponent.getSpaceState() && RightComponent.getSpaceState())
+        if (MainWeldingPlacementArea == null)
         {
-            IsConnectorEnabled = true;
+            if (LeftComponent.getSpaceState() && RightComponent.getSpaceState())
+            {
+                IsConnectorEnabled = true;
+            }
+            else
+            {
+                IsConnectorEnabled = false;
+            }
         }
-        else
+        else if (MainWeldingPlacementArea != null)
         {
-            IsConnectorEnabled = false;
+            if (MainWeldingPlacementArea.getSpaceState())
+                IsConnectorEnabled = true;
+            else
+                IsConnectorEnabled = false;
         }
         Connector.SetActive(IsConnectorEnabled);
     }

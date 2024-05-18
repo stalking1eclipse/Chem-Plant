@@ -1096,6 +1096,8 @@ MonoBehaviour:
   head: {fileID: 1431828758}
   spawnDistance: 2
   menu: {fileID: 2108065005}
+  TackingArea: 1
+  WeldingArea: 0
 --- !u!65 &64010861
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1408,6 +1410,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b0e20cb79cd58774d9ba0a920b75f64c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tacking Plate
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0e20cb79cd58774d9ba0a920b75f64c, type: 3}
@@ -3149,6 +3156,8 @@ MonoBehaviour:
   head: {fileID: 1431828758}
   spawnDistance: 2
   menu: {fileID: 2108065005}
+  TackingArea: 1
+  WeldingArea: 0
 --- !u!65 &200691762
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8109,6 +8118,122 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 493310615}
   m_CullTransparentMesh: 1
+--- !u!1 &504431172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 504431173}
+  - component: {fileID: 504431176}
+  - component: {fileID: 504431175}
+  - component: {fileID: 504431174}
+  - component: {fileID: 504431177}
+  m_Layer: 0
+  m_Name: Main Welding Placement Area
+  m_TagString: Tacking Plate
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &504431173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504431172}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: -0.28520012, y: 0.010500098, z: 0.3635006}
+  m_LocalScale: {x: 0.1995792, y: 0.098933235, z: 0.010457566}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1943104966622852837}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!65 &504431174
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504431172}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &504431175
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504431172}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 38fed7074a341d24c932cfc5a0d56c09, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &504431176
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504431172}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &504431177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504431172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d85255d90cd1834fb8d2157ec2d31de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weldingManagement: {fileID: 1943104966622852839}
+  head: {fileID: 1431828758}
+  spawnDistance: 2
+  menu: {fileID: 2108065005}
+  TackingArea: 0
+  WeldingArea: 1
 --- !u!1 &505295817
 GameObject:
   m_ObjectHideFlags: 0
@@ -26122,6 +26247,8 @@ MonoBehaviour:
   head: {fileID: 1431828758}
   spawnDistance: 2
   menu: {fileID: 2108065005}
+  TackingArea: 1
+  WeldingArea: 0
 --- !u!1 &1726694493
 GameObject:
   m_ObjectHideFlags: 0
@@ -31026,6 +31153,16 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 952192522065213579, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 952192522661393405, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1600504640584707002, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_IsActive
@@ -31034,12 +31171,12 @@ PrefabInstance:
     - target: {fileID: 1600504641494995496, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1600504642101664094, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1943104966640649741, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
@@ -31128,13 +31265,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1943104967114388852, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0066
+      objectReference: {fileID: 0}
+    - target: {fileID: 1943104967114388852, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.3639
       objectReference: {fileID: 0}
     - target: {fileID: 1943104967114388853, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1943104967114388854, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
@@ -31263,9 +31405,24 @@ PrefabInstance:
       objectReference: {fileID: 1943104966622852834}
     - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
+      propertyPath: TackComponentLeft
+      value: 
+      objectReference: {fileID: 64010860}
+    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: TackComponentRight
+      value: 
+      objectReference: {fileID: 200691761}
+    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
       propertyPath: TackPoints.Array.size
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
+        type: 3}
+      propertyPath: MainWeldingPlacementArea
+      value: 
+      objectReference: {fileID: 504431177}
     - target: {fileID: 6814198582843026300, guid: 7f052b55091b68740911fbcbb5b69beb,
         type: 3}
       propertyPath: TackPoints.Array.data[0]

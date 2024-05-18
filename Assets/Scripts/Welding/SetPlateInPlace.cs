@@ -11,6 +11,8 @@ public class SetPlateInPlace : MonoBehaviour
     private float spawnDistance = 2;
     [SerializeField]
     private GameObject menu;
+    [SerializeField]
+    bool TackingArea = false, WeldingArea = false;
 
     private void Start()
     {
@@ -32,9 +34,14 @@ public class SetPlateInPlace : MonoBehaviour
                 menu.SetActive(!menu.activeSelf);
             }
 
-            if (weldingManagement.IsFullyWelded())
+            if (weldingManagement.IsFullyWelded() && WeldingArea)
             {
                 Destroy(other.gameObject);
+                Destroy(gameObject);
+            }
+            
+            if (weldingManagement.IsFullyTacked() && TackingArea)
+            {
                 Destroy(gameObject);
             }
         }
