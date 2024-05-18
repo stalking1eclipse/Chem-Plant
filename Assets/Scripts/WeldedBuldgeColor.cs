@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class WeldedBuldgeColor : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        StartCoroutine(ChangeBuldgeColor());
-    }
-
-    IEnumerator ChangeBuldgeColor()
-    {
-        GetComponent<Renderer>().material.color = Color.Lerp(Color.red, Color.black, 5f);
-        yield return new WaitForSeconds(7f);
+        if (GetComponent<Renderer>().material.color != Color.black)
+            GetComponent<Renderer>().material.color = Color.Lerp(Color.red, Color.black, 5f);
     }
 }
