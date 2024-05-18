@@ -4,15 +4,35 @@ using UnityEngine;
 
 public class WeldingManagement : MonoBehaviour
 {
+    [Header("Placement Objects")]
     [SerializeField]
-    private SetPlateInPlace MainWeldingPlacementArea, LeftComponent, RightComponent, TackComponentLeft, TackComponentRight;
-    public GameObject Connector, TackConnector;
+    private SetPlateInPlace MainWeldingPlacementArea;
     [SerializeField]
-    List<GameObject> WeldPoints, TackPoints;
+    private SetPlateInPlace LeftComponent;
+    [SerializeField]
+    private SetPlateInPlace RightComponent;
+    [SerializeField]
+    private SetPlateInPlace TackComponentLeft;
+    [SerializeField]
+    private SetPlateInPlace TackComponentRight;
+
+    [Header("Connectors")]
+    public GameObject Connector;
+    public GameObject TackConnector;
+
+    [Header("Lists")]
+    [SerializeField]
+    List<GameObject> WeldPoints;
+    [SerializeField]
+    List<GameObject> TackPoints;
     [SerializeField]
     List<GameObject> TackedObjects;
+    
+    [Header("Components")]
     [SerializeField]
-    private GameObject WeldedComponent, TackedComponent;
+    private GameObject WeldedComponent;
+    [SerializeField]
+    private GameObject TackedComponent;
     [SerializeField]
     private GameObject RotationInputs;
         
@@ -82,26 +102,29 @@ public class WeldingManagement : MonoBehaviour
         if (ti == tackIndex)
         {
             FullyTacked = true;
-            if (TackedComponent.GetComponent<MeshRenderer>().enabled)
-                TackedComponent.GetComponent<MeshRenderer>().enabled = false;
-            if (TackedComponent.TryGetComponent(out Rigidbody rb))
+            if (TackedComponent != null)
             {
-                if (rb != null)
+                if (TackedComponent.GetComponent<MeshRenderer>().enabled)
+                    TackedComponent.GetComponent<MeshRenderer>().enabled = false;
+                if (TackedComponent.TryGetComponent(out Rigidbody rb))
                 {
-                    if (!rb.isKinematic)
-                        rb.isKinematic = true;
-                    else
-                        rb.isKinematic = false;
+                    if (rb != null)
+                    {
+                        if (!rb.isKinematic)
+                            rb.isKinematic = true;
+                        else
+                            rb.isKinematic = false;
 
-                    if (!rb.useGravity)
-                        rb.useGravity = true;
+                        if (!rb.useGravity)
+                            rb.useGravity = true;
+                    }
                 }
-            }
-            foreach(GameObject tackedObject in TackedObjects)
-            {
-                tackedObject.transform.parent = TackedComponent.transform;
-                tackedObject.gameObject.GetComponent<Collider>().enabled = false;
-            }
+                foreach (GameObject tackedObject in TackedObjects)
+                {
+                    tackedObject.transform.parent = TackedComponent.transform;
+                    tackedObject.gameObject.GetComponent<Collider>().enabled = false;
+                }
+            }           
         }
 
         if (WeldedComponent != null)
