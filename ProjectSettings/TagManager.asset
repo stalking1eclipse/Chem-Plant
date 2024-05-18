@@ -18,6 +18,7 @@ TagManager:
   - Flame Particle
   - Sparks Particle
   - Tacking Plate
+  - Tack Point
   layers:
   - Default
   - TransparentFX

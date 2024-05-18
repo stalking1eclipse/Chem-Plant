@@ -2193,7 +2193,7 @@ GameObject:
   - component: {fileID: 172593399}
   m_Layer: 11
   m_Name: Point F
-  m_TagString: Untagged
+  m_TagString: Tack Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2206,8 +2206,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172593394}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.497, y: -0.6, z: 0.028}
-  m_LocalScale: {x: 0.053826258, y: 0.053826258, z: 0.053826258}
+  m_LocalPosition: {x: -0.497, y: -0.6, z: 0.005}
+  m_LocalScale: {x: 0.19296813, y: 1.0662162, z: 0.04010323}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1723310830}
@@ -8493,7 +8493,7 @@ GameObject:
   - component: {fileID: 514895275}
   m_Layer: 11
   m_Name: Point B
-  m_TagString: Untagged
+  m_TagString: Tack Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8506,8 +8506,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514895270}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.494, y: -0.6, z: 0.418}
-  m_LocalScale: {x: 0.053826258, y: 0.053826258, z: 0.053826258}
+  m_LocalPosition: {x: 0.494, y: -0.6, z: 0.395}
+  m_LocalScale: {x: 0.19296813, y: 1.0662162, z: 0.04010323}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1723310830}
@@ -22968,7 +22968,7 @@ GameObject:
   - component: {fileID: 1488484424}
   m_Layer: 11
   m_Name: Point C
-  m_TagString: Untagged
+  m_TagString: Tack Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22981,8 +22981,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488484419}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.494, y: -0.6, z: 0.028}
-  m_LocalScale: {x: 0.053826258, y: 0.053826258, z: 0.053826258}
+  m_LocalPosition: {x: 0.494, y: -0.6, z: 0.005}
+  m_LocalScale: {x: 0.19296813, y: 1.0662162, z: 0.04010323}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1723310830}
@@ -29601,7 +29601,7 @@ GameObject:
   - component: {fileID: 2037901344}
   m_Layer: 11
   m_Name: Point D
-  m_TagString: Untagged
+  m_TagString: Tack Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29614,8 +29614,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2037901339}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.497, y: -0.6, z: -0.359}
-  m_LocalScale: {x: 0.053826258, y: 0.053826258, z: 0.053826258}
+  m_LocalPosition: {x: -0.497, y: -0.6, z: -0.382}
+  m_LocalScale: {x: 0.19296813, y: 1.0662162, z: 0.04010323}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1723310830}
@@ -29852,7 +29852,7 @@ GameObject:
   - component: {fileID: 2053369500}
   m_Layer: 11
   m_Name: Point E
-  m_TagString: Untagged
+  m_TagString: Tack Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29865,8 +29865,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2053369495}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.497, y: -0.6, z: 0.418}
-  m_LocalScale: {x: 0.053826258, y: 0.053826258, z: 0.053826258}
+  m_LocalPosition: {x: -0.497, y: -0.6, z: 0.395}
+  m_LocalScale: {x: 0.19296813, y: 1.0662162, z: 0.04010323}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1723310830}
@@ -29998,7 +29998,7 @@ GameObject:
   - component: {fileID: 2076372918}
   m_Layer: 11
   m_Name: Point A
-  m_TagString: Untagged
+  m_TagString: Tack Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30011,8 +30011,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076372913}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.494, y: -0.6, z: -0.359}
-  m_LocalScale: {x: 0.053826258, y: 0.053826258, z: 0.053826258}
+  m_LocalPosition: {x: 0.494, y: -0.6, z: -0.382}
+  m_LocalScale: {x: 0.19296813, y: 1.0662162, z: 0.04010323}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1723310830}

@@ -39,24 +39,40 @@ public class Weld : MonoBehaviour
             {
                 if (BlowTorch.CompareTag("Sparks Particle"))
                     BlowTorch.Play();
-
-                GameObject buldgeObject = Instantiate(weldBuldge, hit.point, Quaternion.LookRotation(hit.normal));
-                if (hit.transform.TryGetComponent(out WeldPoint weldPoint)) 
-                {
-                    if (weldPoint.getPointState())
-                        Destroy(buldgeObject);
-                }
+                
 
                 if (weldingManagement.Connector.activeSelf)
-                    buldgeObject.transform.parent = weldingManagement.Connector.transform;
-                else if (weldingManagement.TackConnector.activeSelf)
-                    buldgeObject.transform.parent = weldingManagement.TackConnector.transform;
+                {
+                    GameObject buldgeObject = Instantiate(weldBuldge, hit.point, Quaternion.LookRotation(hit.normal));
 
+                    //buldgeObject.transform.parent = weldingManagement.Connector.transform;
+
+                    //if (hit.transform.TryGetComponent(out WeldPoint weldPoint)) 
+                    //{
+                    //    if (weldPoint.getPointState())
+                    //        Destroy(buldgeObject);
+                    //}
+                }
+                 else if (weldingManagement.TackConnector.activeSelf)
+                {
+                    if (!weldingManagement.IsFullyTacked())
+                    {
+                        hit.transform.TryGetComponent(out MeshRenderer renderer);
+                        WeldPoint weldPoint = hit.transform.GetComponent<WeldPoint>();
+
+                        weldPoint.updateTackPointOccupation(true);
+
+                        if (renderer != null)
+                            if (!renderer.enabled)
+                                renderer.enabled = true;
+                    }                    
+                }
+                /**/
                 //buldgeObject.GetComponent<Renderer>().material.color = Color.Lerp(Color.red, Color.black, 1);
             }
 
 
-            
+
             if (BlowTorch.CompareTag("Flame Particle"))
                 BlowTorch.Play();
         }
@@ -65,7 +81,7 @@ public class Weld : MonoBehaviour
             BlowTorch.Stop();
         }
 
-        Debug.DrawRay(transform.position, -transform.forward, Color.green);        
+        Debug.DrawRay(transform.position, -transform.forward, Color.green);
     }
 
     public void GraspTorch()

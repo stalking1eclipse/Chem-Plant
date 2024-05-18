@@ -84,7 +84,7 @@ public class WeldingManagement : MonoBehaviour
         {
             if (tackPoint != null && !FullyTacked)
             {
-                if (!tackPoint.GetComponent<WeldPoint>().getPointState())
+                if (!tackPoint.GetComponent<WeldPoint>().getTackPointState())
                 {
                     FullyTacked = false;
                     break;
@@ -124,6 +124,7 @@ public class WeldingManagement : MonoBehaviour
                     tackedObject.transform.parent = TackedComponent.transform;
                     tackedObject.gameObject.GetComponent<Collider>().enabled = false;
                 }
+                TackConnector.transform.parent = TackedComponent.transform;
             }           
         }
 
