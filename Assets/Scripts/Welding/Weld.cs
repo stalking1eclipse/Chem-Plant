@@ -28,6 +28,11 @@ public class Weld : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (weldingManagement.IsFullyTacked())
+        {
+            weldingManagement.Connector.SetActive(true);
+        }
+
         if ((rightActivate.action.ReadValue<float>() > 0.1f && IsTorchGrasped) || transform.name == "Test Torch")
         {
             if (!BlowTorch.gameObject.activeSelf)

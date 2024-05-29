@@ -37,13 +37,11 @@ public class RotatePipes : MonoBehaviour
 
     private void PositiveRotation()
     { 
-        Debug.Log("Positive Rotation");
         gameObject.transform.Rotate(rotationVector * Time.deltaTime);
     }
 
     private void NegativeRotation()
     {
-        Debug.Log("Negative Rotation");
         gameObject.transform.Rotate(-rotationVector * Time.deltaTime);
     }
 

@@ -125,7 +125,7 @@ public class WeldingManagement : MonoBehaviour
                     tackedObject.gameObject.GetComponent<Collider>().enabled = false;
                 }
                 Destroy(TackConnector.gameObject, .5f);
-            }           
+            }
         }
 
         if (WeldedComponent != null)

@@ -47,8 +47,6 @@ public class SetPlateInPlace : MonoBehaviour
         }
         else if (other != null && !transform.CompareTag(other.transform.tag) && !IsSpaceOccupied)
         {
-            Debug.Log("Incorrect object placement");
-
             if (!menu.activeSelf)
             {
                 menu.SetActive(true);
