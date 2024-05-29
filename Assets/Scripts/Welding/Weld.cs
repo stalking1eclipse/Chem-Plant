@@ -39,12 +39,13 @@ public class Weld : MonoBehaviour
             {
                 if (BlowTorch.CompareTag("Sparks Particle"))
                     BlowTorch.Play();
-                
+
 
                 if (weldingManagement.Connector.activeSelf)
                 {
                     if (!weldingManagement.IsFullyWelded())
                     {
+                        Debug.Log("Hit some weld point");
                         hit.transform.TryGetComponent(out MeshRenderer renderer);
                         WeldPoint weldPoint = hit.transform.GetComponent<WeldPoint>();
 
@@ -55,11 +56,13 @@ public class Weld : MonoBehaviour
                                 renderer.enabled = true;
                     }
                 }
-                 else if (weldingManagement.TackConnector.activeSelf)
+                else if (weldingManagement.TackConnector.activeSelf)
                 {
                     if (!weldingManagement.IsFullyTacked())
                     {
+                        
                         hit.transform.TryGetComponent(out MeshRenderer renderer);
+                        Debug.Log(hit.transform);
                         WeldPoint weldPoint = hit.transform.GetComponent<WeldPoint>();
 
                         weldPoint.UpdateTackPointOccupation(true);
