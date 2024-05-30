@@ -56,6 +56,8 @@ public class WeldingManagement : MonoBehaviour
             destroyTempWeldBuldges();
             Connector.SetActive(false);
         }
+
+        Debug.Log("Fully Welded: " + FullyWelded + " Connector Name: " + Connector.name + " Active State: " + Connector.activeSelf);
     }
 
     void FixedUpdate()
@@ -147,27 +149,28 @@ public class WeldingManagement : MonoBehaviour
 
     private void MonitorConnectorState()
     {
-
-                 
-        if (MainWeldingPlacementArea == null)
+        if (!IsFullyWelded())
         {
-            if (LeftComponent.getSpaceState() && RightComponent.getSpaceState())
+            if (MainWeldingPlacementArea == null)
             {
-                IsConnectorEnabled = true;
+                if (LeftComponent.getSpaceState() && RightComponent.getSpaceState())
+                {
+                    IsConnectorEnabled = true;
+                }
+                else
+                {
+                    IsConnectorEnabled = false;
+                }
             }
-            else
+            else if (MainWeldingPlacementArea != null)
             {
-                IsConnectorEnabled = false;
+                if (MainWeldingPlacementArea.getSpaceState())
+                    IsConnectorEnabled = true;
+                else
+                    IsConnectorEnabled = false;
             }
+            Connector.SetActive(IsConnectorEnabled);
         }
-        else if (MainWeldingPlacementArea != null)
-        {
-            if (MainWeldingPlacementArea.getSpaceState())
-                IsConnectorEnabled = true;
-            else
-                IsConnectorEnabled = false;
-        }
-        Connector.SetActive(IsConnectorEnabled);
     }
 
     private void destroyTempWeldBuldges()

@@ -52,9 +52,14 @@ public class Weld : MonoBehaviour
                     {
                         Debug.Log("Hit some weld point");
                         hit.transform.TryGetComponent(out MeshRenderer renderer);
-                        WeldPoint weldPoint = hit.transform.GetComponent<WeldPoint>();
 
-                        weldPoint.UpdateWeldPointOccupation(true);
+                        if (hit.transform != null && renderer.enabled == false)
+                        {
+                            WeldPoint weldPoint = hit.transform.GetComponent<WeldPoint>();
+
+                            weldPoint.UpdateWeldPointOccupation(true);
+                        }
+                            
 
                         if (renderer != null)
                             if (!renderer.enabled)
