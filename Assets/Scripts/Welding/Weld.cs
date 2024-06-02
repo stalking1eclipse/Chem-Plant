@@ -28,10 +28,10 @@ public class Weld : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (weldingManagement.IsFullyTacked())
-        {
-            weldingManagement.Connector.SetActive(true);
-        }
+        //if (weldingManagement.IsFullyTacked() && !weldingManagement.IsFullyWelded())
+        //{
+        //    weldingManagement.Connector.SetActive(true);
+        //}
 
         if ((rightActivate.action.ReadValue<float>() > 0.1f && IsTorchGrasped) || transform.name == "Test Torch")
         {
@@ -55,12 +55,12 @@ public class Weld : MonoBehaviour
 
                         if (hit.transform != null && renderer.enabled == false)
                         {
-                            WeldPoint weldPoint = hit.transform.GetComponent<WeldPoint>();
+                            hit.transform.TryGetComponent(out WeldPoint weldPoint);
 
-                            weldPoint.UpdateWeldPointOccupation(true);
+                            if (weldPoint != null)
+                                weldPoint.UpdateWeldPointOccupation(true);
                         }
                             
-
                         if (renderer != null)
                             if (!renderer.enabled)
                                 renderer.enabled = true;

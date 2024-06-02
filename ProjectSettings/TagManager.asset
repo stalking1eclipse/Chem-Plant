@@ -20,6 +20,7 @@ TagManager:
   - Tacking Plate
   - Tack Point
   - Weld Point
+  - Example Tag
   layers:
   - Default
   - TransparentFX

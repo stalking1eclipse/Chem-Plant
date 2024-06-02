@@ -56,8 +56,6 @@ public class WeldingManagement : MonoBehaviour
             destroyTempWeldBuldges();
             Connector.SetActive(false);
         }
-
-        Debug.Log("Fully Welded: " + FullyWelded + " Connector Name: " + Connector.name + " Active State: " + Connector.activeSelf);
     }
 
     void FixedUpdate()
@@ -149,7 +147,7 @@ public class WeldingManagement : MonoBehaviour
 
     private void MonitorConnectorState()
     {
-        if (!IsFullyWelded())
+        if (!IsFullyWelded() && Connector != null)
         {
             if (MainWeldingPlacementArea == null)
             {
