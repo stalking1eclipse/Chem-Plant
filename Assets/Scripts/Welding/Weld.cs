@@ -50,15 +50,19 @@ public class Weld : MonoBehaviour
                 {
                     if (!weldingManagement.IsFullyWelded())
                     {
-                        Debug.Log("Hit some weld point");
+                        //
                         hit.transform.TryGetComponent(out MeshRenderer renderer);
 
                         if (hit.transform != null && renderer.enabled == false)
                         {
                             hit.transform.TryGetComponent(out WeldPoint weldPoint);
-
+                            Debug.Log("Hit some weld point");
                             if (weldPoint != null)
+                            {
                                 weldPoint.UpdateWeldPointOccupation(true);
+                                weldPoint.UpdateTackPointOccupation(true);
+                            }
+                                
                         }
                             
                         if (renderer != null)
@@ -72,9 +76,7 @@ public class Weld : MonoBehaviour
                     {
                         
                         hit.transform.TryGetComponent(out MeshRenderer renderer);
-                        Debug.Log(hit.transform);
                         WeldPoint weldPoint = hit.transform.GetComponent<WeldPoint>();
-
                         weldPoint.UpdateTackPointOccupation(true);
 
                         if (renderer != null)

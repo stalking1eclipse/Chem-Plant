@@ -19,7 +19,11 @@ public class WeldPoint : MonoBehaviour
 
     private void Update()
     {
-        GetComponent<Renderer>().material.color = Color.Lerp(Color.red, Color.black, 2f * Time.deltaTime);
+        if (IsTackPointOccupied)
+        {
+            GetComponent<Renderer>().material.color = Color.Lerp(Color.red, Color.black, 2f * Time.deltaTime);
+        }
+        
     }
 
     public bool GetPointState()

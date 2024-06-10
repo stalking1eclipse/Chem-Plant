@@ -84,6 +84,7 @@ public class WeldingManagement : MonoBehaviour
         {
             if (tackPoint != null && !FullyTacked)
             {
+                
                 if (!tackPoint.GetComponent<WeldPoint>().GetTackPointState())
                 {
                     FullyTacked = false;
@@ -91,6 +92,7 @@ public class WeldingManagement : MonoBehaviour
                 }
                 else
                 {
+                    Debug.Log(tackPoint.GetInstanceID());
                     ti++;
                 }
             }
