@@ -1945,6 +1945,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chipping hammer
       objectReference: {fileID: 0}
+    - target: {fileID: 8630182533373557982, guid: ffba49a8b972ee74a998fe7f2ba14f65,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 48.394573
+      objectReference: {fileID: 0}
+    - target: {fileID: 8630182533373557982, guid: ffba49a8b972ee74a998fe7f2ba14f65,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 48.394573
+      objectReference: {fileID: 0}
+    - target: {fileID: 8630182533373557982, guid: ffba49a8b972ee74a998fe7f2ba14f65,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 48.394573
+      objectReference: {fileID: 0}
+    - target: {fileID: 8630182533373557982, guid: ffba49a8b972ee74a998fe7f2ba14f65,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0012942
+      objectReference: {fileID: 0}
+    - target: {fileID: 8630182533373557982, guid: ffba49a8b972ee74a998fe7f2ba14f65,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.073
+      objectReference: {fileID: 0}
+    - target: {fileID: 8630182533373557982, guid: ffba49a8b972ee74a998fe7f2ba14f65,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.15487
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffba49a8b972ee74a998fe7f2ba14f65, type: 3}
 --- !u!4 &47857267 stripped
@@ -89570,7 +89600,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 88ff95821701b864f8badebe6d917062,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0.164
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 88ff95821701b864f8badebe6d917062,
         type: 3}

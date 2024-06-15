@@ -7727,7 +7727,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 773114328}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
-  weldingManagement: {fileID: 1014063243}
+  weldingManagement: {fileID: 1395533544}
   rightActivate:
     m_UseReference: 1
     m_Action:
@@ -23297,17 +23297,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7ef5765b4a5785d46821296b9b23736d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.54
+      value: -2.105
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7ef5765b4a5785d46821296b9b23736d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07
+      value: -0.0484
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7ef5765b4a5785d46821296b9b23736d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.29
+      value: 3.0998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7ef5765b4a5785d46821296b9b23736d,
         type: 3}
@@ -23352,7 +23352,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7ef5765b4a5785d46821296b9b23736d,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7ef5765b4a5785d46821296b9b23736d,
         type: 3}
@@ -28801,7 +28801,7 @@ MonoBehaviour:
   BlowTorch: {fileID: 1996664532}
   weldBuldge: {fileID: 2058028256641327657, guid: 4fbbf83535a104b4f94f862c4d7d6162,
     type: 3}
-  weldingManagement: {fileID: 1395533544}
+  weldingManagement: {fileID: 1014063243}
   rightActivate:
     m_UseReference: 1
     m_Action:
