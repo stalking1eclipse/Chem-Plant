@@ -7,7 +7,16 @@ public class WeldPoint : MonoBehaviour
 
     private bool IsWeldPointOccupied { set; get; } = false;
     private bool IsTackPointOccupied { set; get; } = false;
-    
+    float tick =0;
+
+    private void Update()
+    {        
+        tick += Time.deltaTime * .2f;
+        if (IsTackPointOccupied && tick <1)
+        {
+            GetComponent<Renderer>().material.color = Color.Lerp(Color.red, Color.black, tick);
+        }        
+    }
 
     private void OnTriggerStay(Collider other)
     {
@@ -15,15 +24,6 @@ public class WeldPoint : MonoBehaviour
         {
             IsWeldPointOccupied = true;
         }
-    }
-
-    private void Update()
-    {
-        if (IsTackPointOccupied)
-        {
-            GetComponent<Renderer>().material.color = Color.Lerp(Color.red, Color.black, 2f * Time.deltaTime);
-        }
-        
     }
 
     public bool GetPointState()
