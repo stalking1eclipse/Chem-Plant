@@ -21,6 +21,7 @@ TagManager:
   - Tack Point
   - Weld Point
   - Example Tag
+  - Tacking Pipe
   layers:
   - Default
   - TransparentFX

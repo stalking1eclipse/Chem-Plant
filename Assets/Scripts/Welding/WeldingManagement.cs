@@ -123,7 +123,11 @@ public class WeldingManagement : MonoBehaviour
                 }
                 foreach (GameObject tackedObject in TackedObjects)
                 {
-                    tackedObject.transform.parent = TackedComponent.transform;
+                    if (!tackedObject.CompareTag("Tacking Pipe"))
+                        tackedObject.transform.parent = TackedComponent.transform;
+                    else if (tackedObject.CompareTag("Tacking Pipe"))
+                        tackedObject.SetActive(false);
+
                     tackedObject.gameObject.GetComponent<Collider>().enabled = false;
                 }
                 Destroy(TackConnector.gameObject, .5f);
