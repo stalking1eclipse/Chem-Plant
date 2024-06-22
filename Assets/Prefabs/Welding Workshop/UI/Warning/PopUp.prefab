@@ -619,7 +619,7 @@ GameObject:
   - component: {fileID: 6821756533287174630}
   - component: {fileID: 6821756533287174617}
   - component: {fileID: 6821756533287174616}
-  - component: {fileID: 6678955314205426296}
+  - component: {fileID: 7264152004624142698}
   m_Layer: 0
   m_Name: Pop Canvas
   m_TagString: Untagged
@@ -712,7 +712,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &6678955314205426296
+--- !u!114 &7264152004624142698
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
