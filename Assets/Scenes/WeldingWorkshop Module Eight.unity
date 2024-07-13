@@ -3035,6 +3035,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rope With Armature
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b477d1e7799b0e54791f60425890415e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b477d1e7799b0e54791f60425890415e, type: 3}
 --- !u!1 &106578315 stripped
@@ -3247,7 +3252,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 8.083, y: 1.357, z: 21.704}
+  m_ConnectedAnchor: {x: 0.017919783, y: -0.010099888, z: 0.019548466}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -36395,7 +36400,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -8.0610546e-10, y: 0.0010564735, z: 5.8207666e-10}
+  m_ConnectedAnchor: {x: -0.000000021845459, y: 0.0010564736, z: -5.8207666e-10}
   m_UseSpring: 0
   m_Spring:
     spring: 0
