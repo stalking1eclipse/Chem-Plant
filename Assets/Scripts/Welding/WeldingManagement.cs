@@ -20,7 +20,7 @@ public class WeldingManagement : MonoBehaviour
     public GameObject Connector;
     public GameObject TackConnector;
 
-    [Header("Lists")]
+    [Header("Lists")] 
     [SerializeField]
     List<GameObject> WeldPoints;
     [SerializeField]
