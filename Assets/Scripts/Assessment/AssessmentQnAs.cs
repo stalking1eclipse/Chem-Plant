@@ -8,7 +8,9 @@ public class AssessmentQnAs : MonoBehaviour
     [SerializeField]
     List<GameObject> textMeshProUGUI;
     [SerializeField]
-    GameObject UICanvas, InstructionParentUICanvas, CloseButton;
+    GameObject UICanvas, 
+        InstructionParentUICanvas, 
+        CloseButton;
 
     [SerializeField]
     ScoreTracker scoreTracker;
