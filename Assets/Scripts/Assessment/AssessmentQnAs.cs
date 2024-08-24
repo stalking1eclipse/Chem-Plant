@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -6,15 +7,18 @@ using UnityEngine.UI;
 public class AssessmentQnAs : MonoBehaviour
 {
     [SerializeField]
-    List<GameObject> textMeshProUGUI;
+    List<GameObject> Questions;
     [SerializeField]
-    GameObject UICanvas, 
-        InstructionParentUICanvas, 
-        CloseButton;
+    GameObject  UICanvas,
+                CloseButton;
 
+    [SerializeField]
+    TextMeshProUGUI TotalScoreText;
     [SerializeField]
     ScoreTracker scoreTracker;
     QuestionState questionState;
+
+    bool QuestionnaireComplete = false;
 
     private void Start()
     {
@@ -24,10 +28,6 @@ public class AssessmentQnAs : MonoBehaviour
     private void Update()
     {
         Debug.Log(questionState.name + " is active: " + questionState.transform.gameObject.activeSelf);
-
-        if (scoreTracker.QuestionsAnswered >= 20)
-            if (!CloseButton.activeSelf)
-                CloseButton.SetActive(true);
     }
 
     public void NextPage()
@@ -41,14 +41,14 @@ public class AssessmentQnAs : MonoBehaviour
 
         if (questionState.OptionSelected && questionState.transform.gameObject.activeSelf)
         {
-            foreach (GameObject _textMeshProUGUI in textMeshProUGUI)
+            foreach (GameObject _textMeshProUGUI in Questions)
             {
                 try
                 {
                     if (_textMeshProUGUI.activeSelf)
                     {
-                        textMeshProUGUI[index + 1].SetActive(true);
-                        textMeshProUGUI[index].SetActive(false);
+                        Questions[index + 1].SetActive(true);
+                        Questions[index].SetActive(false);
                         break;
                     }
                     index++;
@@ -59,20 +59,24 @@ public class AssessmentQnAs : MonoBehaviour
                 }                
             } 
         }
+
+        if (scoreTracker.QuestionsAnswered >= Questions.Count)
+            if (!CloseButton.activeSelf)
+                CloseButton.SetActive(true);
     }
 
     public void PrevPage()
     {
         int index = 0;
 
-        foreach (GameObject _textMeshProUGUI in textMeshProUGUI)
+        foreach (GameObject _textMeshProUGUI in Questions)
         {
             try
             {
                 if (_textMeshProUGUI.activeSelf)
                 {
-                    textMeshProUGUI[index - 1].SetActive(true);
-                    textMeshProUGUI[index].SetActive(false);
+                    Questions[index - 1].SetActive(true);
+                    Questions[index].SetActive(false);
                     break;
                 }
                 index++;
@@ -82,46 +86,141 @@ public class AssessmentQnAs : MonoBehaviour
 
             }
         }
+
+        if (CloseButton.activeSelf)
+            CloseButton.SetActive(false);
     }
 
     public void CloseContent()
     {
-        UICanvas.SetActive(false);
+        int index = 0;
+        
+        if (!QuestionnaireComplete)
+        {
+            Questions[Questions.Count-1].SetActive(false);
+            Questions[0].SetActive(true);
 
-        if (InstructionParentUICanvas && !InstructionParentUICanvas.activeSelf)
-            InstructionParentUICanvas.SetActive(true);
+            foreach (GameObject _textMeshProUGUI in Questions)
+            {
+                try
+                {
+                    Button[] correctAns = _textMeshProUGUI.GetComponentsInChildren<Button>();
+                    foreach (Button button in correctAns)
+                    {
+                        if (button.name.Contains("--"))
+                        {
+                            ColorBlock colorBlock = button.colors;
+                            colorBlock.normalColor = Color.green;
+                            button.colors = colorBlock;
+                            break;
+                        }
+                    }
+                    index++;
+                }
+                catch
+                {
+
+                }
+            }
+            TotalScoreText.text = scoreTracker.TotalScore.ToString() + "/" + Questions.Count;
+            QuestionnaireComplete = true;
+            return;
+        }
+
+        UICanvas.SetActive(false);
     }
 
     public void IncorrectAnswer()
     {
-        if (!questionState.transform.gameObject.activeSelf)
+        if (!QuestionnaireComplete)
         {
-            questionState = GetComponentInChildren<QuestionState>();
-        }
+            if (!questionState.transform.gameObject.activeSelf)
+            {
+                questionState = GetComponentInChildren<QuestionState>();
+            }
 
-        if (!questionState.OptionSelected && questionState.transform.gameObject.activeSelf)
+            if (!questionState.OptionSelected && questionState.transform.gameObject.activeSelf)
+            {
+                scoreTracker.QuestionsAnswered += 1;
+                if (scoreTracker.TotalScore>0)
+                scoreTracker.TotalScore--;
+            }
+            questionState.OptionSelected = true;
+            questionState.IsAnswerCorrect = false;
+        }
+        else
         {
-            scoreTracker.QuestionsAnswered += 1;
-        }
+            int index = 0;
 
-        questionState.OptionSelected = true;
-        questionState.IsAnswerCorrect = false;
+            foreach (GameObject _textMeshProUGUI in Questions)
+            {
+                try
+                {
+                    Button[] correctAns = _textMeshProUGUI.GetComponentsInChildren<Button>();
+                    foreach (Button button in correctAns)
+                    {
+                        if (button.name.Contains("--"))
+                        {
+                            ColorBlock colorBlock = button.colors;
+                            colorBlock.normalColor = Color.green;
+                            button.colors = colorBlock;
+                            break;
+                        }
+                    }
+                    index++;
+                }
+                catch
+                {
+
+                }
+            }
+        }
     }
 
     public void CorrectAnswer()
     {
-        if (!questionState.transform.gameObject.activeSelf)
+        if (!QuestionnaireComplete)
         {
-            questionState = GetComponentInChildren<QuestionState>();
-        }
+            if (!questionState.transform.gameObject.activeSelf)
+            {
+                questionState = GetComponentInChildren<QuestionState>();
+            }
 
-        if ((!questionState.OptionSelected || !questionState.IsAnswerCorrect) && questionState.transform.gameObject.activeSelf)
+            if (!questionState.OptionSelected && questionState.transform.gameObject.activeSelf)
+            {
+                scoreTracker.QuestionsAnswered++;
+                scoreTracker.TotalScore++;
+            }
+
+            questionState.OptionSelected = true;
+            questionState.IsAnswerCorrect = true;
+        }
+        else
         {
-            scoreTracker.QuestionsAnswered += 1;
-        }
+            int index = 0;
 
-        scoreTracker.TotalScore += 1;
-        questionState.OptionSelected = true;
-        questionState.IsAnswerCorrect = true;
+            foreach (GameObject _textMeshProUGUI in Questions)
+            {
+                try
+                {
+                    Button[] correctAns = _textMeshProUGUI.GetComponentsInChildren<Button>();
+                    foreach (Button button in correctAns)
+                    {
+                        if (button.name.Contains("--"))
+                        {
+                            ColorBlock colorBlock = button.colors;
+                            colorBlock.normalColor = Color.green;
+                            button.colors = colorBlock;
+                            break;
+                        }
+                    }
+                    index++;
+                }
+                catch
+                {
+
+                }
+            }
+        }
     }
 }
